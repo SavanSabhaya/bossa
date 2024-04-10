@@ -68,7 +68,7 @@ class BottomBar extends StatelessWidget {
                         : "assets/images/setting.png",
             fit: BoxFit.fill,
             width: 25.w,
-            color: const Color(0xffed2724)),
+            color: const Color(0xff000000)),
         SizedBox(height: 3.h),
         GlobalText(
             index == 0
@@ -79,8 +79,8 @@ class BottomBar extends StatelessWidget {
                         ? "About"
                         : "Settings",
             color: selectedIndex.value == index
-                ? const Color(0xffed2724)
-                : const Color(0xff000000),
+                ? const Color(0xffEDCC40)
+                : const Color(0xff756F6F),
             fontSize: 8.sp,
             sfProText: true,
             fontWeight: FontWeight.w500,

@@ -163,7 +163,7 @@ class HomeView extends GetView<HomeController> {
                                               ? BoxDecoration(
                                                   borderRadius:
                                                       BorderRadius.circular(8),
-                                                  color: Color(0xffEDCC40),
+                                                  color: Color(0xff000000),
                                                   /* gradient:
                                                       const LinearGradient(
                                                     colors: [
@@ -187,14 +187,14 @@ class HomeView extends GetView<HomeController> {
                                                           Radius.circular(8.r)),
                                                   border: Border.all(
                                                       color: const Color(
-                                                          0xfff15927),
+                                                          0xff000000),
                                                       width: 1.w)),
                                           alignment: Alignment.center,
                                           child: GlobalText("Specials Near You",
                                               color: controller
                                                       .specialSelected.value
                                                   ? const Color(0xffffffff)
-                                                  : const Color(0xfff36428),
+                                                  : const Color(0xff000000),
                                               fontSize: 13.sp,
                                               fontWeight: FontWeight.w500,
                                               fontStyle: FontStyle.normal,
@@ -216,7 +216,8 @@ class HomeView extends GetView<HomeController> {
                                               ? BoxDecoration(
                                                   borderRadius:
                                                       BorderRadius.circular(8),
-                                                  gradient:
+                                                  color: Color(0xff000000),
+                                                  /*  gradient:
                                                       const LinearGradient(
                                                     colors: [
                                                       Color(0xffed2324),
@@ -231,14 +232,15 @@ class HomeView extends GetView<HomeController> {
                                                     begin:
                                                         Alignment(-1.00, 0.00),
                                                     end: Alignment(1.00, -0.00),
-                                                  ))
+                                                  ) */
+                                                )
                                               : BoxDecoration(
                                                   borderRadius:
                                                       BorderRadius.all(
                                                           Radius.circular(8.r)),
                                                   border: Border.all(
                                                       color: const Color(
-                                                          0xfff15927),
+                                                          0xff000000),
                                                       width: 1.w)),
                                           alignment: Alignment.center,
                                           child: GlobalText(
@@ -246,7 +248,7 @@ class HomeView extends GetView<HomeController> {
                                               color: !controller
                                                       .specialSelected.value
                                                   ? const Color(0xffffffff)
-                                                  : const Color(0xfff36428),
+                                                  : const Color(0xff000000),
                                               fontSize: 13.sp,
                                               fontWeight: FontWeight.w500,
                                               fontStyle: FontStyle.normal,
@@ -402,7 +404,8 @@ class HomeView extends GetView<HomeController> {
                                                       borderRadius:
                                                           BorderRadius.circular(
                                                               6.r),
-                                                      gradient:
+                                                      color: Color(0xffEDCC40),
+                                                      /* gradient:
                                                           const LinearGradient(
                                                         colors: [
                                                           Color(0xffed2124),
@@ -420,7 +423,7 @@ class HomeView extends GetView<HomeController> {
                                                             1.00, -0.00),
                                                         // angle: 90,
                                                         // scale: undefined,
-                                                      ),
+                                                      ), */
                                                       boxShadow: const [
                                                         BoxShadow(
                                                             color: Color(
@@ -488,9 +491,10 @@ class HomeView extends GetView<HomeController> {
                                         height: 23.h,
                                         margin: EdgeInsets.only(bottom: 10.h),
                                         decoration: BoxDecoration(
-                                            borderRadius:
-                                                BorderRadius.circular(8.r),
-                                            gradient: const LinearGradient(
+                                          borderRadius:
+                                              BorderRadius.circular(8.r),
+                                          color: Color(0xffEDCC40),
+                                          /* gradient: const LinearGradient(
                                               colors: [
                                                 Color(0xffed2324),
                                                 Color(0xfff47629),
@@ -501,7 +505,8 @@ class HomeView extends GetView<HomeController> {
                                               end: Alignment(1.00, -0.00),
                                               // angle: 90,
                                               // scale: undefined,
-                                            )),
+                                            ) */
+                                        ),
                                         alignment: Alignment.center,
                                         child: GlobalText("View All",
                                             color: const Color(0xffffffff),
@@ -706,7 +711,9 @@ class HomeView extends GetView<HomeController> {
                 height: 55.h,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(6.r),
-                  gradient: const LinearGradient(
+                  color: Color(0xffEDCC40),
+
+                  /* gradient: const LinearGradient(
                     colors: [
                       Color(0xffed2124),
                       Color(0xfff47529),
@@ -717,7 +724,7 @@ class HomeView extends GetView<HomeController> {
                     end: Alignment(1.00, -0.00),
                     // angle: 90,
                     // scale: undefined,
-                  ),
+                  ), */
                   boxShadow: const [
                     BoxShadow(
                         color: Color(0x21000000),
