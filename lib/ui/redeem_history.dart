@@ -63,7 +63,7 @@ class _RedeemHistoryState extends State<RedeemHistory> {
         return const Center(
           child: CircularProgressIndicator(
               strokeWidth: 2,
-              valueColor: AlwaysStoppedAnimation<Color>(Color(0xffFF6C0E))),
+              valueColor: AlwaysStoppedAnimation<Color>(Color(0xffEDCC40))),
         );
       },
     );
@@ -148,7 +148,7 @@ class _ListTileHistoryState extends State<ListTileHistory> {
                       text: '(',
                       style: TextStyle(
                           fontSize: SizeConfig.blockSizeVertical * 2.3,
-                          color: const Color(0xffff6c0e),
+                          color: const Color(0xffEDCC40),
                           fontFamily: 'Muli-Bold')),
                   TextSpan(
                       text: formattedDate,
@@ -160,7 +160,7 @@ class _ListTileHistoryState extends State<ListTileHistory> {
                       text: ')',
                       style: TextStyle(
                           fontSize: SizeConfig.blockSizeVertical * 2.3,
-                          color: const Color(0xffff6c0e),
+                          color: const Color(0xffEDCC40),
                           fontFamily: 'Muli-Bold')),
                 ]),
               ),

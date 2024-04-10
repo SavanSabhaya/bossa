@@ -209,7 +209,7 @@ class _RestaurantDetailsState extends State<RestaurantDetails> {
                                               borderRadius:
                                                   BorderRadius.circular(20.0),
                                               border: Border.all(
-                                                color: const Color(0xffff6c0e),
+                                                color: const Color(0xffEDCC40),
                                                 width: 6.0,
                                               ),
                                             ),
@@ -415,7 +415,7 @@ class _RestaurantDetailsState extends State<RestaurantDetails> {
                   child: CircularProgressIndicator(
                       strokeWidth: 2,
                       valueColor:
-                          AlwaysStoppedAnimation<Color>(Color(0xffFF6C0E))),
+                          AlwaysStoppedAnimation<Color>(Color(0xffEDCC40))),
                 );
               }
               if (snapshot.hasError) {

@@ -45,7 +45,7 @@ class _CovidPageState extends State<CovidPage> {
                                 const Text(
                                   'Store Select',
                                   style: TextStyle(
-                                      fontSize: 12, color: Color(0xffFF6C0E)),
+                                      fontSize: 12, color: Color(0xffEDCC40)),
                                 ),
                                 Padding(
                                   padding: EdgeInsets.only(
@@ -55,7 +55,7 @@ class _CovidPageState extends State<CovidPage> {
                                   child: const Divider(
                                     thickness: 3,
                                     height: 0,
-                                    color: Color(0xffff6c0e),
+                                    color: Color(0xffEDCC40),
                                   ),
                                 ),
                                 Padding(
@@ -184,7 +184,7 @@ class _SelectStoreCovidState extends State<SelectStoreCovid> {
                                 width: 50,
                                 child: Icon(
                                   Icons.check,
-                                  color: Color(0xffFF6C0E),
+                                  color: Color(0xffEDCC40),
                                   size: 30,
                                 ))
                             : Container(width: 50),
@@ -202,7 +202,7 @@ class _SelectStoreCovidState extends State<SelectStoreCovid> {
         return const Center(
           child: CircularProgressIndicator(
               strokeWidth: 2,
-              valueColor: AlwaysStoppedAnimation<Color>(Color(0xffFF6C0E))),
+              valueColor: AlwaysStoppedAnimation<Color>(Color(0xffEDCC40))),
         );
       },
     );
@@ -263,7 +263,7 @@ class _SelectStoreCovidState extends State<SelectStoreCovid> {
                                   width: 50,
                                   child: Icon(
                                     Icons.check,
-                                    color: Color(0xffFF6C0E),
+                                    color: Color(0xffEDCC40),
                                     size: 30,
                                   ))
                               : Container(width: 50),
@@ -284,7 +284,7 @@ class _SelectStoreCovidState extends State<SelectStoreCovid> {
         return const Center(
           child: CircularProgressIndicator(
               strokeWidth: 2,
-              valueColor: AlwaysStoppedAnimation<Color>(Color(0xffFF6C0E))),
+              valueColor: AlwaysStoppedAnimation<Color>(Color(0xffEDCC40))),
         );
       },
     );

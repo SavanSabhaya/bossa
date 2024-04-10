@@ -98,7 +98,7 @@ class _MembershipCardState extends State<MembershipCard> {
                                             style: TextStyle(
                                                 fontSize: 16,
                                                 fontFamily: 'Muli-Bold',
-                                                color: Color(0xffFF6C0E))),
+                                                color: Color(0xffEDCC40))),
                                       ),
                                       memberNumber != null
                                           ? Text(
@@ -106,7 +106,7 @@ class _MembershipCardState extends State<MembershipCard> {
                                               style: const TextStyle(
                                                   fontSize: 16,
                                                   fontFamily: 'Muli-Bold',
-                                                  color: Color(0xffFF6C0E)),
+                                                  color: Color(0xffEDCC40)),
                                             )
                                           : const Text(
                                               'Please enter a membership number',
@@ -129,7 +129,7 @@ class _MembershipCardState extends State<MembershipCard> {
                                                   Text(memberNumber!,
                                                       style: const TextStyle(
                                                           fontSize: 16,
-                                                          color: Colors.white,
+                                                          color: Colors.black,
                                                           fontFamily:
                                                               'Muli-Bold')),
                                                   Positioned(
@@ -139,7 +139,7 @@ class _MembershipCardState extends State<MembershipCard> {
                                                         '${widget.firstName} ${widget.lastName}',
                                                         style: const TextStyle(
                                                             fontSize: 16,
-                                                            color: Colors.white,
+                                                            color: Colors.black,
                                                             fontFamily:
                                                                 'Muli-Bold')),
                                                   ),

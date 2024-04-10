@@ -90,7 +90,7 @@ class _ShareAppState extends State<ShareApp> {
                           style: TextStyle(
                               fontFamily: 'Muli-SemiBold',
                               fontSize: 15.0,
-                              color: Color(0xffff6c0e)),
+                              color: Color(0xffEDCC40)),
                         ),
                         const SizedBox(
                           height: 5.0,
@@ -98,7 +98,7 @@ class _ShareAppState extends State<ShareApp> {
                         Container(
                           height: 3,
                           width: width * 0.6,
-                          color: const Color(0xffff6c0e),
+                          color: const Color(0xffEDCC40),
                         ),
                         const SizedBox(
                           height: 5.0,

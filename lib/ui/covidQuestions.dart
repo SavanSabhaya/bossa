@@ -83,7 +83,7 @@ class _CovidQuestionsState extends State<CovidQuestions> {
                                   const BorderRadius.all(Radius.circular(30)),
                               border: Border.all(
                                   color: contact == true
-                                      ? const Color(0xffFF6C0E)
+                                      ? const Color(0xffEDCC40)
                                       : Colors.white,
                                   width: 5)),
                           child: const Center(
@@ -111,7 +111,7 @@ class _CovidQuestionsState extends State<CovidQuestions> {
                                   const BorderRadius.all(Radius.circular(30)),
                               border: Border.all(
                                   color: contact == false
-                                      ? const Color(0xffFF6C0E)
+                                      ? const Color(0xffEDCC40)
                                       : Colors.white,
                                   width: 5)),
                           child: const Center(
@@ -154,7 +154,7 @@ class _CovidQuestionsState extends State<CovidQuestions> {
                                   const BorderRadius.all(Radius.circular(30)),
                               border: Border.all(
                                   color: symptoms == true
-                                      ? const Color(0xffFF6C0E)
+                                      ? const Color(0xffEDCC40)
                                       : Colors.white,
                                   width: 5)),
                           child: const Center(
@@ -182,7 +182,7 @@ class _CovidQuestionsState extends State<CovidQuestions> {
                                   const BorderRadius.all(Radius.circular(30)),
                               border: Border.all(
                                   color: symptoms == false
-                                      ? const Color(0xffFF6C0E)
+                                      ? const Color(0xffEDCC40)
                                       : Colors.white,
                                   width: 5)),
                           child: const Center(

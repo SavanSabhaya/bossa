@@ -76,13 +76,14 @@ class OrderMainScreen extends GetView<OrderMainController> {
                     child: Container(
                         height: 288.h,
                         alignment: Alignment.topCenter,
-                        decoration: const BoxDecoration(
-                            gradient: LinearGradient(
-                          colors: [Color(0xffffb600), Color(0xfff32735)],
+                        decoration: const BoxDecoration(color: Color(0xffEDCC40)
+                            /*   gradient: LinearGradient(
+                          colors: [Color(0xffEDCC40), Color(0xfff32735)],
                           stops: [0, 1],
                           begin: Alignment(1.00, -0.00),
                           end: Alignment(-1.00, 0.00),
-                        ))),
+                        ) */
+                            )),
                   ),
                   ListView(
                     padding: EdgeInsets.zero,
@@ -761,7 +762,7 @@ class OrderMainScreen extends GetView<OrderMainController> {
             width: 27.w,
             height: 28.h,
             color: controller.selectedIndex.value == index
-                ? const Color(0xfff32a34)
+                ? const Color(0xffEDCC40)
                 : Colors.black),
         SizedBox(height: 6.h),
         GlobalText(
@@ -773,7 +774,7 @@ class OrderMainScreen extends GetView<OrderMainController> {
                         ? "My Bag"
                         : "Profile",
             color: controller.selectedIndex.value == index
-                ? const Color(0xffe82800)
+                ? const Color(0xffEDCC40)
                 : const Color(0xff131b26),
             fontSize: 13.sp,
             fontWeight: FontWeight.w400,

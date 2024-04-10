@@ -81,7 +81,7 @@ class _PreferredStoreState extends State<PreferredStore> {
         return const Center(
           child: CircularProgressIndicator(
               strokeWidth: 2,
-              valueColor: AlwaysStoppedAnimation<Color>(Color(0xffFF6C0E))),
+              valueColor: AlwaysStoppedAnimation<Color>(Color(0xffEDCC40))),
         );
       },
     );
@@ -130,7 +130,7 @@ class _PreferredStoreState extends State<PreferredStore> {
         return const Center(
           child: CircularProgressIndicator(
               strokeWidth: 2,
-              valueColor: AlwaysStoppedAnimation<Color>(Color(0xffFF6C0E))),
+              valueColor: AlwaysStoppedAnimation<Color>(Color(0xffEDCC40))),
         );
       },
     );
@@ -328,7 +328,7 @@ class _ListTileStoreState extends State<ListTileStore> {
                         height: 5,
                         decoration: BoxDecoration(
                             color: allVData[index].isSelect
-                                ? const Color(0xffFF6C0E)
+                                ? const Color(0xffEDCC40)
                                 : const Color(0xffF1F2F4),
                             borderRadius:
                                 const BorderRadius.all(Radius.circular(20))),

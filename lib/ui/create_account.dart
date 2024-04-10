@@ -312,7 +312,7 @@ class _CreateAccountState extends State<CreateAccount> {
                           yesNo(
                               text: "Yes",
                               color: yesNoBool == true && childOptionSelect
-                                  ? const Color(0xffFF6C0E)
+                                  ? const Color(0xffEDCC40)
                                   : Colors.white,
                               onTab: () {
                                 yesNoBool = true;
@@ -326,7 +326,7 @@ class _CreateAccountState extends State<CreateAccount> {
                           yesNo(
                               text: "No",
                               color: yesNoBool == false && childOptionSelect
-                                  ? const Color(0xffFF6C0E)
+                                  ? const Color(0xffEDCC40)
                                   : Colors.white,
                               onTab: () {
                                 yesNoBool = false;
@@ -380,14 +380,15 @@ class _CreateAccountState extends State<CreateAccount> {
                                           (SizeConfig.isDeviceLarge ? 5 : 10),
                                       width: 200,
                                       decoration: BoxDecoration(
-                                          gradient: ColorGradient().gradient(),
+                                          color: const Color(0xffEDCC40),
+                                          // gradient: ColorGradient().gradient(),
                                           borderRadius: const BorderRadius.all(
                                               Radius.circular(30))),
                                       child: Center(
                                         child: Text(
                                           "Add More",
                                           style: TextStyle(
-                                              color: Colors.white,
+                                              color: Colors.black,
                                               fontWeight: FontWeight.w500,
                                               fontSize:
                                                   SizeConfig.blockSizeVertical *

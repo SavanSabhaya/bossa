@@ -81,7 +81,8 @@ class _RedeemRestaurantState extends State<RedeemRestaurant> {
                           child: Padding(
                             padding: const EdgeInsets.all(8.0),
                             child: Text(
-                              "${allVData[index].name} " "(${allVData[index].location})",
+                              "${allVData[index].name} "
+                              "(${allVData[index].location})",
                               style: TextStyle(
                                   fontSize: SizeConfig.blockSizeVertical * 2.2,
                                   color: const Color(0xff0E0B20),
@@ -94,7 +95,7 @@ class _RedeemRestaurantState extends State<RedeemRestaurant> {
                                 width: 50,
                                 child: Icon(
                                   Icons.check,
-                                  color: Color(0xffFF6C0E),
+                                  color: Color(0xffEDCC40),
                                   size: 30,
                                 ))
                             : Container(width: 50),
@@ -112,7 +113,7 @@ class _RedeemRestaurantState extends State<RedeemRestaurant> {
         return const Center(
           child: CircularProgressIndicator(
               strokeWidth: 2,
-              valueColor: AlwaysStoppedAnimation<Color>(Color(0xffFF6C0E))),
+              valueColor: AlwaysStoppedAnimation<Color>(Color(0xffEDCC40))),
         );
       },
     );
@@ -159,10 +160,10 @@ class _RedeemRestaurantState extends State<RedeemRestaurant> {
                           child: Padding(
                             padding: const EdgeInsets.all(8.0),
                             child: Text(
-                              "${allVData[index].name} " "(${allVData[index].location})",
+                              "${allVData[index].name} "
+                              "(${allVData[index].location})",
                               style: TextStyle(
-                                  fontSize:
-                                      SizeConfig.blockSizeVertical * 2.2,
+                                  fontSize: SizeConfig.blockSizeVertical * 2.2,
                                   color: const Color(0xff0E0B20),
                                   fontFamily: 'Muli'),
                             ),
@@ -173,7 +174,7 @@ class _RedeemRestaurantState extends State<RedeemRestaurant> {
                                 width: 50,
                                 child: Icon(
                                   Icons.check,
-                                  color: Color(0xffFF6C0E),
+                                  color: Color(0xffEDCC40),
                                   size: 30,
                                 ))
                             : Container(width: 50),
@@ -193,7 +194,7 @@ class _RedeemRestaurantState extends State<RedeemRestaurant> {
         return const Center(
           child: CircularProgressIndicator(
               strokeWidth: 2,
-              valueColor: AlwaysStoppedAnimation<Color>(Color(0xffFF6C0E))),
+              valueColor: AlwaysStoppedAnimation<Color>(Color(0xffEDCC40))),
         );
       },
     );
@@ -377,7 +378,7 @@ class _RedeemSuccessState extends State<RedeemSuccess> {
                             fontSize: 15.0,
                             fontFamily: 'Muli-Bold',
                             fontWeight: FontWeight.bold,
-                            color: Color(0xffff6c0e)),
+                            color: Color(0xffEDCC40)),
                       ),
                     ),
                     const Padding(

@@ -199,7 +199,7 @@ class _ForgotPasswordState extends State<ForgotPassword> {
                                     TextSpan(
                                         text: 'Login',
                                         style: TextStyle(
-                                          color: Color(0xffFF6C0E),
+                                          color: Color(0xffEDCC40),
                                           decoration: TextDecoration.underline,
                                         )),
                                   ],

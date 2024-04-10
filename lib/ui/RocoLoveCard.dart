@@ -105,12 +105,12 @@ class _RocoLoveCardState extends State<RocoLoveCard> {
                                               style: TextStyle(
                                                   fontSize: 16,
                                                   fontFamily: 'Muli-Bold',
-                                                  color: Color(0xffFF6C0E)))
+                                                  color: Color(0xffEDCC40)))
                                           : const Text("Roco Love Card",
                                               style: TextStyle(
                                                   fontSize: 16,
                                                   fontFamily: 'Muli-Bold',
-                                                  color: Color(0xffFF6C0E))),
+                                                  color: Color(0xffEDCC40))),
                                     ),
                                     memberNumber != null
                                         ? Text(

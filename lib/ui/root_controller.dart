@@ -38,6 +38,8 @@ class RootControler extends GetxController {
     /// only for VENTA we make a special case...
 
     selectedNav.value = idx;
+    update();
+
     if (idx == 0) {
       update();
       await home.getSpecails();

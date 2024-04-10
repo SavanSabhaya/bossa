@@ -26,15 +26,18 @@ class HomeView extends GetView<HomeController> {
         width: 18.w,
         height: 6.h,
         decoration: BoxDecoration(
-            borderRadius: BorderRadius.all(Radius.circular(8.r)),
-            gradient: const LinearGradient(
+          borderRadius: BorderRadius.all(Radius.circular(8.r)),
+          color: Color(0xffEDCC40),
+
+          /* gradient: const LinearGradient(
                 begin: Alignment(0, 0.5),
                 end: Alignment(1, 0.5),
                 colors: [
                   Color(0xfff47629),
                   Color(0xfff47629),
                   Color(0xfffbb042)
-                ])));
+                ]) */
+        ));
   }
 
   Widget circleWidget() {
@@ -42,15 +45,18 @@ class HomeView extends GetView<HomeController> {
         width: 6.w,
         height: 6.h,
         decoration: BoxDecoration(
-            borderRadius: BorderRadius.all(Radius.circular(8.r)),
-            gradient: const LinearGradient(
+          borderRadius: BorderRadius.all(Radius.circular(8.r)),
+          color: Color(0xffEDCC40),
+
+          /*  gradient: const LinearGradient(
                 begin: Alignment(0, 0.5),
                 end: Alignment(1, 0.5),
                 colors: [
                   Color(0xfff47629),
                   Color(0xfff47629),
                   Color(0xfffbb042)
-                ])));
+                ]) */
+        ));
   }
 
   @override
@@ -122,8 +128,9 @@ class HomeView extends GetView<HomeController> {
                                   margin:
                                       EdgeInsets.only(top: 12.h, bottom: 3.h),
                                   decoration: BoxDecoration(
-                                      borderRadius: BorderRadius.circular(8),
-                                      gradient: const LinearGradient(
+                                    borderRadius: BorderRadius.circular(8),
+                                    color: Color(0xffEDCC40),
+                                    /* gradient: const LinearGradient(
                                         colors: [
                                           Color(0xffed2324),
                                           Color(0xfff47629),
@@ -132,7 +139,8 @@ class HomeView extends GetView<HomeController> {
                                         stops: [0, 0.4679799973964691, 1],
                                         begin: Alignment(-1.00, 0.00),
                                         end: Alignment(1.00, -0.00),
-                                      )),
+                                      ) */
+                                  ),
                                   alignment: Alignment.center,
                                   child: GlobalText("Restaurants Near You",
                                       color: const Color(0xffffffff),
@@ -367,113 +375,61 @@ class HomeView extends GetView<HomeController> {
                                     )
                                   : SizedBox(
                                       height: 155.h,
-                                      child: ListView(
-                                        children: [
-                                          Container(
-                                              width: 149.w,
-                                              height: 140.h,
-                                              margin: const EdgeInsets.only(
-                                                  right: 0),
+                                      child: Container(
+                                          height: 165.h,
+                                          margin: EdgeInsets.only(right: 15.w),
+                                          decoration: BoxDecoration(
+                                              borderRadius:
+                                                  BorderRadius.circular(12.r),
+                                              color: Colors.transparent,
+                                              image: const DecorationImage(
+                                                  fit: BoxFit.contain,
+                                                  image: AssetImage(
+                                                      'assets/images/pmck_logo2.png'))),
+                                          alignment: Alignment.bottomCenter,
+                                          child: Container(
+                                              height: 55.h,
+                                              width: 314.w,
+                                              padding: EdgeInsets.only(
+                                                  left: 11.w, right: 11.w),
                                               decoration: BoxDecoration(
-                                                  borderRadius:
-                                                      BorderRadius.all(
-                                                          Radius.circular(
-                                                              10.r)),
-                                                  boxShadow: const [
-                                                    BoxShadow(
-                                                        color:
-                                                            Color(0x29000000),
-                                                        offset: Offset(5, 5),
-                                                        blurRadius: 3,
-                                                        spreadRadius: 0)
-                                                  ],
-                                                  color:
-                                                      const Color(0xffffffff)),
-                                              child: Column(children: [
-                                                SizedBox(height: 2.h),
-                                                Image.asset(
-                                                  'assets/images/pmck_logo2.png',
-                                                  fit: BoxFit.fill,
-                                                  height: 60.h,
-                                                ),
-                                                const Spacer(),
-                                                Container(
-                                                    width: 155.w,
-                                                    height: 60.h,
-                                                    decoration: BoxDecoration(
-                                                      borderRadius:
-                                                          BorderRadius.circular(
-                                                              6.r),
-                                                      color: Color(0xffEDCC40),
-                                                      /* gradient:
-                                                          const LinearGradient(
-                                                        colors: [
-                                                          Color(0xffed2124),
-                                                          Color(0xfff47529),
-                                                          Color(0xfffbb042)
-                                                        ],
-                                                        stops: [
-                                                          0,
-                                                          0.4827589988708496,
-                                                          1
-                                                        ],
-                                                        begin: Alignment(
-                                                            -1.00, 0.00),
-                                                        end: Alignment(
-                                                            1.00, -0.00),
-                                                        // angle: 90,
-                                                        // scale: undefined,
-                                                      ), */
-                                                      boxShadow: const [
-                                                        BoxShadow(
-                                                            color: Color(
-                                                                0x21000000),
-                                                            offset:
-                                                                Offset(0, 2),
-                                                            blurRadius: 48,
-                                                            spreadRadius: 0)
-                                                      ],
-                                                    ),
-                                                    padding:
-                                                        EdgeInsets.symmetric(
-                                                            vertical: 11.h,
-                                                            horizontal: 10.w),
-                                                    child: Column(
-                                                        crossAxisAlignment:
-                                                            CrossAxisAlignment
-                                                                .start,
-                                                        children: [
-                                                          SizedBox(
-                                                            height: 18.h,
-                                                            child: GlobalText(
-                                                                "Comming soon",
-                                                                color: const Color(
-                                                                    0xffffffff),
-                                                                fontWeight:
-                                                                    FontWeight
-                                                                        .w500,
-                                                                sfProText: true,
-                                                                fontStyle:
-                                                                    FontStyle
-                                                                        .normal,
-                                                                fontSize:
-                                                                    10.sp),
-                                                          ),
-                                                          GlobalText("0.00 km",
-                                                              color: const Color(
-                                                                  0xffffffff),
-                                                              fontWeight:
-                                                                  FontWeight
-                                                                      .w400,
-                                                              sfProText: true,
-                                                              fontStyle:
-                                                                  FontStyle
-                                                                      .normal,
-                                                              fontSize: 8.sp)
-                                                        ]))
-                                              ]))
-                                        ],
-                                      ),
+                                                color: const Color(0xccffffff),
+                                                borderRadius: BorderRadius.only(
+                                                    topLeft:
+                                                        Radius.circular(6.r),
+                                                    topRight:
+                                                        Radius.circular(6.r),
+                                                    bottomLeft:
+                                                        Radius.circular(12.r),
+                                                    bottomRight:
+                                                        Radius.circular(12.r)),
+                                                boxShadow: const [
+                                                  BoxShadow(
+                                                      color: Color(0x21000000),
+                                                      offset: Offset(0, 2),
+                                                      blurRadius: 48,
+                                                      spreadRadius: 0)
+                                                ],
+                                              ),
+                                              child: Column(
+                                                  crossAxisAlignment:
+                                                      CrossAxisAlignment.start,
+                                                  children: [
+                                                    SizedBox(height: 1.h),
+                                                    GlobalText("Coming soon",
+                                                        textAlign:
+                                                            TextAlign.start,
+                                                        color: const Color(
+                                                            0xff333333),
+                                                        fontSize: 11.sp,
+                                                        sfProText: true,
+                                                        fontWeight:
+                                                            FontWeight.w500,
+                                                        fontStyle:
+                                                            FontStyle.normal,
+                                                        letterSpacing: 0.575),
+                                                    SizedBox(height: 2.h),
+                                                  ]))),
                                     ),
                       controller.viewAllClicked.value
                           ? const SizedBox()
@@ -489,7 +445,8 @@ class HomeView extends GetView<HomeController> {
                                     child: Container(
                                         width: 88.w,
                                         height: 23.h,
-                                        margin: EdgeInsets.only(bottom: 10.h),
+                                        margin: EdgeInsets.only(
+                                            bottom: 10.h, top: 15),
                                         decoration: BoxDecoration(
                                           borderRadius:
                                               BorderRadius.circular(8.r),
@@ -509,7 +466,7 @@ class HomeView extends GetView<HomeController> {
                                         ),
                                         alignment: Alignment.center,
                                         child: GlobalText("View All",
-                                            color: const Color(0xffffffff),
+                                            color: const Color(0xff000000),
                                             fontWeight: FontWeight.w500,
                                             fontStyle: FontStyle.normal,
                                             fontSize: 13.sp)),
@@ -589,7 +546,7 @@ class HomeView extends GetView<HomeController> {
         controller.gotTOProudPartners();
       },
       child: GlobalText("PROUD PARTNERS",
-          color: const Color(0xffffffff),
+          color: const Color(0xff000000),
           fontSize: 13.sp,
           textAlign: TextAlign.center,
           fontWeight: FontWeight.w500,
@@ -604,7 +561,7 @@ class HomeView extends GetView<HomeController> {
           arguments: {'navId': NavConst.homeNav, 'res': null},
           id: NavConst.homeNav),
       child: GlobalText("NEWS & PROMOTIONS",
-          color: const Color(0xffffffff),
+          color: const Color(0xff000000),
           fontSize: 13.sp,
           textAlign: TextAlign.center,
           fontWeight: FontWeight.w500,
@@ -788,7 +745,9 @@ class HomeView extends GetView<HomeController> {
             height: 220.h,
             padding: EdgeInsets.symmetric(vertical: 6.h),
             decoration: const BoxDecoration(
-              gradient: LinearGradient(
+              color: Color(0xffEDCC40),
+
+              /*  gradient: LinearGradient(
                 colors: [
                   Color(0xffed2224),
                   Color(0xfff47529),
@@ -799,7 +758,7 @@ class HomeView extends GetView<HomeController> {
                 end: Alignment(1.00, -0.00),
                 // angle: 90,
                 // scale: undefined,
-              ),
+              ), */
             ),
             child: Swiper(
               itemBuilder: (BuildContext context, int index) {
@@ -936,14 +895,15 @@ class HomeView extends GetView<HomeController> {
           height: 220.h,
           padding: EdgeInsets.symmetric(vertical: 6.h),
           decoration: const BoxDecoration(
-            gradient: LinearGradient(
+            color: Color(0xffEDCC40),
+            /*  gradient: LinearGradient(
               colors: [Color(0xffed2224), Color(0xfff47529), Color(0xfffbb042)],
               stops: [0, 0.46935799717903137, 1],
               begin: Alignment(-1.00, 0.00),
               end: Alignment(1.00, -0.00),
               // angle: 90,
               // scale: undefined,
-            ),
+            ), */
           ),
           child: CommonMethods().loader(white: true),
         )

@@ -111,7 +111,7 @@ class _RewardsDashboardState extends State<RewardsDashboard> {
                                                               .blockSizeVertical *
                                                           2.2,
                                                       color: const Color(
-                                                          0xffff6c0e)),
+                                                          0xffEDCC40)),
                                                 ),
                                                 SizedBox(
                                                   height: SizeConfig
@@ -124,7 +124,7 @@ class _RewardsDashboardState extends State<RewardsDashboard> {
                                                           .blockSizeHorizontal *
                                                       55,
                                                   color:
-                                                      const Color(0xffff6c0e),
+                                                      const Color(0xffEDCC40),
                                                 ),
                                                 Column(
                                                   children: [
@@ -175,7 +175,7 @@ class _RewardsDashboardState extends State<RewardsDashboard> {
                                                                   'Muli-SemiBold',
                                                               fontSize: 12,
                                                               color: Color(
-                                                                  0xffff6c0e)),
+                                                                  0xffEDCC40)),
                                                         ),
                                                       ],
                                                     ),
@@ -199,7 +199,7 @@ class _RewardsDashboardState extends State<RewardsDashboard> {
                                                         "${valueMap['membership_number']}",
                                                         style: const TextStyle(
                                                             fontSize: 16,
-                                                            color: Colors.white,
+                                                            color: Colors.black,
                                                             fontFamily:
                                                                 'Muli-Bold')),
                                                     Positioned(
@@ -210,7 +210,7 @@ class _RewardsDashboardState extends State<RewardsDashboard> {
                                                           style: const TextStyle(
                                                               fontSize: 16,
                                                               color:
-                                                                  Colors.white,
+                                                                  Colors.black,
                                                               fontFamily:
                                                                   'Muli-Bold')),
                                                     ),
@@ -227,7 +227,7 @@ class _RewardsDashboardState extends State<RewardsDashboard> {
                                                     style: TextStyle(
                                                         fontSize: 12,
                                                         color:
-                                                            Color(0xffFF6C0E)),
+                                                            Color(0xffEDCC40)),
                                                   ),
                                                   Padding(
                                                     padding: EdgeInsets.only(
@@ -237,7 +237,7 @@ class _RewardsDashboardState extends State<RewardsDashboard> {
                                                     child: const Divider(
                                                       thickness: 3,
                                                       height: 0,
-                                                      color: Color(0xffff6c0e),
+                                                      color: Color(0xffEDCC40),
                                                     ),
                                                   ),
                                                   const Padding(
@@ -334,7 +334,7 @@ class _RewardsDashboardState extends State<RewardsDashboard> {
                             child: CircularProgressIndicator(
                               strokeWidth: 2,
                               valueColor: AlwaysStoppedAnimation<Color>(
-                                  Color(0xffFF6C0E)),
+                                  Color(0xffEDCC40)),
                             ),
                           );
                         }
@@ -342,7 +342,7 @@ class _RewardsDashboardState extends State<RewardsDashboard> {
                           child: CircularProgressIndicator(
                             strokeWidth: 2,
                             valueColor: AlwaysStoppedAnimation<Color>(
-                                Color(0xffFF6C0E)),
+                                Color(0xffEDCC40)),
                           ),
                         );
                       },
@@ -414,7 +414,7 @@ class _EarnPointsState extends State<EarnPoints> {
                             fontSize: 15.0,
                             fontFamily: 'Muli-Bold',
                             fontWeight: FontWeight.bold,
-                            color: Color(0xffff6c0e)),
+                            color: Color(0xffEDCC40)),
                       ),
                     ),
                     Container(

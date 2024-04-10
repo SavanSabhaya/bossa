@@ -152,7 +152,7 @@ class _NotificationScreenState extends State<NotificationScreen> {
                           backgroundColor: Colors.white,
                           strokeWidth: 2,
                           valueColor:
-                              AlwaysStoppedAnimation<Color>(Color(0xffFF6C0E))),
+                              AlwaysStoppedAnimation<Color>(Color(0xffEDCC40))),
                     );
                   })),
         ),

@@ -72,7 +72,7 @@ class _VoucherListState extends State<VoucherList> {
                                       fontFamily: 'Muli-SemiBold',
                                       fontSize:
                                           SizeConfig.blockSizeVertical * 2.2,
-                                      color: const Color(0xffff6c0e)),
+                                      color: const Color(0xffEDCC40)),
                                 ),
                                 SizedBox(
                                   height: SizeConfig.blockSizeVertical * 1,
@@ -80,7 +80,7 @@ class _VoucherListState extends State<VoucherList> {
                                 Container(
                                   height: 3,
                                   width: SizeConfig.blockSizeHorizontal * 55,
-                                  color: const Color(0xffff6c0e),
+                                  color: const Color(0xffEDCC40),
                                 ),
                                 Column(
                                   children: [
@@ -134,7 +134,7 @@ class _VoucherListState extends State<VoucherList> {
                                               fontSize: 12.0,
                                               fontFamily: 'Muli-Bold',
                                               fontWeight: FontWeight.bold,
-                                              color: Color(0xffff6c0e)),
+                                              color: Color(0xffEDCC40)),
                                         ),
                                       ),
                                       cont.isLoading.value
@@ -144,7 +144,7 @@ class _VoucherListState extends State<VoucherList> {
                                                   valueColor:
                                                       AlwaysStoppedAnimation<
                                                               Color>(
-                                                          Color(0xffFF6C0E))),
+                                                          Color(0xffEDCC40))),
                                             )
                                           : SizedBox(
                                               height: 200.h,
@@ -336,7 +336,7 @@ class _ListTileOffersState extends State<ListTileOffers> {
                     text: "R${widget.allData[index].voucherAmount} ",
                     style: TextStyle(
                         fontSize: SizeConfig.blockSizeVertical * 2.4,
-                        color: const Color(0xffff6c0e),
+                        color: const Color(0xffEDCC40),
                         fontFamily: 'Muli-Bold'),
                     // children: <InlineSpan>[
                     //   TextSpan(

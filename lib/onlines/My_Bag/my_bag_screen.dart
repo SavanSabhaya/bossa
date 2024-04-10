@@ -207,7 +207,12 @@ class MyBagScreen extends GetView<MyBagController> {
                                                                 Colors
                                                                     .transparent,
                                                             onTap: () {
-                                                              controller.removeBagItem(controller.cart!.value.items![index]);
+                                                              controller.removeBagItem(
+                                                                  controller
+                                                                          .cart!
+                                                                          .value
+                                                                          .items![
+                                                                      index]);
                                                             },
                                                             child: Container(
                                                                 margin: EdgeInsets
@@ -377,7 +382,8 @@ class MyBagScreen extends GetView<MyBagController> {
                                                   borderRadius:
                                                       BorderRadius.circular(
                                                           5.r),
-                                                  gradient:
+                                                  color: Color(0xffEDCC40)
+                                                  /* gradient:
                                                       const LinearGradient(
                                                     colors: [
                                                       Color(0xfffe7500),
@@ -389,11 +395,12 @@ class MyBagScreen extends GetView<MyBagController> {
                                                     end: Alignment(1.00, -0.00),
                                                     // angle: 90,
                                                     // scale: undefined,
-                                                  )),
+                                                  ) */
+                                                  ),
                                               alignment: Alignment.center,
                                               child: GlobalText("Confirm",
                                                   color:
-                                                      const Color(0xffffffff),
+                                                      const Color(0xff000000),
                                                   fontWeight: FontWeight.w900,
                                                   fontStyle: FontStyle.normal,
                                                   fontSize: 20.sp)),
@@ -414,15 +421,17 @@ class MyBagScreen extends GetView<MyBagController> {
                         height: 59.h,
                         decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(5),
-                            gradient: LinearGradient(
+                            color: Color(0xffEDCC40)
+                            /*  gradient: LinearGradient(
                               colors: [Color(0xffe51f00), Color(0xfffd7200)],
                               stops: [0, 1],
                               begin: Alignment(1.00, -0.00),
                               end: Alignment(-1.00, 0.00),
-                            )),
+                            ) */
+                            ),
                         alignment: Alignment.center,
                         child: GlobalText("ADD FOOD NOTES",
-                            color: const Color(0xffffffff),
+                            color: const Color(0xff000000),
                             fontWeight: FontWeight.w700,
                             fontStyle: FontStyle.normal,
                             fontSize: 18.sp)),
@@ -498,16 +507,17 @@ class MyBagScreen extends GetView<MyBagController> {
                     },
                     child: Container(
                         height: 74.h,
-                        decoration: const BoxDecoration(
-                            gradient: LinearGradient(
+                        decoration: const BoxDecoration(color: Color(0xffEDCC40)
+                            /* gradient: LinearGradient(
                           colors: [Color(0xffe51f00), Color(0xfffd7200)],
                           stops: [0, 1],
                           begin: Alignment(1.00, -0.00),
                           end: Alignment(-1.00, 0.00),
-                        )),
+                        ) */
+                            ),
                         alignment: Alignment.center,
                         child: GlobalText("Checkout",
-                            color: const Color(0xffffffff),
+                            color: const Color(0xff000000),
                             fontWeight: FontWeight.w700,
                             fontStyle: FontStyle.normal,
                             fontSize: 18.sp)),

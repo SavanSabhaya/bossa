@@ -22,9 +22,9 @@ class CommonMethods {
       backgroundColor: Colors.black,
       boxShadows: const [
         BoxShadow(
-            color: Color(0xffFF6C0E), offset: Offset(0.0, 1.0), blurRadius: 1.0)
+            color: Color(0xffEDCC40), offset: Offset(0.0, 1.0), blurRadius: 1.0)
       ],
-      // backgroundGradient: LinearGradient(colors: [Color(0xffFF6C0E), Colors.white70]),
+      // backgroundGradient: LinearGradient(colors: [Color(0xffEDCC40), Colors.white70]),
       isDismissible: false,
       duration: const Duration(seconds: 3),
       messageText: Text(
@@ -47,7 +47,7 @@ class CommonMethods {
             child: Container(
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(30.0),
-                border: Border.all(color: const Color(0xffff6c0e), width: 8.0),
+                border: Border.all(color: const Color(0xffEDCC40), width: 8.0),
               ),
               alignment: Alignment.center,
               height: 250,
@@ -73,7 +73,7 @@ class CommonMethods {
                           fontSize: 15.0,
                           fontFamily: 'Muli-Bold',
                           fontWeight: FontWeight.bold,
-                          color: Color(0xffff6c0e),
+                          color: Color(0xffEDCC40),
                         ),
                       ),
                     ),
@@ -85,7 +85,7 @@ class CommonMethods {
                           Container(
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(15.0),
-                              color: const Color(0xffff6c0e),
+                              color: const Color(0xffEDCC40),
                             ),
                             child: TextButton(
                               child: const Text(
@@ -103,7 +103,7 @@ class CommonMethods {
                           Container(
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(15.0),
-                              color: const Color(0xffff6c0e),
+                              color: const Color(0xffEDCC40),
                             ),
                             child: TextButton(
                               child: const Text(
@@ -139,7 +139,7 @@ class CommonMethods {
             child: Container(
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(30.0),
-                border: Border.all(color: const Color(0xffff6c0e), width: 8.0),
+                border: Border.all(color: const Color(0xffEDCC40), width: 8.0),
               ),
               alignment: Alignment.center,
               height: 350,
@@ -170,7 +170,7 @@ class CommonMethods {
                             child: Container(
                               decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(15.0),
-                                color: const Color(0xffff6c0e),
+                                color: const Color(0xffEDCC40),
                               ),
                               child: TextButton(
                                 child: const Text(
@@ -214,7 +214,7 @@ class CommonMethods {
                             child: Container(
                               decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(15.0),
-                                color: const Color(0xffff6c0e),
+                                color: const Color(0xffEDCC40),
                               ),
                               child: TextButton(
                                 child: const Text(
@@ -259,7 +259,7 @@ class CommonMethods {
             child: Container(
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(30.0),
-                border: Border.all(color: const Color(0xffff6c0e), width: 8.0),
+                border: Border.all(color: const Color(0xffEDCC40), width: 8.0),
               ),
               alignment: Alignment.center,
               height: 350,
@@ -285,7 +285,7 @@ class CommonMethods {
                           fontSize: 15.0,
                           fontFamily: 'Muli-Bold',
                           fontWeight: FontWeight.bold,
-                          color: Color(0xffff6c0e),
+                          color: Color(0xffEDCC40),
                         ),
                       ),
                     ),
@@ -328,7 +328,7 @@ class CommonMethods {
                             child: Container(
                               decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(15.0),
-                                color: const Color(0xffff6c0e),
+                                color: const Color(0xffEDCC40),
                               ),
                               child: TextButton(
                                 child: const Text(
@@ -353,7 +353,7 @@ class CommonMethods {
                             child: Container(
                               decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(15.0),
-                                color: const Color(0xffff6c0e),
+                                color: const Color(0xffEDCC40),
                               ),
                               child: TextButton(
                                 child: const Text(
@@ -390,7 +390,7 @@ class CommonMethods {
             child: Container(
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(30.0),
-                border: Border.all(color: const Color(0xffff6c0e), width: 8.0),
+                border: Border.all(color: const Color(0xffEDCC40), width: 8.0),
               ),
               alignment: Alignment.center,
               height: 250,
@@ -416,7 +416,7 @@ class CommonMethods {
                           fontSize: 15.0,
                           fontFamily: 'Muli-Bold',
                           fontWeight: FontWeight.bold,
-                          color: Color(0xffff6c0e),
+                          color: Color(0xffEDCC40),
                         ),
                       ),
                     ),
@@ -428,7 +428,7 @@ class CommonMethods {
                           Container(
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(15.0),
-                              color: const Color(0xffff6c0e),
+                              color: const Color(0xffEDCC40),
                             ),
                             child: TextButton(
                               child: const Text(
@@ -446,7 +446,7 @@ class CommonMethods {
                           Container(
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(15.0),
-                              color: const Color(0xffff6c0e),
+                              color: const Color(0xffEDCC40),
                             ),
                             child: TextButton(
                               child: const Text(
@@ -498,7 +498,7 @@ class CommonMethods {
             child: Container(
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(30.0),
-                border: Border.all(color: const Color(0xffff6c0e), width: 8.0),
+                border: Border.all(color: const Color(0xffEDCC40), width: 8.0),
               ),
               alignment: Alignment.center,
               height: 300,
@@ -521,7 +521,7 @@ class CommonMethods {
                         width: 100,
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(15.0),
-                          color: const Color(0xffff6c0e),
+                          color: const Color(0xffEDCC40),
                         ),
                         child: TextButton(
                           child: const Text(
@@ -546,7 +546,7 @@ class CommonMethods {
   }
 
   loader({bool white = false}) {
-    final color = white ? Colors.white : const Color(0xffFF6C0E);
+    final color = white ? Colors.white : const Color(0xffEDCC40);
     return Center(
       child: CircularProgressIndicator(
         strokeWidth: 2,
@@ -571,7 +571,7 @@ class CommonMethods {
             child: Container(
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(30.0),
-                border: Border.all(color: const Color(0xffff6c0e), width: 8.0),
+                border: Border.all(color: const Color(0xffEDCC40), width: 8.0),
               ),
               alignment: Alignment.center,
               height: 250,
@@ -597,7 +597,7 @@ class CommonMethods {
                           fontSize: 15.0,
                           fontFamily: 'Muli-Bold',
                           fontWeight: FontWeight.bold,
-                          color: Color(0xffff6c0e),
+                          color: Color(0xffEDCC40),
                         ),
                       ),
                     ),
@@ -609,7 +609,7 @@ class CommonMethods {
                           Container(
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(15.0),
-                              color: const Color(0xffff6c0e),
+                              color: const Color(0xffEDCC40),
                             ),
                             child: TextButton(
                               child: const Text(
@@ -635,7 +635,7 @@ class CommonMethods {
                           Container(
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(15.0),
-                              color: const Color(0xffff6c0e),
+                              color: const Color(0xffEDCC40),
                             ),
                             child: TextButton(
                               child: const Text(

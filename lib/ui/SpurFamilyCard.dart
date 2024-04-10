@@ -104,7 +104,7 @@ class _SpurFamilyCardState extends State<SpurFamilyCard> {
                                           style: TextStyle(
                                               fontSize: 16,
                                               fontFamily: 'Muli-Bold',
-                                              color: Color(0xffFF6C0E))),
+                                              color: Color(0xffEDCC40))),
                                     ),
                                     memberNumber != null
                                         ? Text(

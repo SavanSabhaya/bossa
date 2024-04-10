@@ -125,18 +125,34 @@ class _MyProfileState extends State<MyProfile> {
                                 },
                                 id: widget.navId);
                           }),
-                      MyProfileButtons(
-                        text: 'BOSSA REWARDS Membership Number',
+                      GestureDetector(
                         onTap: () {
-                          Get.toNamed(Routes.MEMBERCARD,
-                              arguments: {
-                                "firstName": firstName,
-                                "lastName": lastName,
-                                "navId": widget.navId
-                              },
-                              id: widget.navId);
+                          // widget.onTap();
                         },
+                        child: Container(
+                          height: SizeConfig.blockSizeVertical *
+                              (SizeConfig.isDeviceLarge ? 7.5 : 7.5),
+                          width: SizeConfig.blockSizeHorizontal * 88,
+                          margin: EdgeInsets.only(
+                              bottom: SizeConfig.blockSizeVertical * 3),
+                          decoration: const BoxDecoration(
+                              color: Colors.white,
+                              borderRadius:
+                                  BorderRadius.all(Radius.circular(30))),
+                          child: Center(
+                            child: Text(
+                              'BOSSA REWARDS Membership Number',
+                              textAlign: TextAlign.center,
+                              style: TextStyle(
+                                  color: const Color(0xff0E0B20),
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: SizeConfig.blockSizeVertical * 2.3,
+                                  fontFamily: 'Muli-Bold'),
+                            ),
+                          ),
+                        ),
                       ),
+
                       /*     MyProfileButtons(
                         text: 'Spur Family Card',
                         onTap: () {
@@ -210,7 +226,7 @@ class _MyProfileState extends State<MyProfile> {
                       MyProfileButtons(
                         text: "Delete Profile",
                         onTap: () async {
-                          CommonMethods().customAlert(context, () async {
+                          CommonMethods().customAlertDelete(context, () async {
                             final delete = await Api.delete();
                             if (delete) {
                               SharedPreferences preferences =
@@ -233,14 +249,14 @@ class _MyProfileState extends State<MyProfile> {
                   child: CircularProgressIndicator(
                     strokeWidth: 2,
                     valueColor:
-                        AlwaysStoppedAnimation<Color>(Color(0xffFF6C0E)),
+                        AlwaysStoppedAnimation<Color>(Color(0xffEDCC40)),
                   ),
                 );
               }
               return const Center(
                 child: CircularProgressIndicator(
                   strokeWidth: 2,
-                  valueColor: AlwaysStoppedAnimation<Color>(Color(0xffFF6C0E)),
+                  valueColor: AlwaysStoppedAnimation<Color>(Color(0xffEDCC40)),
                 ),
               );
             },

@@ -52,7 +52,7 @@ class _RestaurantsPageState extends State<RestaurantsPage> {
         return const Center(
           child: CircularProgressIndicator(
               strokeWidth: 2,
-              valueColor: AlwaysStoppedAnimation<Color>(Color(0xffFF6C0E))),
+              valueColor: AlwaysStoppedAnimation<Color>(Color(0xffEDCC40))),
         );
       },
     );
@@ -92,7 +92,7 @@ class _RestaurantsPageState extends State<RestaurantsPage> {
         return const Center(
           child: CircularProgressIndicator(
               strokeWidth: 2,
-              valueColor: AlwaysStoppedAnimation<Color>(Color(0xffFF6C0E))),
+              valueColor: AlwaysStoppedAnimation<Color>(Color(0xffEDCC40))),
         );
       },
     );
