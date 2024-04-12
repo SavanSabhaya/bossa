@@ -5,20 +5,20 @@ import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:hive/hive.dart';
-import 'package:pmck/commonWidgets/button.dart';
-import 'package:pmck/commonWidgets/textField.dart';
-import 'package:pmck/network/api.dart';
-import 'package:pmck/routes.dart';
-import 'package:pmck/services/firebase/firebase_service.dart';
-import 'package:pmck/ui/codeverify.dart';
-import 'package:pmck/ui/login.dart';
-import 'package:pmck/ui/my_profile.dart';
-import 'package:pmck/ui/preferred_Store.dart';
-import 'package:pmck/util/NavConst.dart';
-import 'package:pmck/util/SizeConfig.dart';
-import 'package:pmck/util/color_gradient.dart';
-import 'package:pmck/util/common_methods.dart';
-import 'package:pmck/util/main_app_bar.dart';
+import 'package:Bossa/commonWidgets/button.dart';
+import 'package:Bossa/commonWidgets/textField.dart';
+import 'package:Bossa/network/api.dart';
+import 'package:Bossa/routes.dart';
+import 'package:Bossa/services/firebase/firebase_service.dart';
+import 'package:Bossa/ui/codeverify.dart';
+import 'package:Bossa/ui/login.dart';
+import 'package:Bossa/ui/my_profile.dart';
+import 'package:Bossa/ui/preferred_Store.dart';
+import 'package:Bossa/util/NavConst.dart';
+import 'package:Bossa/util/SizeConfig.dart';
+import 'package:Bossa/util/color_gradient.dart';
+import 'package:Bossa/util/common_methods.dart';
+import 'package:Bossa/util/main_app_bar.dart';
 
 // ignore: must_be_immutable
 class CreateAccount extends StatefulWidget {
@@ -381,7 +381,7 @@ class _CreateAccountState extends State<CreateAccount> {
                                       width: 200,
                                       decoration: BoxDecoration(
                                           color: const Color(0xffEDCC40),
-                                          // gradient: ColorGradient().gradient(),
+                                          //gradient: ColorGradient().gradient(),
                                           borderRadius: const BorderRadius.all(
                                               Radius.circular(30))),
                                       child: Center(

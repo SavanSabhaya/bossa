@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
-import 'package:pmck/util/app_bar.dart';
-import 'package:pmck/util/common_methods.dart';
-import 'package:pmck/util/global_text.dart';
+import 'package:Bossa/util/app_bar.dart';
+import 'package:Bossa/util/common_methods.dart';
+import 'package:Bossa/util/global_text.dart';
 
 import 'order_history_controller.dart';
 

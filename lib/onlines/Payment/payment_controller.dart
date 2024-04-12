@@ -1,8 +1,8 @@
 import 'package:get/get.dart';
-import 'package:pmck/model/cart.dart';
-import 'package:pmck/model/orders/send_order.dart';
-import 'package:pmck/onlines/Checkout/checkout_controller.dart';
-import 'package:pmck/onlines/My_Bag/my_bag_controller.dart';
+import 'package:Bossa/model/cart.dart';
+import 'package:Bossa/model/orders/send_order.dart';
+import 'package:Bossa/onlines/Checkout/checkout_controller.dart';
+import 'package:Bossa/onlines/My_Bag/my_bag_controller.dart';
 
 import '../../services/storage/storage_service.dart';
 import '../Restuarent_Menu_Page/reasurant_menu_controller.dart';

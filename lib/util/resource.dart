@@ -1,4 +1,4 @@
-import 'package:pmck/util/status.dart';
+import 'package:Bossa/util/status.dart';
 
 class Resource<T> {
   late Status status;

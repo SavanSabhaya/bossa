@@ -3,12 +3,12 @@ import 'dart:convert';
 import 'dart:isolate';
 
 import 'package:flutter_background_geolocation/flutter_background_geolocation.dart';
-import 'package:pmck/ui/home_controller.dart';
+import 'package:Bossa/ui/home_controller.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../../model/geoLocations.dart';
 import '../services.dart';
-import 'package:pmck/network/api.dart';
+import 'package:Bossa/network/api.dart';
 import 'package:flutter_background_geolocation/flutter_background_geolocation.dart'
     as bg;
 

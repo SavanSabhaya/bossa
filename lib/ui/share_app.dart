@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 // import 'package:flutter_share_me/flutter_share_me.dart';
 import 'package:get/get.dart';
-import 'package:pmck/commonWidgets/button.dart';
-import 'package:pmck/util/NavConst.dart';
-import 'package:pmck/util/SizeConfig.dart';
-import 'package:pmck/util/common_methods.dart';
-import 'package:pmck/util/main_app_bar.dart';
+import 'package:Bossa/commonWidgets/button.dart';
+import 'package:Bossa/util/NavConst.dart';
+import 'package:Bossa/util/SizeConfig.dart';
+import 'package:Bossa/util/common_methods.dart';
+import 'package:Bossa/util/main_app_bar.dart';
 import 'package:flutter/services.dart';
 import 'dart:io' show Platform;
 

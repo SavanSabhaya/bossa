@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:pmck/model/partners.dart';
-import 'package:pmck/ui/StoresController.dart';
-import 'package:pmck/ui/partnersWebView.dart';
-import 'package:pmck/util/NavConst.dart';
-import 'package:pmck/util/SizeConfig.dart';
-import 'package:pmck/util/app_bar.dart';
-import 'package:pmck/util/main_app_bar.dart';
+import 'package:Bossa/model/partners.dart';
+import 'package:Bossa/ui/StoresController.dart';
+import 'package:Bossa/ui/partnersWebView.dart';
+import 'package:Bossa/util/NavConst.dart';
+import 'package:Bossa/util/SizeConfig.dart';
+import 'package:Bossa/util/app_bar.dart';
+import 'package:Bossa/util/main_app_bar.dart';
 
 class StoresScreen extends StatelessWidget {
   int navId = NavConst.homeNav;

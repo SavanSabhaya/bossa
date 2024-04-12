@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import 'package:pmck/model/user_model.dart';
+import 'package:Bossa/model/user_model.dart';
 
 import '../../services/storage/storage_service.dart';
 

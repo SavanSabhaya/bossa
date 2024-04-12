@@ -1,9 +1,9 @@
-import 'package:pmck/model/address_model.dart';
-import 'package:pmck/model/user_model.dart';
-import 'package:pmck/network/api.dart';
-import 'package:pmck/routes.dart';
-import 'package:pmck/services/services.dart';
-import 'package:pmck/util/resource.dart';
+import 'package:Bossa/model/address_model.dart';
+import 'package:Bossa/model/user_model.dart';
+import 'package:Bossa/network/api.dart';
+import 'package:Bossa/routes.dart';
+import 'package:Bossa/services/services.dart';
+import 'package:Bossa/util/resource.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class SessionService extends GetxService {

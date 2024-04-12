@@ -4,9 +4,9 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:pmck/onlines/Checkout/checkout_screen.dart';
-import 'package:pmck/util/app_bar.dart';
-import 'package:pmck/util/global_text.dart';
+import 'package:Bossa/onlines/Checkout/checkout_screen.dart';
+import 'package:Bossa/util/app_bar.dart';
+import 'package:Bossa/util/global_text.dart';
 
 import '../Checkout/checkout_controller.dart';
 import 'my_bag_controller.dart';

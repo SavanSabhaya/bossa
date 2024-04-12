@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
-import 'package:pmck/network/api.dart';
-import 'package:pmck/services/location/geolocation_service.dart';
+import 'package:Bossa/network/api.dart';
+import 'package:Bossa/services/location/geolocation_service.dart';
 
 import '../../model/restaurants_model.dart';
 

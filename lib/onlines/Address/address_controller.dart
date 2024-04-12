@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:pmck/model/address_model.dart';
-import 'package:pmck/network/api.dart';
-import 'package:pmck/onlines/Address/address_list.dart';
-import 'package:pmck/onlines/Checkout/checkout_controller.dart';
-import 'package:pmck/services/session/session_service.dart';
-import 'package:pmck/services/storage/storage_service.dart';
+import 'package:Bossa/model/address_model.dart';
+import 'package:Bossa/network/api.dart';
+import 'package:Bossa/onlines/Address/address_list.dart';
+import 'package:Bossa/onlines/Checkout/checkout_controller.dart';
+import 'package:Bossa/services/session/session_service.dart';
+import 'package:Bossa/services/storage/storage_service.dart';
 
 import '../Checkout/checkout_screen.dart';
 

@@ -1,14 +1,14 @@
 // ignore_for_file: list_remove_unrelated_type
 
 import 'package:flutter/foundation.dart';
-import 'package:pmck/model/bag_model.dart';
-import 'package:pmck/model/cart.dart';
-import 'package:pmck/model/dish_catergory.dart';
-import 'package:pmck/model/orders/category.dart';
-import 'package:pmck/model/orders/items.dart';
-import 'package:pmck/model/restaurants_model.dart';
-import 'package:pmck/network/api.dart';
-import 'package:pmck/services/services.dart';
+import 'package:Bossa/model/bag_model.dart';
+import 'package:Bossa/model/cart.dart';
+import 'package:Bossa/model/dish_catergory.dart';
+import 'package:Bossa/model/orders/category.dart';
+import 'package:Bossa/model/orders/items.dart';
+import 'package:Bossa/model/restaurants_model.dart';
+import 'package:Bossa/network/api.dart';
+import 'package:Bossa/services/services.dart';
 
 class ReasurantMenuController extends GetxController {
   var dishCategories = <DishCategory>[].obs;

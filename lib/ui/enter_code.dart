@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:pmck/commonWidgets/button.dart';
-import 'package:pmck/commonWidgets/textField.dart';
-import 'package:pmck/ui/new_password.dart';
-import 'package:pmck/util/SizeConfig.dart';
-import 'package:pmck/util/common_methods.dart';
+import 'package:Bossa/commonWidgets/button.dart';
+import 'package:Bossa/commonWidgets/textField.dart';
+import 'package:Bossa/ui/new_password.dart';
+import 'package:Bossa/util/SizeConfig.dart';
+import 'package:Bossa/util/common_methods.dart';
 
 import '../util/main_app_bar.dart';
 

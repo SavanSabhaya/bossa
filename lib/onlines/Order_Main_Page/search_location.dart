@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:pmck/onlines/Order_Main_Page/search_controller.dart';
-import 'package:pmck/onlines/Restuarent_Menu_Page/reasurant_menu_page.dart';
-import 'package:pmck/util/app_bar.dart';
-import 'package:pmck/util/common_methods.dart';
-import 'package:pmck/util/global_text.dart';
+import 'package:Bossa/onlines/Order_Main_Page/search_controller.dart';
+import 'package:Bossa/onlines/Restuarent_Menu_Page/reasurant_menu_page.dart';
+import 'package:Bossa/util/app_bar.dart';
+import 'package:Bossa/util/common_methods.dart';
+import 'package:Bossa/util/global_text.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../../model/restaurants_model.dart';
@@ -58,7 +58,8 @@ class SearchLocationScreen extends GetView<SearchController2> {
                             margin: EdgeInsets.symmetric(horizontal: 37.w),
                             decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(5.r),
-                                gradient: const LinearGradient(
+                                 color: Color(0xffEDCC40),
+                                /* gradient: const LinearGradient(
                                   colors: [
                                     Color(0xfffe7500),
                                     Color(0xffe41b00)
@@ -66,7 +67,7 @@ class SearchLocationScreen extends GetView<SearchController2> {
                                   stops: [0, 1],
                                   begin: Alignment(-1.00, 0.00),
                                   end: Alignment(1.00, -0.00),
-                                )),
+                                ) */),
                             alignment: Alignment.center,
                             child: Row(
                                 mainAxisAlignment: MainAxisAlignment.center,
@@ -154,14 +155,15 @@ class SearchLocationScreen extends GetView<SearchController2> {
                       height: 45.h,
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(5.r),
-                          gradient: const LinearGradient(
+                           color: Color(0xffEDCC40),
+                          /* gradient: const LinearGradient(
                             colors: [Color(0xfffe7500), Color(0xffe41b00)],
                             stops: [0, 1],
                             begin: Alignment(-1.00, 0.00),
                             end: Alignment(1.00, -0.00),
                             // angle: 90,
                             // scale: undefined,
-                          )),
+                          ) */),
                       alignment: Alignment.center,
                       child: GlobalText("CANCEL",
                           color: const Color(0xffffffff),
@@ -192,14 +194,15 @@ class SearchLocationScreen extends GetView<SearchController2> {
                       width: 100.w,
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(5.r),
-                          gradient: const LinearGradient(
+                           color: Color(0xffEDCC40),
+                         /*  gradient: const LinearGradient(
                             colors: [Color(0xfffe7500), Color(0xffe41b00)],
                             stops: [0, 1],
                             begin: Alignment(-1.00, 0.00),
                             end: Alignment(1.00, -0.00),
                             // angle: 90,
                             // scale: undefined,
-                          )),
+                          ) */),
                       alignment: Alignment.center,
                       child: GlobalText("OK",
                           color: const Color(0xffffffff),
@@ -252,7 +255,8 @@ class SearchLocationScreen extends GetView<SearchController2> {
                   height: 60.h,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(6.r),
-                    gradient: const LinearGradient(
+                     color: Color(0xffEDCC40),
+                    /* gradient: const LinearGradient(
                       colors: [
                         Color(0xffed2124),
                         Color(0xfff47529),
@@ -263,7 +267,7 @@ class SearchLocationScreen extends GetView<SearchController2> {
                       end: Alignment(1.00, -0.00),
                       // angle: 90,
                       // scale: undefined,
-                    ),
+                    ), */
                     boxShadow: const [
                       BoxShadow(
                           color: Color(0x21000000),

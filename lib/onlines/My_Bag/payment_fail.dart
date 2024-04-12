@@ -2,8 +2,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:pmck/routes.dart';
-import 'package:pmck/util/global_text.dart';
+import 'package:Bossa/routes.dart';
+import 'package:Bossa/util/global_text.dart';
 
 import '../Checkout/checkout_controller.dart';
 
@@ -272,7 +272,8 @@ class PaymentFail extends GetView<CheckOutController> {
                             height: 59.h,
                             decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(5.r),
-                                gradient: const LinearGradient(
+                                 color: Color(0xffEDCC40),
+                              /*   gradient: const LinearGradient(
                                   colors: [
                                     Color(0xfffe7500),
                                     Color(0xffe41b00)
@@ -282,7 +283,7 @@ class PaymentFail extends GetView<CheckOutController> {
                                   end: Alignment(1.00, -0.00),
                                   // angle: 90,
                                   // scale: undefined,
-                                )),
+                                ) */),
                             alignment: Alignment.center,
                             child: controller.loading.value
                                 ? const CircularProgressIndicator(

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
-import 'package:pmck/routes.dart';
-import 'package:pmck/ui/home_controller.dart';
-import 'package:pmck/ui/reward_dashboard.dart';
+import 'package:Bossa/routes.dart';
+import 'package:Bossa/ui/home_controller.dart';
+import 'package:Bossa/ui/reward_dashboard.dart';
 
 import 'about_us.dart';
 import 'home_view.dart';

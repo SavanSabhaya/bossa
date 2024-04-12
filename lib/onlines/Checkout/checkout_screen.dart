@@ -8,11 +8,11 @@ import 'package:geolocator/geolocator.dart';
 import 'package:get/get.dart';
 import 'package:intl/intl.dart';
 import 'package:location/location.dart';
-import 'package:pmck/model/restaurants_model.dart';
-import 'package:pmck/onlines/Payment/payment_screen.dart';
-import 'package:pmck/routes.dart';
-import 'package:pmck/util/app_bar.dart';
-import 'package:pmck/util/global_text.dart';
+import 'package:Bossa/model/restaurants_model.dart';
+import 'package:Bossa/onlines/Payment/payment_screen.dart';
+import 'package:Bossa/routes.dart';
+import 'package:Bossa/util/app_bar.dart';
+import 'package:Bossa/util/global_text.dart';
 
 import '../../network/api.dart';
 import '../../util/main_app_bar.dart';
@@ -300,7 +300,8 @@ class CheckOutScreen extends GetView<CheckOutController> {
                                                         borderRadius:
                                                             BorderRadius
                                                                 .circular(5.r),
-                                                        gradient:
+                                                                 color: Color(0xffEDCC40),
+                                                       /*  gradient:
                                                             const LinearGradient(
                                                           colors: [
                                                             Color(0xfffe7500),
@@ -313,7 +314,7 @@ class CheckOutScreen extends GetView<CheckOutController> {
                                                               1.00, -0.00),
                                                           // angle: 90,
                                                           // scale: undefined,
-                                                        )),
+                                                        ) */),
                                                     alignment: Alignment.center,
                                                     child: GlobalText("Apply",
                                                         color: const Color(
@@ -1651,7 +1652,8 @@ class CheckOutScreen extends GetView<CheckOutController> {
                                                         borderRadius:
                                                             BorderRadius
                                                                 .circular(5.r),
-                                                        gradient:
+                                                                 color: Color(0xffEDCC40),
+                                                       /*  gradient:
                                                             const LinearGradient(
                                                           colors: [
                                                             Color(0xfffe7500),
@@ -1664,7 +1666,7 @@ class CheckOutScreen extends GetView<CheckOutController> {
                                                               1.00, -0.00),
                                                           // angle: 90,
                                                           // scale: undefined,
-                                                        )),
+                                                        ) */),
                                                     alignment: Alignment.center,
                                                     child: GlobalText("Confirm",
                                                         color: const Color(

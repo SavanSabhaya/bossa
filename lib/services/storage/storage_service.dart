@@ -3,14 +3,14 @@ import 'dart:io';
 
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:path_provider/path_provider.dart' as pathProvider;
-import 'package:pmck/model/address_model.dart';
-import 'package:pmck/model/advertisement_model.dart';
-import 'package:pmck/model/bag_model.dart';
-import 'package:pmck/model/cart.dart';
-import 'package:pmck/model/restaurants_model.dart';
-import 'package:pmck/model/specials_model.dart';
-import 'package:pmck/model/user_model.dart';
-import 'package:pmck/services/services.dart';
+import 'package:Bossa/model/address_model.dart';
+import 'package:Bossa/model/advertisement_model.dart';
+import 'package:Bossa/model/bag_model.dart';
+import 'package:Bossa/model/cart.dart';
+import 'package:Bossa/model/restaurants_model.dart';
+import 'package:Bossa/model/specials_model.dart';
+import 'package:Bossa/model/user_model.dart';
+import 'package:Bossa/services/services.dart';
 
 import '../../network/api.dart';
 

@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:pmck/network/api.dart';
-import 'package:pmck/util/common_methods.dart';
-import 'package:pmck/util/main_app_bar.dart';
+import 'package:Bossa/network/api.dart';
+import 'package:Bossa/util/common_methods.dart';
+import 'package:Bossa/util/main_app_bar.dart';
 import '../../util/app_bar.dart';
 import 'add_address_screen.dart';
 import 'address_controller.dart';
-import 'package:pmck/util/global_text.dart';
+import 'package:Bossa/util/global_text.dart';
 
 import 'address_screen.dart';
 
@@ -191,7 +191,8 @@ class _AddAddressScreenState extends State<AddressList> {
                                                                       BorderRadius
                                                                           .circular(
                                                                               10),
-                                                                  gradient:
+                                                                               color: Color(0xffEDCC40),
+                                                                /*   gradient:
                                                                       LinearGradient(
                                                                     colors: [
                                                                       Color(
@@ -211,7 +212,7 @@ class _AddAddressScreenState extends State<AddressList> {
                                                                         -0.00),
                                                                     // angle: 90,
                                                                     // scale: undefined,
-                                                                  )),
+                                                                  ) */),
                                                           child: Center(
                                                               child: GlobalText(
                                                             "Edit",
@@ -233,7 +234,8 @@ class _AddAddressScreenState extends State<AddressList> {
                                                         const BoxDecoration(
                                                             color: Color(
                                                                 0xffEDCC40),
-                                                            gradient:
+                                                                
+                                                          /*   gradient:
                                                                 LinearGradient(
                                                               colors: [
                                                                 Color(
@@ -254,7 +256,7 @@ class _AddAddressScreenState extends State<AddressList> {
                                                                   1.00, -0.00),
                                                               // angle: 90,
                                                               // scale: undefined,
-                                                            ))),
+                                                            ) */)),
                                               ],
                                             ),
                                           //const Spacer(flex: 1),
@@ -283,7 +285,8 @@ class _AddAddressScreenState extends State<AddressList> {
                                       EdgeInsets.symmetric(horizontal: 37.w),
                                   decoration: BoxDecoration(
                                       borderRadius: BorderRadius.circular(5.r),
-                                      gradient: const LinearGradient(
+                                       color: Color(0xffEDCC40),
+                                     /*  gradient: const LinearGradient(
                                         colors: [
                                           Color(0xfffe7500),
                                           Color(0xffe41b00)
@@ -293,10 +296,10 @@ class _AddAddressScreenState extends State<AddressList> {
                                         end: Alignment(1.00, -0.00),
                                         // angle: 90,
                                         // scale: undefined,
-                                      )),
+                                      ) */),
                                   alignment: Alignment.center,
                                   child: GlobalText("Add Address",
-                                      color: const Color(0xffffffff),
+                                      color: const Color(0xff000000),
                                       fontWeight: FontWeight.w700,
                                       fontStyle: FontStyle.normal,
                                       fontSize: 18.sp)),

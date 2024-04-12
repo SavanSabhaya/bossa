@@ -3,11 +3,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
-import 'package:pmck/onlines/Address/address_controller.dart';
-import 'package:pmck/onlines/Address/address_screen.dart';
-import 'package:pmck/onlines/Order_Favourite/order_favourite_screen.dart';
-import 'package:pmck/util/app_bar.dart';
-import 'package:pmck/util/global_text.dart';
+import 'package:Bossa/onlines/Address/address_controller.dart';
+import 'package:Bossa/onlines/Address/address_screen.dart';
+import 'package:Bossa/onlines/Order_Favourite/order_favourite_screen.dart';
+import 'package:Bossa/util/app_bar.dart';
+import 'package:Bossa/util/global_text.dart';
 
 import '../Order_History/order_history_screen.dart';
 import '../Order_Main_Page/order_main_controller.dart';

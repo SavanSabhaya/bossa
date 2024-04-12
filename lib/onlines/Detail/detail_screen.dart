@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 
-import 'package:pmck/util/bottom_bar.dart';
-import 'package:pmck/util/global_text.dart';
+import 'package:Bossa/util/bottom_bar.dart';
+import 'package:Bossa/util/global_text.dart';
 import 'detail_controller.dart';
 
 class DetailScreen extends GetView<DetailController> {

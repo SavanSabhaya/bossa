@@ -1,8 +1,8 @@
 import 'dart:async';
 
 import 'package:get/get.dart';
-import 'package:pmck/model/order_history.dart';
-import 'package:pmck/network/api.dart';
+import 'package:Bossa/model/order_history.dart';
+import 'package:Bossa/network/api.dart';
 
 class OrderHistoryController extends GetxController {
   var hasOrder = false.obs;

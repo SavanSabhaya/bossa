@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:pmck/util/SizeConfig.dart';
+import 'package:Bossa/util/SizeConfig.dart';
 
 // ignore: must_be_immutable
 class CommonTextField extends StatefulWidget {

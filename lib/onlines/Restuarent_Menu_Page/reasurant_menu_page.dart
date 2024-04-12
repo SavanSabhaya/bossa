@@ -4,13 +4,13 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
 import 'package:intl/intl.dart';
-import 'package:pmck/model/addons_model.dart';
-import 'package:pmck/model/bag_model.dart';
-import 'package:pmck/network/api.dart';
-import 'package:pmck/routes.dart';
-import 'package:pmck/util/app_bar.dart';
-import 'package:pmck/util/common_methods.dart';
-import 'package:pmck/util/global_text.dart';
+import 'package:Bossa/model/addons_model.dart';
+import 'package:Bossa/model/bag_model.dart';
+import 'package:Bossa/network/api.dart';
+import 'package:Bossa/routes.dart';
+import 'package:Bossa/util/app_bar.dart';
+import 'package:Bossa/util/common_methods.dart';
+import 'package:Bossa/util/global_text.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'dart:io' show Platform;
 import '../My_Bag/my_bag_controller.dart';
@@ -334,14 +334,15 @@ class ReasurantMenuScreen extends GetView<ReasurantMenuController> {
                       height: 74.091.h,
                       padding: EdgeInsets.only(left: 45.w, right: 19.w),
                       decoration: const BoxDecoration(
-                        gradient: LinearGradient(
+                         color: Color(0xffEDCC40),
+                       /*  gradient: LinearGradient(
                           colors: [Color(0xfff32934), Color(0xffffb401)],
                           stops: [0, 1],
                           begin: Alignment(-1.00, 0.00),
                           end: Alignment(1.00, -0.00),
                           // angle: 90,
                           // scale: undefined,
-                        ),
+                        ), */
                         boxShadow: [
                           BoxShadow(
                               color: Color(0x23000000),
@@ -448,14 +449,15 @@ class ReasurantMenuScreen extends GetView<ReasurantMenuController> {
                         Container(
                             height: 3.h,
                             decoration: const BoxDecoration(
-                                gradient: LinearGradient(
+                               color: Color(0xffEDCC40),
+                                /* gradient: LinearGradient(
                               colors: [Color(0xfff32a34), Color(0xffffb401)],
                               stops: [0, 1],
                               begin: Alignment(-1.00, 0.00),
                               end: Alignment(1.00, -0.00),
                               // angle: 90,
                               // scale: undefined,
-                            ))),
+                            ) */)),
                         SizedBox(
                           height: 8.h,
                         ),
@@ -523,7 +525,8 @@ class ReasurantMenuScreen extends GetView<ReasurantMenuController> {
                                             decoration: BoxDecoration(
                                                 borderRadius:
                                                     BorderRadius.circular(4),
-                                                gradient: LinearGradient(
+                                                     color: Color(0xffEDCC40),
+                                                /* gradient: LinearGradient(
                                                   colors: [
                                                     ind == i
                                                         ? Color(0xfff32a34)
@@ -537,7 +540,7 @@ class ReasurantMenuScreen extends GetView<ReasurantMenuController> {
                                                   end: Alignment(1.00, -0.00),
                                                   // angle: 90,
                                                   // scale: undefined,
-                                                )),
+                                                ) */),
                                             child: Center(
                                                 child: GlobalText(
                                               controller.categoryListModel
@@ -1260,7 +1263,8 @@ class ReasurantMenuScreen extends GetView<ReasurantMenuController> {
                                                                     borderRadius:
                                                                         BorderRadius.circular(
                                                                             5.r),
-                                                                    gradient:
+                                                                             color: Color(0xffEDCC40),
+                                                                   /*  gradient:
                                                                         const LinearGradient(
                                                                       colors: [
                                                                         Color(
@@ -1278,7 +1282,7 @@ class ReasurantMenuScreen extends GetView<ReasurantMenuController> {
                                                                       end: Alignment(
                                                                           1.00,
                                                                           -0.00),
-                                                                    ),
+                                                                    ), */
                                                                   ),
                                                                   child:
                                                                       GlobalText(
@@ -1397,7 +1401,8 @@ class ReasurantMenuScreen extends GetView<ReasurantMenuController> {
                                       Container(
                                           height: 3.h,
                                           decoration: const BoxDecoration(
-                                              gradient: LinearGradient(
+                                             color: Color(0xffEDCC40),
+                                            /*   gradient: LinearGradient(
                                             colors: [
                                               Color(0xfff32a34),
                                               Color(0xffffb401)
@@ -1407,7 +1412,7 @@ class ReasurantMenuScreen extends GetView<ReasurantMenuController> {
                                             end: Alignment(1.00, -0.00),
                                             // angle: 90,
                                             // scale: undefined,
-                                          ))),
+                                          ) */)),
                                     ],
                                   );
                                 },

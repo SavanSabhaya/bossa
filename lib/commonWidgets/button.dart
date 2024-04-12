@@ -1,6 +1,7 @@
+import 'package:Bossa/util/SizeConfig.dart';
 import 'package:flutter/material.dart';
-import 'package:pmck/util/SizeConfig.dart';
-import 'package:pmck/util/color_gradient.dart';
+import 'package:Bossa/util/SizeConfig.dart';
+import 'package:Bossa/util/color_gradient.dart';
 
 // ignore: must_be_immutable
 class CustomButton extends StatefulWidget {

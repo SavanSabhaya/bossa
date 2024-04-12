@@ -2,9 +2,9 @@ import 'package:another_flushbar/flushbar.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:intl/intl.dart';
-import 'package:pmck/ui/login.dart';
-import 'package:pmck/ui/redeem_restaurant.dart';
-import 'package:pmck/util/SizeConfig.dart';
+import 'package:Bossa/ui/login.dart';
+import 'package:Bossa/ui/redeem_restaurant.dart';
+import 'package:Bossa/util/SizeConfig.dart';
 import 'package:share_plus/share_plus.dart';
 import 'package:url_launcher/url_launcher.dart';
 

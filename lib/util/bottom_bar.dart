@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:pmck/ui/root_controller.dart';
+import 'package:Bossa/ui/root_controller.dart';
 import 'global_text.dart';
 
 class BottomBar extends StatelessWidget {

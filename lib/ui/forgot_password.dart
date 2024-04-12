@@ -3,13 +3,13 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:pmck/commonWidgets/button.dart';
-import 'package:pmck/network/api.dart';
-import 'package:pmck/routes.dart';
-import 'package:pmck/ui/enter_code.dart';
-import 'package:pmck/util/SizeConfig.dart';
-import 'package:pmck/util/common_methods.dart';
-import 'package:pmck/util/main_app_bar.dart';
+import 'package:Bossa/commonWidgets/button.dart';
+import 'package:Bossa/network/api.dart';
+import 'package:Bossa/routes.dart';
+import 'package:Bossa/ui/enter_code.dart';
+import 'package:Bossa/util/SizeConfig.dart';
+import 'package:Bossa/util/common_methods.dart';
+import 'package:Bossa/util/main_app_bar.dart';
 
 // ignore: must_be_immutable
 class ForgotPassword extends StatefulWidget {

@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
-import 'package:pmck/model/partners.dart';
-import 'package:pmck/network/api.dart';
+import 'package:Bossa/model/partners.dart';
+import 'package:Bossa/network/api.dart';
 
 class StoresController extends GetxController {
   final Rx<Partners> res = Partners([]).obs;

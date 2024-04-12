@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
-import 'package:pmck/model/favourites_model.dart';
-import 'package:pmck/network/api.dart';
+import 'package:Bossa/model/favourites_model.dart';
+import 'package:Bossa/network/api.dart';
 
 class OrderFavouriteController extends GetxController {
   var hasOrder = false.obs;

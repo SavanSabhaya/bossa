@@ -1,5 +1,5 @@
 import 'package:get/instance_manager.dart';
-import 'package:pmck/ui/root_controller.dart';
+import 'package:Bossa/ui/root_controller.dart';
 
 class RootBinding implements Bindings {
   @override

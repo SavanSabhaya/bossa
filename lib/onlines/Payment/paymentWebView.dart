@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:pmck/onlines/Payment/payment_controller.dart';
-import 'package:pmck/util/app_bar.dart';
+import 'package:Bossa/onlines/Payment/payment_controller.dart';
+import 'package:Bossa/util/app_bar.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
 class PaymentWebView extends GetView<PaymentController> {

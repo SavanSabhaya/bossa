@@ -3,9 +3,9 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
-import 'package:pmck/commonWidgets/button.dart';
-import 'package:pmck/routes.dart';
-import 'package:pmck/util/SizeConfig.dart';
+import 'package:Bossa/commonWidgets/button.dart';
+import 'package:Bossa/routes.dart';
+import 'package:Bossa/util/SizeConfig.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class SplashScreen extends StatefulWidget {

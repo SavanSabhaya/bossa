@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
-import 'package:pmck/model/restaurants_model.dart';
-import 'package:pmck/model/specials_model.dart';
-import 'package:pmck/network/api.dart';
+import 'package:Bossa/model/restaurants_model.dart';
+import 'package:Bossa/model/specials_model.dart';
+import 'package:Bossa/network/api.dart';
 
 class OrderMainController extends GetxController {
   var selectedIndex = 0.obs;

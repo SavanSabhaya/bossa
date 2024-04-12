@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
-import 'package:pmck/onlines/Address/address_list.dart';
-import 'package:pmck/ui/my_profile.dart';
-import 'package:pmck/util/app_bar.dart';
-import 'package:pmck/util/global_text.dart';
+import 'package:Bossa/onlines/Address/address_list.dart';
+import 'package:Bossa/ui/my_profile.dart';
+import 'package:Bossa/util/app_bar.dart';
+import 'package:Bossa/util/global_text.dart';
 
 import 'add_address_screen.dart';
 import 'address_controller.dart';
@@ -66,7 +66,8 @@ class AddressScreen extends GetView<AddressController> {
                                 margin: EdgeInsets.symmetric(horizontal: 37.w),
                                 decoration: BoxDecoration(
                                     borderRadius: BorderRadius.circular(5.r),
-                                    gradient: const LinearGradient(
+                                     color: Color(0xffEDCC40),
+                                   /*  gradient: const LinearGradient(
                                       colors: [
                                         Color(0xfffe7500),
                                         Color(0xffe41b00)
@@ -76,7 +77,7 @@ class AddressScreen extends GetView<AddressController> {
                                       end: Alignment(1.00, -0.00),
                                       // angle: 90,
                                       // scale: undefined,
-                                    )),
+                                    ) */),
                                 alignment: Alignment.center,
                                 child: GlobalText(
                                     cont.addr == null

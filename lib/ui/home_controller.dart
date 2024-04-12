@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
-import 'package:pmck/model/advertisement_model.dart';
-import 'package:pmck/model/restaurants_model.dart';
-import 'package:pmck/model/specials_model.dart';
-import 'package:pmck/routes.dart';
-import 'package:pmck/services/storage/storage_service.dart';
-import 'package:pmck/util/NavConst.dart';
+import 'package:Bossa/model/advertisement_model.dart';
+import 'package:Bossa/model/restaurants_model.dart';
+import 'package:Bossa/model/specials_model.dart';
+import 'package:Bossa/routes.dart';
+import 'package:Bossa/services/storage/storage_service.dart';
+import 'package:Bossa/util/NavConst.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import '../network/api.dart';

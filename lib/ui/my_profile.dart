@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:pmck/model/user_model.dart';
-import 'package:pmck/network/api.dart';
-import 'package:pmck/routes.dart';
-import 'package:pmck/util/NavConst.dart';
-import 'package:pmck/util/SizeConfig.dart';
-import 'package:pmck/util/main_app_bar.dart';
-import 'package:pmck/util/resource.dart';
+import 'package:Bossa/model/user_model.dart';
+import 'package:Bossa/network/api.dart';
+import 'package:Bossa/routes.dart';
+import 'package:Bossa/util/NavConst.dart';
+import 'package:Bossa/util/SizeConfig.dart';
+import 'package:Bossa/util/main_app_bar.dart';
+import 'package:Bossa/util/resource.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:pmck/util/common_methods.dart';
+import 'package:Bossa/util/common_methods.dart';
 
 class MyProfile extends StatefulWidget {
   var navId = NavConst.homeNav;

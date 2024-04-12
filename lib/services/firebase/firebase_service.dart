@@ -8,11 +8,11 @@ import 'dart:async';
 import 'package:path_provider/path_provider.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:http/http.dart' as http;
-import 'package:pmck/main.dart';
-import 'package:pmck/model/news_model.dart';
-import 'package:pmck/routes.dart';
-import 'package:pmck/services/services.dart';
-import 'package:pmck/util/NavConst.dart';
+import 'package:Bossa/main.dart';
+import 'package:Bossa/model/news_model.dart';
+import 'package:Bossa/routes.dart';
+import 'package:Bossa/services/services.dart';
+import 'package:Bossa/util/NavConst.dart';
 
 import '../../firebase_options.dart';
 import '../../ui/news_screen.dart';

@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:get/get.dart';
-import 'package:pmck/network/api.dart';
-import 'package:pmck/util/common_methods.dart';
-import 'package:pmck/util/main_app_bar.dart';
+import 'package:Bossa/network/api.dart';
+import 'package:Bossa/util/common_methods.dart';
+import 'package:Bossa/util/main_app_bar.dart';
 import '../Checkout/checkout_screen.dart';
 import 'address_controller.dart';
-import 'package:pmck/util/global_text.dart';
+import 'package:Bossa/util/global_text.dart';
 
 import 'address_list.dart';
 

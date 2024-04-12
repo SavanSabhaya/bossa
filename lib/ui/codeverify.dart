@@ -5,8 +5,8 @@ import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:pin_code_fields/pin_code_fields.dart';
-import 'package:pmck/util/SizeConfig.dart';
-import 'package:pmck/util/common_methods.dart';
+import 'package:Bossa/util/SizeConfig.dart';
+import 'package:Bossa/util/common_methods.dart';
 
 import '../commonWidgets/button.dart';
 import '../commonWidgets/textField.dart';

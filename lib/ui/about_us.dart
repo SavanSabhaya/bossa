@@ -2,10 +2,10 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:pmck/network/api.dart';
-import 'package:pmck/util/SizeConfig.dart';
-import 'package:pmck/util/common_methods.dart';
-import 'package:pmck/util/main_app_bar.dart';
+import 'package:Bossa/network/api.dart';
+import 'package:Bossa/util/SizeConfig.dart';
+import 'package:Bossa/util/common_methods.dart';
+import 'package:Bossa/util/main_app_bar.dart';
 
 class AboutUs extends StatefulWidget {
   const AboutUs({Key? key}) : super(key: key);
