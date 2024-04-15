@@ -194,10 +194,7 @@ class Api {
     Location? location = await GeoLocationService.get().getLowAccPostion();
 
     Map<String, dynamic> body = {
-      "action": "GET_ALL_RESTAURANTS",
-      "lat": location!.coords.latitude,
-      "long": location!.coords.longitude,
-      "uuid": uuid
+      "action": "GET_ALL_BOSSA_RESTAURANTS",
     };
 
     print("body=====${json.encode(body)}");

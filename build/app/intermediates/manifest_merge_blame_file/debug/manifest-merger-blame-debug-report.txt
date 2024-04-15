@@ -1,0 +1,1253 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.myapp.pmck"
+4    android:versionCode="55"
+5    android:versionName="2.43.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/Users/harshsharma/Downloads/PMCK-main/android/app/src/main/AndroidManifest.xml:8:5-66
+15-->/Users/harshsharma/Downloads/PMCK-main/android/app/src/main/AndroidManifest.xml:8:22-64
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->/Users/harshsharma/Downloads/PMCK-main/android/app/src/main/AndroidManifest.xml:9:5-80
+16-->/Users/harshsharma/Downloads/PMCK-main/android/app/src/main/AndroidManifest.xml:9:22-78
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->/Users/harshsharma/Downloads/PMCK-main/android/app/src/main/AndroidManifest.xml:10:5-79
+17-->/Users/harshsharma/Downloads/PMCK-main/android/app/src/main/AndroidManifest.xml:10:22-77
+18    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+18-->/Users/harshsharma/Downloads/PMCK-main/android/app/src/main/AndroidManifest.xml:11:5-80
+18-->/Users/harshsharma/Downloads/PMCK-main/android/app/src/main/AndroidManifest.xml:11:22-78
+19    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+19-->/Users/harshsharma/Downloads/PMCK-main/android/app/src/main/AndroidManifest.xml:21:5-78
+19-->/Users/harshsharma/Downloads/PMCK-main/android/app/src/main/AndroidManifest.xml:21:22-76
+20    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+20-->/Users/harshsharma/Downloads/PMCK-main/android/app/src/main/AndroidManifest.xml:22:5-80
+20-->/Users/harshsharma/Downloads/PMCK-main/android/app/src/main/AndroidManifest.xml:22:22-78
+21    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+21-->/Users/harshsharma/Downloads/PMCK-main/android/app/src/main/AndroidManifest.xml:23:5-84
+21-->/Users/harshsharma/Downloads/PMCK-main/android/app/src/main/AndroidManifest.xml:23:22-82
+22    <uses-permission android:name="android.permission.WAKE_LOCK" />
+22-->/Users/harshsharma/Downloads/PMCK-main/android/app/src/main/AndroidManifest.xml:25:5-67
+22-->/Users/harshsharma/Downloads/PMCK-main/android/app/src/main/AndroidManifest.xml:25:22-65
+23    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+23-->/Users/harshsharma/Downloads/PMCK-main/android/app/src/main/AndroidManifest.xml:26:5-76
+23-->/Users/harshsharma/Downloads/PMCK-main/android/app/src/main/AndroidManifest.xml:26:22-74
+24
+25    <queries>
+25-->/Users/harshsharma/Downloads/PMCK-main/android/app/src/main/AndroidManifest.xml:62:5-83:15
+26
+27        <!-- If your app opens https URLs -->
+28        <intent>
+28-->/Users/harshsharma/Downloads/PMCK-main/android/app/src/main/AndroidManifest.xml:64:9-67:18
+29            <action android:name="android.intent.action.VIEW" />
+29-->/Users/harshsharma/Downloads/PMCK-main/android/app/src/main/AndroidManifest.xml:65:13-64
+29-->/Users/harshsharma/Downloads/PMCK-main/android/app/src/main/AndroidManifest.xml:65:21-62
+30
+31            <data android:scheme="https" />
+31-->/Users/harshsharma/Downloads/PMCK-main/android/app/src/main/AndroidManifest.xml:66:13-43
+31-->/Users/harshsharma/Downloads/PMCK-main/android/app/src/main/AndroidManifest.xml:66:19-41
+32        </intent>
+33        <!-- If your app makes calls -->
+34        <intent>
+34-->/Users/harshsharma/Downloads/PMCK-main/android/app/src/main/AndroidManifest.xml:69:9-72:18
+35            <action android:name="android.intent.action.DIAL" />
+35-->/Users/harshsharma/Downloads/PMCK-main/android/app/src/main/AndroidManifest.xml:70:13-64
+35-->/Users/harshsharma/Downloads/PMCK-main/android/app/src/main/AndroidManifest.xml:70:21-62
+36
+37            <data android:scheme="tel" />
+37-->/Users/harshsharma/Downloads/PMCK-main/android/app/src/main/AndroidManifest.xml:66:13-43
+37-->/Users/harshsharma/Downloads/PMCK-main/android/app/src/main/AndroidManifest.xml:66:19-41
+38        </intent>
+39        <!-- If your sends SMS messages -->
+40        <intent>
+40-->/Users/harshsharma/Downloads/PMCK-main/android/app/src/main/AndroidManifest.xml:74:9-77:18
+41            <action android:name="android.intent.action.SENDTO" />
+41-->/Users/harshsharma/Downloads/PMCK-main/android/app/src/main/AndroidManifest.xml:75:13-66
+41-->/Users/harshsharma/Downloads/PMCK-main/android/app/src/main/AndroidManifest.xml:75:21-64
+42
+43            <data android:scheme="smsto" />
+43-->/Users/harshsharma/Downloads/PMCK-main/android/app/src/main/AndroidManifest.xml:66:13-43
+43-->/Users/harshsharma/Downloads/PMCK-main/android/app/src/main/AndroidManifest.xml:66:19-41
+44        </intent>
+45        <!-- If your app sends emails -->
+46        <intent>
+46-->/Users/harshsharma/Downloads/PMCK-main/android/app/src/main/AndroidManifest.xml:79:9-82:18
+47            <action android:name="android.intent.action.SEND" />
+47-->/Users/harshsharma/Downloads/PMCK-main/android/app/src/main/AndroidManifest.xml:80:13-64
+47-->/Users/harshsharma/Downloads/PMCK-main/android/app/src/main/AndroidManifest.xml:80:21-62
+48
+49            <data android:mimeType="*/*" />
+49-->/Users/harshsharma/Downloads/PMCK-main/android/app/src/main/AndroidManifest.xml:66:13-43
+50        </intent>
+51        <intent>
+51-->[com.huawei.hms:device:6.9.0.300] /Users/harshsharma/.gradle/caches/transforms-3/91d6dadc488aac388682cd1511ad32d7/transformed/jetified-device-6.9.0.300/AndroidManifest.xml:15:9-17:18
+52            <action android:name="com.huawei.hms.core.aidlservice" />
+52-->[com.huawei.hms:device:6.9.0.300] /Users/harshsharma/.gradle/caches/transforms-3/91d6dadc488aac388682cd1511ad32d7/transformed/jetified-device-6.9.0.300/AndroidManifest.xml:16:13-70
+52-->[com.huawei.hms:device:6.9.0.300] /Users/harshsharma/.gradle/caches/transforms-3/91d6dadc488aac388682cd1511ad32d7/transformed/jetified-device-6.9.0.300/AndroidManifest.xml:16:21-67
+53        </intent>
+54        <intent>
+54-->[com.huawei.hms:device:6.9.0.300] /Users/harshsharma/.gradle/caches/transforms-3/91d6dadc488aac388682cd1511ad32d7/transformed/jetified-device-6.9.0.300/AndroidManifest.xml:18:9-20:18
+55            <action android:name="com.huawei.hms.core" />
+55-->[com.huawei.hms:device:6.9.0.300] /Users/harshsharma/.gradle/caches/transforms-3/91d6dadc488aac388682cd1511ad32d7/transformed/jetified-device-6.9.0.300/AndroidManifest.xml:19:13-58
+55-->[com.huawei.hms:device:6.9.0.300] /Users/harshsharma/.gradle/caches/transforms-3/91d6dadc488aac388682cd1511ad32d7/transformed/jetified-device-6.9.0.300/AndroidManifest.xml:19:21-55
+56        </intent>
+57    </queries>
+58
+59    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Permissions options for the `notification` group -->
+59-->[:firebase_messaging] /Users/harshsharma/Downloads/PMCK-main/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-79
+59-->[:firebase_messaging] /Users/harshsharma/Downloads/PMCK-main/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-76
+60    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+60-->[:firebase_messaging] /Users/harshsharma/Downloads/PMCK-main/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-77
+60-->[:firebase_messaging] /Users/harshsharma/Downloads/PMCK-main/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-74
+61    <uses-permission android:name="android.permission.VIBRATE" />
+61-->[:flutter_local_notifications] /Users/harshsharma/Downloads/PMCK-main/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-66
+61-->[:flutter_local_notifications] /Users/harshsharma/Downloads/PMCK-main/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:8:22-63
+62    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+62-->[:flutter_local_notifications] /Users/harshsharma/Downloads/PMCK-main/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-81
+62-->[:flutter_local_notifications] /Users/harshsharma/Downloads/PMCK-main/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-78
+63    <uses-permission
+63-->[:flutter_local_notifications] /Users/harshsharma/Downloads/PMCK-main/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-79
+64        android:name="android.permission.SCHEDULE_EXACT_ALARM"
+64-->[:flutter_local_notifications] /Users/harshsharma/Downloads/PMCK-main/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-76
+65        android:maxSdkVersion="33" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+65-->[com.transistorsoft:tsbackgroundfetch:1.0.2] /Users/harshsharma/.gradle/caches/transforms-3/b2b759b5acfaa81b619da146a66447c7/transformed/jetified-tsbackgroundfetch-1.0.2/AndroidManifest.xml:11:9-35
+66    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+66-->[com.google.firebase:firebase-messaging:23.3.1] /Users/harshsharma/.gradle/caches/transforms-3/ee9d478aadcd1478ad4ff68660c29edb/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:26:5-82
+66-->[com.google.firebase:firebase-messaging:23.3.1] /Users/harshsharma/.gradle/caches/transforms-3/ee9d478aadcd1478ad4ff68660c29edb/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:26:22-79
+67    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+67-->[com.google.android.gms:play-services-measurement-api:21.5.0] /Users/harshsharma/.gradle/caches/transforms-3/6f7c658cf801033b2ce1343beb235424/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:25:5-79
+67-->[com.google.android.gms:play-services-measurement-api:21.5.0] /Users/harshsharma/.gradle/caches/transforms-3/6f7c658cf801033b2ce1343beb235424/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:25:22-76
+68    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+68-->[com.google.android.gms:play-services-measurement-api:21.5.0] /Users/harshsharma/.gradle/caches/transforms-3/6f7c658cf801033b2ce1343beb235424/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:26:5-88
+68-->[com.google.android.gms:play-services-measurement-api:21.5.0] /Users/harshsharma/.gradle/caches/transforms-3/6f7c658cf801033b2ce1343beb235424/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:26:22-85
+69    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+69-->[com.google.android.gms:play-services-measurement-api:21.5.0] /Users/harshsharma/.gradle/caches/transforms-3/6f7c658cf801033b2ce1343beb235424/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:27:5-82
+69-->[com.google.android.gms:play-services-measurement-api:21.5.0] /Users/harshsharma/.gradle/caches/transforms-3/6f7c658cf801033b2ce1343beb235424/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:27:22-79
+70    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- 用途：访问WLAN状态（网络定位使用） 涉及模块：融合定位、室内室外定位、地理围栏、众包 -->
+70-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/harshsharma/.gradle/caches/transforms-3/c4cd81dc278889810f68dc9ba4124a85/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:26:5-110
+70-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/harshsharma/.gradle/caches/transforms-3/c4cd81dc278889810f68dc9ba4124a85/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:26:22-107
+71    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- 用途：改变WLAN状态的开关（网络定位使用） 涉及模块：融合定位、室内室外定位、地理围栏、众包 -->
+71-->[com.huawei.hms.LocationLiteSdk:core:2.9.0.300] /Users/harshsharma/.gradle/caches/transforms-3/73c2f19dbf02e9561d7d56a8296eee2b/transformed/jetified-core-2.9.0.300/AndroidManifest.xml:16:5-76
+71-->[com.huawei.hms.LocationLiteSdk:core:2.9.0.300] /Users/harshsharma/.gradle/caches/transforms-3/73c2f19dbf02e9561d7d56a8296eee2b/transformed/jetified-core-2.9.0.300/AndroidManifest.xml:16:22-73
+72    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+72-->[com.huawei.hms.LocationLiteSdk:core:2.9.0.300] /Users/harshsharma/.gradle/caches/transforms-3/73c2f19dbf02e9561d7d56a8296eee2b/transformed/jetified-core-2.9.0.300/AndroidManifest.xml:17:5-76
+72-->[com.huawei.hms.LocationLiteSdk:core:2.9.0.300] /Users/harshsharma/.gradle/caches/transforms-3/73c2f19dbf02e9561d7d56a8296eee2b/transformed/jetified-core-2.9.0.300/AndroidManifest.xml:17:22-73
+73
+74    <permission
+74-->[androidx.core:core:1.10.1] /Users/harshsharma/.gradle/caches/transforms-3/48f80bf9494c92493be9bce3c310c3f6/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+75        android:name="com.myapp.pmck.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+75-->[androidx.core:core:1.10.1] /Users/harshsharma/.gradle/caches/transforms-3/48f80bf9494c92493be9bce3c310c3f6/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+76        android:protectionLevel="signature" />
+76-->[androidx.core:core:1.10.1] /Users/harshsharma/.gradle/caches/transforms-3/48f80bf9494c92493be9bce3c310c3f6/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+77
+78    <uses-permission android:name="com.myapp.pmck.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+78-->[androidx.core:core:1.10.1] /Users/harshsharma/.gradle/caches/transforms-3/48f80bf9494c92493be9bce3c310c3f6/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+78-->[androidx.core:core:1.10.1] /Users/harshsharma/.gradle/caches/transforms-3/48f80bf9494c92493be9bce3c310c3f6/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+79    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+79-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/harshsharma/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:12:5-79
+79-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/harshsharma/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:12:22-76
+80    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
+80-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/harshsharma/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:16:5-94
+80-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/harshsharma/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:16:22-91
+81    <uses-permission android:name="com.huawei.hms.permission.ACTIVITY_RECOGNITION" />
+81-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/harshsharma/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:17:5-86
+81-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/harshsharma/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:17:22-83
+82    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_HEALTH" />
+82-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/harshsharma/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:23:5-84
+82-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/harshsharma/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:23:22-81
+83    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION" />
+83-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/harshsharma/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:24:5-86
+83-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/harshsharma/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:24:22-83
+84    <!--
+85    This permission overrids Android 12 restriction on starting foreground-serivces in background
+86    but the permission is available only to "priveliged" apps (EMERGENCY apps)
+87
+88    <uses-permission android:name="android.permission.START_FOREGROUND_SERVICES_FROM_BACKGROUND" />
+89    -->
+90    <!-- device-specific permissions for DeviceSettings methods -->
+91    <uses-permission android:name="oppo.permission.OPPO_COMPONENT_SAFE" />
+91-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/harshsharma/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:34:5-75
+91-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/harshsharma/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:34:22-72
+92    <uses-permission android:name="com.huawei.permission.external_app_settings.USE_COMPONENT" />
+92-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/harshsharma/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:35:5-97
+92-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/harshsharma/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:35:22-94
+93
+94    <uses-feature
+94-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/harshsharma/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:37:5-39:36
+95        android:name="android.hardware.location.gps"
+95-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/harshsharma/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:38:9-53
+96        android:required="false" />
+96-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/harshsharma/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:39:9-33
+97
+98    <permission
+98-->[com.huawei.hms:push:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:9:5-11:47
+99        android:name="com.myapp.pmck.permission.PROCESS_PUSH_MSG"
+99-->[com.huawei.hms:push:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:10:9-68
+100        android:protectionLevel="signature" /> <!-- PUSH_PROVIDER and PUSH_WRITE_PROVIDER are both provider registered permissions for the notification switch. -->
+100-->[com.huawei.hms:push:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:11:9-44
+101    <!-- The SDK's notification bar switch, EMUI 9.x becomes write to the local sp, sharing the file through the provider to the push-rom, which reads the sp file to get the status of the notification bar switch. -->
+102    <permission
+102-->[com.huawei.hms:push:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:14:5-16:47
+103        android:name="com.myapp.pmck.permission.PUSH_PROVIDER"
+103-->[com.huawei.hms:push:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:15:9-65
+104        android:protectionLevel="signature" />
+104-->[com.huawei.hms:push:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:16:9-44
+105    <permission
+105-->[com.huawei.hms:push:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:17:5-19:47
+106        android:name="com.myapp.pmck.permission.PUSH_WRITE_PROVIDER"
+106-->[com.huawei.hms:push:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:18:9-71
+107        android:protectionLevel="signature" />
+107-->[com.huawei.hms:push:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:19:9-44
+108
+109    <uses-permission android:name="com.myapp.pmck.permission.PROCESS_PUSH_MSG" />
+109-->[com.huawei.hms:push:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:21:5-84
+109-->[com.huawei.hms:push:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:21:22-81
+110    <uses-permission android:name="com.myapp.pmck.permission.PUSH_PROVIDER" />
+110-->[com.huawei.hms:push:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:22:5-81
+110-->[com.huawei.hms:push:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:22:22-78
+111
+112    <application
+113        android:name="io.flutter.app.FlutterMultiDexApplication"
+114        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+114-->[androidx.core:core:1.10.1] /Users/harshsharma/.gradle/caches/transforms-3/48f80bf9494c92493be9bce3c310c3f6/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
+115        android:debuggable="true"
+116        android:icon="@mipmap/ic_notification"
+117        android:label="BOSSA REWARDS" >
+118        <activity
+119            android:name="com.myapp.pmck.MainActivity"
+120            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+121            android:exported="true"
+122            android:hardwareAccelerated="true"
+123            android:label="BOSSA REWARDS"
+124            android:launchMode="singleTop"
+125            android:theme="@style/LaunchTheme"
+126            android:windowSoftInputMode="adjustResize" >
+127
+128            <!--
+129                 Specifies an Android theme to apply to this Activity as soon as
+130                                                                 the Android process has started. This theme is visible to the user
+131                                                                 while the Flutter UI initializes. After that, this theme continues
+132                                                                 to determine the Window background behind the Flutter UI.
+133            -->
+134            <meta-data
+135                android:name="io.flutter.embedding.android.NormalTheme"
+136                android:resource="@style/NormalTheme" />
+137
+138            <intent-filter>
+139                <action android:name="android.intent.action.MAIN" />
+140
+141                <category android:name="android.intent.category.LAUNCHER" />
+142            </intent-filter>
+143        </activity>
+144        <!--
+145             Don't delete the meta-data below.
+146                                             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+147        -->
+148        <meta-data
+149            android:name="flutterEmbedding"
+150            android:value="2" />
+151        <meta-data
+152            android:name="com.transistorsoft.locationmanager.license"
+153            android:value="837a759e64fc26fcc085002f5b9e22ea54ada8eddbb64be474554663b1964bdf" />
+154        <meta-data
+155            android:name="com.google.firebase.messaging.default_notification_icon"
+156            android:resource="@drawable/ic_notification" />
+157        <!-- <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/> -->
+158
+159
+160        <!-- <provider android:name="com.facebook.FacebookContentProvider" android:authorities="com.facebook.app.FacebookContentProvider[facebook_app_id]" android:exported="false"/> -->
+161
+162        <receiver
+163            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+164            android:exported="false" >
+164-->[:flutter_local_notifications] /Users/harshsharma/Downloads/PMCK-main/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-37
+165            <intent-filter>
+166                <action android:name="android.intent.action.BOOT_COMPLETED" />
+166-->[:flutter_local_notifications] /Users/harshsharma/Downloads/PMCK-main/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:21:17-79
+166-->[:flutter_local_notifications] /Users/harshsharma/Downloads/PMCK-main/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:21:25-76
+167            </intent-filter>
+168            <intent-filter>
+168-->[:flutter_local_notifications] /Users/harshsharma/Downloads/PMCK-main/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-25:29
+169                <action android:name="android.intent.action.BOOT_COMPLETED" />
+169-->[:flutter_local_notifications] /Users/harshsharma/Downloads/PMCK-main/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:21:17-79
+169-->[:flutter_local_notifications] /Users/harshsharma/Downloads/PMCK-main/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:21:25-76
+170                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+170-->[:flutter_local_notifications] /Users/harshsharma/Downloads/PMCK-main/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:22:17-84
+170-->[:flutter_local_notifications] /Users/harshsharma/Downloads/PMCK-main/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:22:25-81
+171                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+171-->[:flutter_local_notifications] /Users/harshsharma/Downloads/PMCK-main/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:23:17-82
+171-->[:flutter_local_notifications] /Users/harshsharma/Downloads/PMCK-main/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:23:25-79
+172                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+172-->[:flutter_local_notifications] /Users/harshsharma/Downloads/PMCK-main/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-82
+172-->[:flutter_local_notifications] /Users/harshsharma/Downloads/PMCK-main/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:24:25-79
+173            </intent-filter>
+174        </receiver>
+175        <receiver
+176            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+177            android:exported="false" />
+177-->[:flutter_local_notifications] /Users/harshsharma/Downloads/PMCK-main/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-37
+178        <receiver
+179            android:name="com.intivoto.flutter_geofence.GeofenceBroadcastReceiver"
+180            android:enabled="true"
+181            android:exported="true" />
+182
+183        <service
+184            android:name="com.transistorsoft.locationmanager.service.TrackingService"
+185            android:foregroundServiceType="location" />
+186        <service
+187            android:name="com.transistorsoft.locationmanager.service.LocationRequestService"
+188            android:foregroundServiceType="location" />
+189        <service
+189-->[:firebase_messaging] /Users/harshsharma/Downloads/PMCK-main/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-17:72
+190            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+190-->[:firebase_messaging] /Users/harshsharma/Downloads/PMCK-main/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-107
+191            android:exported="false"
+191-->[:firebase_messaging] /Users/harshsharma/Downloads/PMCK-main/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-37
+192            android:permission="android.permission.BIND_JOB_SERVICE" />
+192-->[:firebase_messaging] /Users/harshsharma/Downloads/PMCK-main/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-69
+193        <service
+193-->[:firebase_messaging] /Users/harshsharma/Downloads/PMCK-main/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:18:9-24:19
+194            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+194-->[:firebase_messaging] /Users/harshsharma/Downloads/PMCK-main/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-97
+195            android:exported="false" >
+195-->[:firebase_messaging] /Users/harshsharma/Downloads/PMCK-main/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-37
+196            <intent-filter>
+196-->[:firebase_messaging] /Users/harshsharma/Downloads/PMCK-main/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-23:29
+197                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+197-->[:firebase_messaging] /Users/harshsharma/Downloads/PMCK-main/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:22:17-78
+197-->[:firebase_messaging] /Users/harshsharma/Downloads/PMCK-main/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:22:25-75
+198            </intent-filter>
+199        </service>
+200
+201        <receiver
+201-->[:firebase_messaging] /Users/harshsharma/Downloads/PMCK-main/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:26:9-33:20
+202            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+202-->[:firebase_messaging] /Users/harshsharma/Downloads/PMCK-main/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-98
+203            android:exported="true"
+203-->[:firebase_messaging] /Users/harshsharma/Downloads/PMCK-main/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-36
+204            android:permission="com.google.android.c2dm.permission.SEND" >
+204-->[:firebase_messaging] /Users/harshsharma/Downloads/PMCK-main/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-73
+205            <intent-filter>
+205-->[:firebase_messaging] /Users/harshsharma/Downloads/PMCK-main/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-32:29
+206                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+206-->[:firebase_messaging] /Users/harshsharma/Downloads/PMCK-main/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:31:17-81
+206-->[:firebase_messaging] /Users/harshsharma/Downloads/PMCK-main/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:31:25-78
+207            </intent-filter>
+208        </receiver>
+209
+210        <service
+210-->[:firebase_messaging] /Users/harshsharma/Downloads/PMCK-main/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:35:9-39:19
+211            android:name="com.google.firebase.components.ComponentDiscoveryService"
+211-->[:firebase_messaging] /Users/harshsharma/Downloads/PMCK-main/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:35:18-89
+212            android:directBootAware="true"
+212-->[com.google.firebase:firebase-common:20.4.2] /Users/harshsharma/.gradle/caches/transforms-3/cb6688f15ebbc0d4b6f3f18838dc1a28/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:32:13-43
+213            android:exported="false" >
+213-->[com.google.firebase:firebase-messaging:23.3.1] /Users/harshsharma/.gradle/caches/transforms-3/ee9d478aadcd1478ad4ff68660c29edb/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:56:13-37
+214            <meta-data
+214-->[:firebase_messaging] /Users/harshsharma/Downloads/PMCK-main/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-38:85
+215                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+215-->[:firebase_messaging] /Users/harshsharma/Downloads/PMCK-main/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:37:17-128
+216                android:value="com.google.firebase.components.ComponentRegistrar" />
+216-->[:firebase_messaging] /Users/harshsharma/Downloads/PMCK-main/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:38:17-82
+217            <meta-data
+217-->[:firebase_core] /Users/harshsharma/Downloads/PMCK-main/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-11:85
+218                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+218-->[:firebase_core] /Users/harshsharma/Downloads/PMCK-main/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:10:17-124
+219                android:value="com.google.firebase.components.ComponentRegistrar" />
+219-->[:firebase_core] /Users/harshsharma/Downloads/PMCK-main/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:11:17-82
+220            <meta-data
+220-->[com.google.firebase:firebase-messaging:23.3.1] /Users/harshsharma/.gradle/caches/transforms-3/ee9d478aadcd1478ad4ff68660c29edb/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:57:13-59:85
+221                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar"
+221-->[com.google.firebase:firebase-messaging:23.3.1] /Users/harshsharma/.gradle/caches/transforms-3/ee9d478aadcd1478ad4ff68660c29edb/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:58:17-122
+222                android:value="com.google.firebase.components.ComponentRegistrar" />
+222-->[com.google.firebase:firebase-messaging:23.3.1] /Users/harshsharma/.gradle/caches/transforms-3/ee9d478aadcd1478ad4ff68660c29edb/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:59:17-82
+223            <meta-data
+223-->[com.google.firebase:firebase-messaging:23.3.1] /Users/harshsharma/.gradle/caches/transforms-3/ee9d478aadcd1478ad4ff68660c29edb/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:60:13-62:85
+224                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+224-->[com.google.firebase:firebase-messaging:23.3.1] /Users/harshsharma/.gradle/caches/transforms-3/ee9d478aadcd1478ad4ff68660c29edb/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:61:17-119
+225                android:value="com.google.firebase.components.ComponentRegistrar" />
+225-->[com.google.firebase:firebase-messaging:23.3.1] /Users/harshsharma/.gradle/caches/transforms-3/ee9d478aadcd1478ad4ff68660c29edb/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:62:17-82
+226            <meta-data
+226-->[com.google.firebase:firebase-iid:21.1.0] /Users/harshsharma/.gradle/caches/transforms-3/6d4de7495a274d4059db98bdc807e3dc/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:32:13-34:85
+227                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+227-->[com.google.firebase:firebase-iid:21.1.0] /Users/harshsharma/.gradle/caches/transforms-3/6d4de7495a274d4059db98bdc807e3dc/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:33:17-96
+228                android:value="com.google.firebase.components.ComponentRegistrar" />
+228-->[com.google.firebase:firebase-iid:21.1.0] /Users/harshsharma/.gradle/caches/transforms-3/6d4de7495a274d4059db98bdc807e3dc/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:34:17-82
+229            <meta-data
+229-->[com.google.android.gms:play-services-measurement-api:21.5.0] /Users/harshsharma/.gradle/caches/transforms-3/6f7c658cf801033b2ce1343beb235424/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:37:13-39:85
+230                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+230-->[com.google.android.gms:play-services-measurement-api:21.5.0] /Users/harshsharma/.gradle/caches/transforms-3/6f7c658cf801033b2ce1343beb235424/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:38:17-139
+231                android:value="com.google.firebase.components.ComponentRegistrar" />
+231-->[com.google.android.gms:play-services-measurement-api:21.5.0] /Users/harshsharma/.gradle/caches/transforms-3/6f7c658cf801033b2ce1343beb235424/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:39:17-82
+232            <meta-data
+232-->[com.google.firebase:firebase-installations:17.2.0] /Users/harshsharma/.gradle/caches/transforms-3/70b9efbd9014df966ced92aab268103d/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:15:13-17:85
+233                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+233-->[com.google.firebase:firebase-installations:17.2.0] /Users/harshsharma/.gradle/caches/transforms-3/70b9efbd9014df966ced92aab268103d/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:16:17-130
+234                android:value="com.google.firebase.components.ComponentRegistrar" />
+234-->[com.google.firebase:firebase-installations:17.2.0] /Users/harshsharma/.gradle/caches/transforms-3/70b9efbd9014df966ced92aab268103d/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:17:17-82
+235            <meta-data
+235-->[com.google.firebase:firebase-installations:17.2.0] /Users/harshsharma/.gradle/caches/transforms-3/70b9efbd9014df966ced92aab268103d/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:18:13-20:85
+236                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+236-->[com.google.firebase:firebase-installations:17.2.0] /Users/harshsharma/.gradle/caches/transforms-3/70b9efbd9014df966ced92aab268103d/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:19:17-127
+237                android:value="com.google.firebase.components.ComponentRegistrar" />
+237-->[com.google.firebase:firebase-installations:17.2.0] /Users/harshsharma/.gradle/caches/transforms-3/70b9efbd9014df966ced92aab268103d/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:20:17-82
+238            <meta-data
+238-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/harshsharma/.gradle/caches/transforms-3/2beb81b62473cf90ce8c8d415a5d9626/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:12:13-14:85
+239                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+239-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/harshsharma/.gradle/caches/transforms-3/2beb81b62473cf90ce8c8d415a5d9626/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:13:17-116
+240                android:value="com.google.firebase.components.ComponentRegistrar" />
+240-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/harshsharma/.gradle/caches/transforms-3/2beb81b62473cf90ce8c8d415a5d9626/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:14:17-82
+241            <meta-data
+241-->[com.google.firebase:firebase-common:20.4.2] /Users/harshsharma/.gradle/caches/transforms-3/cb6688f15ebbc0d4b6f3f18838dc1a28/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:35:13-37:85
+242                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+242-->[com.google.firebase:firebase-common:20.4.2] /Users/harshsharma/.gradle/caches/transforms-3/cb6688f15ebbc0d4b6f3f18838dc1a28/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:36:17-109
+243                android:value="com.google.firebase.components.ComponentRegistrar" />
+243-->[com.google.firebase:firebase-common:20.4.2] /Users/harshsharma/.gradle/caches/transforms-3/cb6688f15ebbc0d4b6f3f18838dc1a28/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:37:17-82
+244            <meta-data
+244-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/harshsharma/.gradle/caches/transforms-3/3cac8487ab4846294d10c5632169ad4b/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:27:13-29:85
+245                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+245-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/harshsharma/.gradle/caches/transforms-3/3cac8487ab4846294d10c5632169ad4b/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:28:17-115
+246                android:value="com.google.firebase.components.ComponentRegistrar" />
+246-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/harshsharma/.gradle/caches/transforms-3/3cac8487ab4846294d10c5632169ad4b/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:29:17-82
+247        </service>
+248
+249        <provider
+249-->[:firebase_messaging] /Users/harshsharma/Downloads/PMCK-main/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:41:9-45:38
+250            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+250-->[:firebase_messaging] /Users/harshsharma/Downloads/PMCK-main/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:42:13-102
+251            android:authorities="com.myapp.pmck.flutterfirebasemessaginginitprovider"
+251-->[:firebase_messaging] /Users/harshsharma/Downloads/PMCK-main/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:43:13-88
+252            android:exported="false"
+252-->[:firebase_messaging] /Users/harshsharma/Downloads/PMCK-main/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:44:13-37
+253            android:initOrder="99" />
+253-->[:firebase_messaging] /Users/harshsharma/Downloads/PMCK-main/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:45:13-35
+254
+255        <service
+255-->[:geolocator_android] /Users/harshsharma/Downloads/PMCK-main/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-12:56
+256            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+256-->[:geolocator_android] /Users/harshsharma/Downloads/PMCK-main/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-77
+257            android:enabled="true"
+257-->[:geolocator_android] /Users/harshsharma/Downloads/PMCK-main/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-35
+258            android:exported="false"
+258-->[:geolocator_android] /Users/harshsharma/Downloads/PMCK-main/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-37
+259            android:foregroundServiceType="location" />
+259-->[:geolocator_android] /Users/harshsharma/Downloads/PMCK-main/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-53
+260
+261        <activity
+261-->[:url_launcher_android] /Users/harshsharma/Downloads/PMCK-main/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-11:74
+262            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+262-->[:url_launcher_android] /Users/harshsharma/Downloads/PMCK-main/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-74
+263            android:exported="false"
+263-->[:url_launcher_android] /Users/harshsharma/Downloads/PMCK-main/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-37
+264            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+264-->[:url_launcher_android] /Users/harshsharma/Downloads/PMCK-main/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-71
+265        <!--
+266           Declares a provider which allows us to store files to share in
+267           '.../caches/share_plus' and grant the receiving action access
+268        -->
+269        <provider
+269-->[:share_plus] /Users/harshsharma/Downloads/PMCK-main/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-21:20
+270            android:name="dev.fluttercommunity.plus.share.ShareFileProvider"
+270-->[:share_plus] /Users/harshsharma/Downloads/PMCK-main/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-77
+271            android:authorities="com.myapp.pmck.flutter.share_provider"
+271-->[:share_plus] /Users/harshsharma/Downloads/PMCK-main/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-74
+272            android:exported="false"
+272-->[:share_plus] /Users/harshsharma/Downloads/PMCK-main/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-37
+273            android:grantUriPermissions="true" >
+273-->[:share_plus] /Users/harshsharma/Downloads/PMCK-main/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-47
+274            <meta-data
+274-->[:share_plus] /Users/harshsharma/Downloads/PMCK-main/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-20:68
+275                android:name="android.support.FILE_PROVIDER_PATHS"
+275-->[:share_plus] /Users/harshsharma/Downloads/PMCK-main/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:19:17-67
+276                android:resource="@xml/flutter_share_file_paths" />
+276-->[:share_plus] /Users/harshsharma/Downloads/PMCK-main/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:20:17-65
+277        </provider>
+278        <!--
+279           This manifest declared broadcast receiver allows us to use an explicit
+280           Intent when creating a PendingItent to be informed of the user's choice
+281        -->
+282        <receiver
+282-->[:share_plus] /Users/harshsharma/Downloads/PMCK-main/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:26:9-32:20
+283            android:name="dev.fluttercommunity.plus.share.SharePlusPendingIntent"
+283-->[:share_plus] /Users/harshsharma/Downloads/PMCK-main/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-82
+284            android:exported="false" >
+284-->[:share_plus] /Users/harshsharma/Downloads/PMCK-main/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-37
+285            <intent-filter>
+285-->[:share_plus] /Users/harshsharma/Downloads/PMCK-main/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-31:29
+286                <action android:name="EXTRA_CHOSEN_COMPONENT" />
+286-->[:share_plus] /Users/harshsharma/Downloads/PMCK-main/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:30:17-65
+286-->[:share_plus] /Users/harshsharma/Downloads/PMCK-main/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:30:25-62
+287            </intent-filter>
+288        </receiver>
+289
+290        <service
+290-->[:huawei_push] /Users/harshsharma/Downloads/PMCK-main/build/huawei_push/intermediates/merged_manifest/debug/AndroidManifest.xml:11:9-17:19
+291            android:name="com.huawei.hms.flutter.push.hms.FlutterHmsMessageService"
+291-->[:huawei_push] /Users/harshsharma/Downloads/PMCK-main/build/huawei_push/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-84
+292            android:exported="false" >
+292-->[:huawei_push] /Users/harshsharma/Downloads/PMCK-main/build/huawei_push/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+293            <intent-filter>
+293-->[:huawei_push] /Users/harshsharma/Downloads/PMCK-main/build/huawei_push/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-16:29
+294                <action android:name="com.huawei.push.action.MESSAGING_EVENT" />
+294-->[:huawei_push] /Users/harshsharma/Downloads/PMCK-main/build/huawei_push/intermediates/merged_manifest/debug/AndroidManifest.xml:15:17-81
+294-->[:huawei_push] /Users/harshsharma/Downloads/PMCK-main/build/huawei_push/intermediates/merged_manifest/debug/AndroidManifest.xml:15:25-78
+295            </intent-filter>
+296        </service> <!-- This receiver is for local notification click actions -->
+297        <receiver android:name="com.huawei.hms.flutter.push.receiver.local.HmsLocalNotificationActionsReceiver" />
+297-->[:huawei_push] /Users/harshsharma/Downloads/PMCK-main/build/huawei_push/intermediates/merged_manifest/debug/AndroidManifest.xml:19:9-115
+297-->[:huawei_push] /Users/harshsharma/Downloads/PMCK-main/build/huawei_push/intermediates/merged_manifest/debug/AndroidManifest.xml:19:19-112
+298
+299        <service
+299-->[:huawei_push] /Users/harshsharma/Downloads/PMCK-main/build/huawei_push/intermediates/merged_manifest/debug/AndroidManifest.xml:21:9-24:72
+300            android:name="com.huawei.hms.flutter.push.backgroundmessaging.BackgroundMessagingService"
+300-->[:huawei_push] /Users/harshsharma/Downloads/PMCK-main/build/huawei_push/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-102
+301            android:exported="true"
+301-->[:huawei_push] /Users/harshsharma/Downloads/PMCK-main/build/huawei_push/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-36
+302            android:permission="android.permission.BIND_JOB_SERVICE" />
+302-->[:huawei_push] /Users/harshsharma/Downloads/PMCK-main/build/huawei_push/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-69
+303        <service
+303-->[:location] /Users/harshsharma/Downloads/PMCK-main/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:11:9-15:56
+304            android:name="com.lyokone.location.FlutterLocationService"
+304-->[:location] /Users/harshsharma/Downloads/PMCK-main/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-71
+305            android:enabled="true"
+305-->[:location] /Users/harshsharma/Downloads/PMCK-main/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-35
+306            android:exported="false"
+306-->[:location] /Users/harshsharma/Downloads/PMCK-main/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-37
+307            android:foregroundServiceType="location" />
+307-->[:location] /Users/harshsharma/Downloads/PMCK-main/build/location/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-53
+308
+309        <receiver
+309-->[com.google.firebase:firebase-messaging:23.3.1] /Users/harshsharma/.gradle/caches/transforms-3/ee9d478aadcd1478ad4ff68660c29edb/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:29:9-40:20
+310            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+310-->[com.google.firebase:firebase-messaging:23.3.1] /Users/harshsharma/.gradle/caches/transforms-3/ee9d478aadcd1478ad4ff68660c29edb/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:30:13-78
+311            android:exported="true"
+311-->[com.google.firebase:firebase-messaging:23.3.1] /Users/harshsharma/.gradle/caches/transforms-3/ee9d478aadcd1478ad4ff68660c29edb/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:31:13-36
+312            android:permission="com.google.android.c2dm.permission.SEND" >
+312-->[com.google.firebase:firebase-messaging:23.3.1] /Users/harshsharma/.gradle/caches/transforms-3/ee9d478aadcd1478ad4ff68660c29edb/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:32:13-73
+313            <intent-filter>
+313-->[:firebase_messaging] /Users/harshsharma/Downloads/PMCK-main/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-32:29
+314                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+314-->[:firebase_messaging] /Users/harshsharma/Downloads/PMCK-main/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:31:17-81
+314-->[:firebase_messaging] /Users/harshsharma/Downloads/PMCK-main/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:31:25-78
+315            </intent-filter>
+316
+317            <meta-data
+317-->[com.google.firebase:firebase-messaging:23.3.1] /Users/harshsharma/.gradle/caches/transforms-3/ee9d478aadcd1478ad4ff68660c29edb/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:37:13-39:40
+318                android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED"
+318-->[com.google.firebase:firebase-messaging:23.3.1] /Users/harshsharma/.gradle/caches/transforms-3/ee9d478aadcd1478ad4ff68660c29edb/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:38:17-92
+319                android:value="true" />
+319-->[com.google.firebase:firebase-messaging:23.3.1] /Users/harshsharma/.gradle/caches/transforms-3/ee9d478aadcd1478ad4ff68660c29edb/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:39:17-37
+320        </receiver>
+321        <!--
+322             FirebaseMessagingService performs security checks at runtime,
+323             but set to not exported to explicitly avoid allowing another app to call it.
+324        -->
+325        <service
+325-->[com.google.firebase:firebase-messaging:23.3.1] /Users/harshsharma/.gradle/caches/transforms-3/ee9d478aadcd1478ad4ff68660c29edb/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:46:9-53:19
+326            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+326-->[com.google.firebase:firebase-messaging:23.3.1] /Users/harshsharma/.gradle/caches/transforms-3/ee9d478aadcd1478ad4ff68660c29edb/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:47:13-82
+327            android:directBootAware="true"
+327-->[com.google.firebase:firebase-messaging:23.3.1] /Users/harshsharma/.gradle/caches/transforms-3/ee9d478aadcd1478ad4ff68660c29edb/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:48:13-43
+328            android:exported="false" >
+328-->[com.google.firebase:firebase-messaging:23.3.1] /Users/harshsharma/.gradle/caches/transforms-3/ee9d478aadcd1478ad4ff68660c29edb/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:49:13-37
+329            <intent-filter android:priority="-500" >
+329-->[:firebase_messaging] /Users/harshsharma/Downloads/PMCK-main/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-23:29
+330                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+330-->[:firebase_messaging] /Users/harshsharma/Downloads/PMCK-main/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:22:17-78
+330-->[:firebase_messaging] /Users/harshsharma/Downloads/PMCK-main/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:22:25-75
+331            </intent-filter>
+332        </service>
+333
+334        <property
+334-->[com.google.android.gms:play-services-measurement-api:21.5.0] /Users/harshsharma/.gradle/caches/transforms-3/6f7c658cf801033b2ce1343beb235424/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:30:9-32:61
+335            android:name="android.adservices.AD_SERVICES_CONFIG"
+335-->[com.google.android.gms:play-services-measurement-api:21.5.0] /Users/harshsharma/.gradle/caches/transforms-3/6f7c658cf801033b2ce1343beb235424/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:31:13-65
+336            android:resource="@xml/ga_ad_services_config" />
+336-->[com.google.android.gms:play-services-measurement-api:21.5.0] /Users/harshsharma/.gradle/caches/transforms-3/6f7c658cf801033b2ce1343beb235424/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:32:13-58
+337
+338        <provider
+338-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:29:9-37:20
+339            android:name="androidx.startup.InitializationProvider"
+339-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:30:13-67
+340            android:authorities="com.myapp.pmck.androidx-startup"
+340-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:31:13-68
+341            android:exported="false" >
+341-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:32:13-37
+342            <meta-data
+342-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:34:13-36:52
+343                android:name="androidx.work.WorkManagerInitializer"
+343-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:35:17-68
+344                android:value="androidx.startup" />
+344-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:36:17-49
+345            <meta-data
+345-->[androidx.emoji2:emoji2:1.0.0] /Users/harshsharma/.gradle/caches/transforms-3/05a2f90c70733c6f7ff51b7cb104c47b/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+346                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+346-->[androidx.emoji2:emoji2:1.0.0] /Users/harshsharma/.gradle/caches/transforms-3/05a2f90c70733c6f7ff51b7cb104c47b/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+347                android:value="androidx.startup" />
+347-->[androidx.emoji2:emoji2:1.0.0] /Users/harshsharma/.gradle/caches/transforms-3/05a2f90c70733c6f7ff51b7cb104c47b/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+348            <meta-data
+348-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/harshsharma/.gradle/caches/transforms-3/fcefa330401f5d0e37d98e76a2958528/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+349                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+349-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/harshsharma/.gradle/caches/transforms-3/fcefa330401f5d0e37d98e76a2958528/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+350                android:value="androidx.startup" />
+350-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/harshsharma/.gradle/caches/transforms-3/fcefa330401f5d0e37d98e76a2958528/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+351        </provider>
+352
+353        <service
+353-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:39:9-45:35
+354            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+354-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:40:13-88
+355            android:directBootAware="false"
+355-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:41:13-44
+356            android:enabled="@bool/enable_system_alarm_service_default"
+356-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:42:13-72
+357            android:exported="false" />
+357-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:43:13-37
+358        <service
+358-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:46:9-52:35
+359            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+359-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:47:13-84
+360            android:directBootAware="false"
+360-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:48:13-44
+361            android:enabled="@bool/enable_system_job_service_default"
+361-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:49:13-70
+362            android:exported="true"
+362-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:50:13-36
+363            android:permission="android.permission.BIND_JOB_SERVICE" />
+363-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:51:13-69
+364        <service
+364-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:53:9-59:35
+365            android:name="androidx.work.impl.foreground.SystemForegroundService"
+365-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:54:13-81
+366            android:directBootAware="false"
+366-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:55:13-44
+367            android:enabled="@bool/enable_system_foreground_service_default"
+367-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:56:13-77
+368            android:exported="false" />
+368-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:57:13-37
+369
+370        <receiver
+370-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:61:9-66:35
+371            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+371-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:62:13-88
+372            android:directBootAware="false"
+372-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:63:13-44
+373            android:enabled="true"
+373-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:64:13-35
+374            android:exported="false" />
+374-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:65:13-37
+375        <receiver
+375-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:67:9-77:20
+376            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+376-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:68:13-106
+377            android:directBootAware="false"
+377-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:69:13-44
+378            android:enabled="false"
+378-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:70:13-36
+379            android:exported="false" >
+379-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:71:13-37
+380            <intent-filter>
+380-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:73:13-76:29
+381                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+381-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:74:17-87
+381-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:74:25-84
+382                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+382-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:75:17-90
+382-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:75:25-87
+383            </intent-filter>
+384        </receiver>
+385        <receiver
+385-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:78:9-88:20
+386            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+386-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:79:13-104
+387            android:directBootAware="false"
+387-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:80:13-44
+388            android:enabled="false"
+388-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:81:13-36
+389            android:exported="false" >
+389-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:82:13-37
+390            <intent-filter>
+390-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:84:13-87:29
+391                <action android:name="android.intent.action.BATTERY_OKAY" />
+391-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:85:17-77
+391-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:85:25-74
+392                <action android:name="android.intent.action.BATTERY_LOW" />
+392-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:86:17-76
+392-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:86:25-73
+393            </intent-filter>
+394        </receiver>
+395        <receiver
+395-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:89:9-99:20
+396            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+396-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:90:13-104
+397            android:directBootAware="false"
+397-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:91:13-44
+398            android:enabled="false"
+398-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:92:13-36
+399            android:exported="false" >
+399-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:93:13-37
+400            <intent-filter>
+400-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:95:13-98:29
+401                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+401-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:96:17-83
+401-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:96:25-80
+402                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+402-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:97:17-82
+402-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:97:25-79
+403            </intent-filter>
+404        </receiver>
+405        <receiver
+405-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:100:9-109:20
+406            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+406-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:101:13-103
+407            android:directBootAware="false"
+407-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:102:13-44
+408            android:enabled="false"
+408-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:103:13-36
+409            android:exported="false" >
+409-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:104:13-37
+410            <intent-filter>
+410-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:106:13-108:29
+411                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+411-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:107:17-79
+411-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:107:25-76
+412            </intent-filter>
+413        </receiver>
+414        <receiver
+414-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:110:9-121:20
+415            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+415-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:111:13-88
+416            android:directBootAware="false"
+416-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:112:13-44
+417            android:enabled="false"
+417-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:113:13-36
+418            android:exported="false" >
+418-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:114:13-37
+419            <intent-filter>
+419-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:116:13-120:29
+420                <action android:name="android.intent.action.BOOT_COMPLETED" />
+420-->[:flutter_local_notifications] /Users/harshsharma/Downloads/PMCK-main/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:21:17-79
+420-->[:flutter_local_notifications] /Users/harshsharma/Downloads/PMCK-main/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:21:25-76
+421                <action android:name="android.intent.action.TIME_SET" />
+421-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:118:17-73
+421-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:118:25-70
+422                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+422-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:119:17-81
+422-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:119:25-78
+423            </intent-filter>
+424        </receiver>
+425        <receiver
+425-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:122:9-131:20
+426            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+426-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:123:13-99
+427            android:directBootAware="false"
+427-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:124:13-44
+428            android:enabled="@bool/enable_system_alarm_service_default"
+428-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:125:13-72
+429            android:exported="false" >
+429-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:126:13-37
+430            <intent-filter>
+430-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:128:13-130:29
+431                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+431-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:129:17-98
+431-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:129:25-95
+432            </intent-filter>
+433        </receiver>
+434        <receiver
+434-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:132:9-142:20
+435            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+435-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:133:13-78
+436            android:directBootAware="false"
+436-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:134:13-44
+437            android:enabled="true"
+437-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:135:13-35
+438            android:exported="true"
+438-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:136:13-36
+439            android:permission="android.permission.DUMP" >
+439-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:137:13-57
+440            <intent-filter>
+440-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:139:13-141:29
+441                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+441-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:140:17-88
+441-->[androidx.work:work-runtime:2.8.1] /Users/harshsharma/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:140:25-85
+442            </intent-filter>
+443        </receiver>
+444
+445        <service
+445-->[androidx.room:room-runtime:2.5.0] /Users/harshsharma/.gradle/caches/transforms-3/7b2f8b5461a784831bc6859d7460214d/transformed/room-runtime-2.5.0/AndroidManifest.xml:24:9-28:63
+446            android:name="androidx.room.MultiInstanceInvalidationService"
+446-->[androidx.room:room-runtime:2.5.0] /Users/harshsharma/.gradle/caches/transforms-3/7b2f8b5461a784831bc6859d7460214d/transformed/room-runtime-2.5.0/AndroidManifest.xml:25:13-74
+447            android:directBootAware="true"
+447-->[androidx.room:room-runtime:2.5.0] /Users/harshsharma/.gradle/caches/transforms-3/7b2f8b5461a784831bc6859d7460214d/transformed/room-runtime-2.5.0/AndroidManifest.xml:26:13-43
+448            android:exported="false" />
+448-->[androidx.room:room-runtime:2.5.0] /Users/harshsharma/.gradle/caches/transforms-3/7b2f8b5461a784831bc6859d7460214d/transformed/room-runtime-2.5.0/AndroidManifest.xml:27:13-37
+449
+450        <receiver
+450-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/harshsharma/.gradle/caches/transforms-3/c4cd81dc278889810f68dc9ba4124a85/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:29:9-33:20
+451            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+451-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/harshsharma/.gradle/caches/transforms-3/c4cd81dc278889810f68dc9ba4124a85/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:30:13-85
+452            android:enabled="true"
+452-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/harshsharma/.gradle/caches/transforms-3/c4cd81dc278889810f68dc9ba4124a85/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:31:13-35
+453            android:exported="false" >
+453-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/harshsharma/.gradle/caches/transforms-3/c4cd81dc278889810f68dc9ba4124a85/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:32:13-37
+454        </receiver>
+455
+456        <service
+456-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/harshsharma/.gradle/caches/transforms-3/c4cd81dc278889810f68dc9ba4124a85/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:35:9-38:40
+457            android:name="com.google.android.gms.measurement.AppMeasurementService"
+457-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/harshsharma/.gradle/caches/transforms-3/c4cd81dc278889810f68dc9ba4124a85/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:36:13-84
+458            android:enabled="true"
+458-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/harshsharma/.gradle/caches/transforms-3/c4cd81dc278889810f68dc9ba4124a85/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:37:13-35
+459            android:exported="false" />
+459-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/harshsharma/.gradle/caches/transforms-3/c4cd81dc278889810f68dc9ba4124a85/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:38:13-37
+460        <service
+460-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/harshsharma/.gradle/caches/transforms-3/c4cd81dc278889810f68dc9ba4124a85/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:39:9-43:72
+461            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+461-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/harshsharma/.gradle/caches/transforms-3/c4cd81dc278889810f68dc9ba4124a85/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:40:13-87
+462            android:enabled="true"
+462-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/harshsharma/.gradle/caches/transforms-3/c4cd81dc278889810f68dc9ba4124a85/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:41:13-35
+463            android:exported="false"
+463-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/harshsharma/.gradle/caches/transforms-3/c4cd81dc278889810f68dc9ba4124a85/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:42:13-37
+464            android:permission="android.permission.BIND_JOB_SERVICE" />
+464-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/harshsharma/.gradle/caches/transforms-3/c4cd81dc278889810f68dc9ba4124a85/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:43:13-69
+465
+466        <uses-library
+466-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/harshsharma/.gradle/caches/transforms-3/a05685addf99e8d950b95e0de30935b0/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:23:9-25:40
+467            android:name="android.ext.adservices"
+467-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/harshsharma/.gradle/caches/transforms-3/a05685addf99e8d950b95e0de30935b0/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:24:13-50
+468            android:required="false" />
+468-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/harshsharma/.gradle/caches/transforms-3/a05685addf99e8d950b95e0de30935b0/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:25:13-37
+469        <uses-library
+469-->[androidx.window:window:1.0.0-beta04] /Users/harshsharma/.gradle/caches/transforms-3/87a71627d950e7c6eaab51f30285b636/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+470            android:name="androidx.window.extensions"
+470-->[androidx.window:window:1.0.0-beta04] /Users/harshsharma/.gradle/caches/transforms-3/87a71627d950e7c6eaab51f30285b636/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+471            android:required="false" />
+471-->[androidx.window:window:1.0.0-beta04] /Users/harshsharma/.gradle/caches/transforms-3/87a71627d950e7c6eaab51f30285b636/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+472        <uses-library
+472-->[androidx.window:window:1.0.0-beta04] /Users/harshsharma/.gradle/caches/transforms-3/87a71627d950e7c6eaab51f30285b636/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+473            android:name="androidx.window.sidecar"
+473-->[androidx.window:window:1.0.0-beta04] /Users/harshsharma/.gradle/caches/transforms-3/87a71627d950e7c6eaab51f30285b636/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+474            android:required="false" />
+474-->[androidx.window:window:1.0.0-beta04] /Users/harshsharma/.gradle/caches/transforms-3/87a71627d950e7c6eaab51f30285b636/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+475
+476        <provider
+476-->[com.google.firebase:firebase-common:20.4.2] /Users/harshsharma/.gradle/caches/transforms-3/cb6688f15ebbc0d4b6f3f18838dc1a28/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:23:9-28:39
+477            android:name="com.google.firebase.provider.FirebaseInitProvider"
+477-->[com.google.firebase:firebase-common:20.4.2] /Users/harshsharma/.gradle/caches/transforms-3/cb6688f15ebbc0d4b6f3f18838dc1a28/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:24:13-77
+478            android:authorities="com.myapp.pmck.firebaseinitprovider"
+478-->[com.google.firebase:firebase-common:20.4.2] /Users/harshsharma/.gradle/caches/transforms-3/cb6688f15ebbc0d4b6f3f18838dc1a28/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:25:13-72
+479            android:directBootAware="true"
+479-->[com.google.firebase:firebase-common:20.4.2] /Users/harshsharma/.gradle/caches/transforms-3/cb6688f15ebbc0d4b6f3f18838dc1a28/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:26:13-43
+480            android:exported="false"
+480-->[com.google.firebase:firebase-common:20.4.2] /Users/harshsharma/.gradle/caches/transforms-3/cb6688f15ebbc0d4b6f3f18838dc1a28/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:27:13-37
+481            android:initOrder="100" />
+481-->[com.google.firebase:firebase-common:20.4.2] /Users/harshsharma/.gradle/caches/transforms-3/cb6688f15ebbc0d4b6f3f18838dc1a28/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:28:13-36
+482
+483        <activity
+483-->[com.google.android.gms:play-services-base:18.1.0] /Users/harshsharma/.gradle/caches/transforms-3/56741c29764f251811e87aa14a9b592d/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+484            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+484-->[com.google.android.gms:play-services-base:18.1.0] /Users/harshsharma/.gradle/caches/transforms-3/56741c29764f251811e87aa14a9b592d/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+485            android:exported="false"
+485-->[com.google.android.gms:play-services-base:18.1.0] /Users/harshsharma/.gradle/caches/transforms-3/56741c29764f251811e87aa14a9b592d/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+486            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+486-->[com.google.android.gms:play-services-base:18.1.0] /Users/harshsharma/.gradle/caches/transforms-3/56741c29764f251811e87aa14a9b592d/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+487
+488        <meta-data
+488-->[com.google.android.gms:play-services-basement:18.1.0] /Users/harshsharma/.gradle/caches/transforms-3/b8b7ba7f89a2de63ea7a563f8ed8b1ad/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+489            android:name="com.google.android.gms.version"
+489-->[com.google.android.gms:play-services-basement:18.1.0] /Users/harshsharma/.gradle/caches/transforms-3/b8b7ba7f89a2de63ea7a563f8ed8b1ad/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+490            android:value="@integer/google_play_services_version" />
+490-->[com.google.android.gms:play-services-basement:18.1.0] /Users/harshsharma/.gradle/caches/transforms-3/b8b7ba7f89a2de63ea7a563f8ed8b1ad/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+491
+492        <activity
+492-->[io.github.nishkarsh:android-permissions:2.1.6] /Users/harshsharma/.gradle/caches/transforms-3/0c7ead5f361951345a2d7303d0d75571/transformed/jetified-android-permissions-2.1.6/AndroidManifest.xml:12:9-16:59
+493            android:name="com.intentfilter.androidpermissions.PermissionsActivity"
+493-->[io.github.nishkarsh:android-permissions:2.1.6] /Users/harshsharma/.gradle/caches/transforms-3/0c7ead5f361951345a2d7303d0d75571/transformed/jetified-android-permissions-2.1.6/AndroidManifest.xml:13:13-83
+494            android:excludeFromRecents="true"
+494-->[io.github.nishkarsh:android-permissions:2.1.6] /Users/harshsharma/.gradle/caches/transforms-3/0c7ead5f361951345a2d7303d0d75571/transformed/jetified-android-permissions-2.1.6/AndroidManifest.xml:14:13-46
+495            android:exported="false"
+495-->[io.github.nishkarsh:android-permissions:2.1.6] /Users/harshsharma/.gradle/caches/transforms-3/0c7ead5f361951345a2d7303d0d75571/transformed/jetified-android-permissions-2.1.6/AndroidManifest.xml:15:13-37
+496            android:theme="@style/AppTheme.Transparent" /> <!-- 声明Kit SDK的名称和版本号 -->
+496-->[io.github.nishkarsh:android-permissions:2.1.6] /Users/harshsharma/.gradle/caches/transforms-3/0c7ead5f361951345a2d7303d0d75571/transformed/jetified-android-permissions-2.1.6/AndroidManifest.xml:16:13-56
+497        <!-- Declare the SDK name and version -->
+498        <meta-data
+498-->[com.huawei.hms:location:6.9.0.300] /Users/harshsharma/.gradle/caches/transforms-3/78ba40cb6c716f3735f074ca04a054de/transformed/jetified-location-6.9.0.300/AndroidManifest.xml:15:9-17:50
+499            android:name="com.huawei.hms.client.service.name:location"
+499-->[com.huawei.hms:location:6.9.0.300] /Users/harshsharma/.gradle/caches/transforms-3/78ba40cb6c716f3735f074ca04a054de/transformed/jetified-location-6.9.0.300/AndroidManifest.xml:16:13-71
+500            android:value="location:6.9.0.300" /> <!-- 声明对Kit服务依赖的最低API Level -->
+500-->[com.huawei.hms:location:6.9.0.300] /Users/harshsharma/.gradle/caches/transforms-3/78ba40cb6c716f3735f074ca04a054de/transformed/jetified-location-6.9.0.300/AndroidManifest.xml:17:13-47
+501        <!-- Declare minSdkVersion required for using the kit -->
+502        <meta-data
+502-->[com.huawei.hms:location:6.9.0.300] /Users/harshsharma/.gradle/caches/transforms-3/78ba40cb6c716f3735f074ca04a054de/transformed/jetified-location-6.9.0.300/AndroidManifest.xml:20:9-22:33
+503            android:name="com.huawei.hms.min_api_level:location:location"
+503-->[com.huawei.hms:location:6.9.0.300] /Users/harshsharma/.gradle/caches/transforms-3/78ba40cb6c716f3735f074ca04a054de/transformed/jetified-location-6.9.0.300/AndroidManifest.xml:21:13-74
+504            android:value="1" /> <!-- 关掉打点上报初始化 -->
+504-->[com.huawei.hms:location:6.9.0.300] /Users/harshsharma/.gradle/caches/transforms-3/78ba40cb6c716f3735f074ca04a054de/transformed/jetified-location-6.9.0.300/AndroidManifest.xml:22:13-30
+505        <!-- Disable reporting of O&M logs -->
+506        <meta-data
+506-->[com.huawei.hms:location:6.9.0.300] /Users/harshsharma/.gradle/caches/transforms-3/78ba40cb6c716f3735f074ca04a054de/transformed/jetified-location-6.9.0.300/AndroidManifest.xml:25:9-27:36
+507            android:name="com.huawei.hms.client.bi.setting"
+507-->[com.huawei.hms:location:6.9.0.300] /Users/harshsharma/.gradle/caches/transforms-3/78ba40cb6c716f3735f074ca04a054de/transformed/jetified-location-6.9.0.300/AndroidManifest.xml:26:13-60
+508            android:value="true" />
+508-->[com.huawei.hms:location:6.9.0.300] /Users/harshsharma/.gradle/caches/transforms-3/78ba40cb6c716f3735f074ca04a054de/transformed/jetified-location-6.9.0.300/AndroidManifest.xml:27:13-33
+509        <meta-data
+509-->[com.huawei.hms.LocationLiteSdk:core:2.9.0.300] /Users/harshsharma/.gradle/caches/transforms-3/73c2f19dbf02e9561d7d56a8296eee2b/transformed/jetified-core-2.9.0.300/AndroidManifest.xml:20:9-22:33
+510            android:name="com.huawei.hms.min_api_level:com.huawei.hms:location:location"
+510-->[com.huawei.hms.LocationLiteSdk:core:2.9.0.300] /Users/harshsharma/.gradle/caches/transforms-3/73c2f19dbf02e9561d7d56a8296eee2b/transformed/jetified-core-2.9.0.300/AndroidManifest.xml:21:13-89
+511            android:value="1" />
+511-->[com.huawei.hms.LocationLiteSdk:core:2.9.0.300] /Users/harshsharma/.gradle/caches/transforms-3/73c2f19dbf02e9561d7d56a8296eee2b/transformed/jetified-core-2.9.0.300/AndroidManifest.xml:22:13-30
+512
+513        <service
+513-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/harshsharma/.gradle/caches/transforms-3/4c9e86616c68e04e3506729e91b6ccf6/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+514            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+514-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/harshsharma/.gradle/caches/transforms-3/4c9e86616c68e04e3506729e91b6ccf6/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+515            android:exported="false" >
+515-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/harshsharma/.gradle/caches/transforms-3/4c9e86616c68e04e3506729e91b6ccf6/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+516            <meta-data
+516-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/harshsharma/.gradle/caches/transforms-3/4c9e86616c68e04e3506729e91b6ccf6/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+517                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+517-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/harshsharma/.gradle/caches/transforms-3/4c9e86616c68e04e3506729e91b6ccf6/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+518                android:value="cct" />
+518-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/harshsharma/.gradle/caches/transforms-3/4c9e86616c68e04e3506729e91b6ccf6/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+519        </service>
+520        <service
+520-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/harshsharma/.gradle/caches/transforms-3/1a9a3a322f26ffdede6ba9f8f688f1fd/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+521            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+521-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/harshsharma/.gradle/caches/transforms-3/1a9a3a322f26ffdede6ba9f8f688f1fd/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+522            android:exported="false"
+522-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/harshsharma/.gradle/caches/transforms-3/1a9a3a322f26ffdede6ba9f8f688f1fd/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+523            android:permission="android.permission.BIND_JOB_SERVICE" >
+523-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/harshsharma/.gradle/caches/transforms-3/1a9a3a322f26ffdede6ba9f8f688f1fd/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+524        </service>
+525
+526        <receiver
+526-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/harshsharma/.gradle/caches/transforms-3/1a9a3a322f26ffdede6ba9f8f688f1fd/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+527            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+527-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/harshsharma/.gradle/caches/transforms-3/1a9a3a322f26ffdede6ba9f8f688f1fd/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+528            android:exported="false" />
+528-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/harshsharma/.gradle/caches/transforms-3/1a9a3a322f26ffdede6ba9f8f688f1fd/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+529        <receiver
+529-->[com.transistorsoft:tsbackgroundfetch:1.0.2] /Users/harshsharma/.gradle/caches/transforms-3/b2b759b5acfaa81b619da146a66447c7/transformed/jetified-tsbackgroundfetch-1.0.2/AndroidManifest.xml:14:9-16:40
+530            android:name="com.transistorsoft.tsbackgroundfetch.FetchAlarmReceiver"
+530-->[com.transistorsoft:tsbackgroundfetch:1.0.2] /Users/harshsharma/.gradle/caches/transforms-3/b2b759b5acfaa81b619da146a66447c7/transformed/jetified-tsbackgroundfetch-1.0.2/AndroidManifest.xml:15:13-83
+531            android:exported="false" />
+531-->[com.transistorsoft:tsbackgroundfetch:1.0.2] /Users/harshsharma/.gradle/caches/transforms-3/b2b759b5acfaa81b619da146a66447c7/transformed/jetified-tsbackgroundfetch-1.0.2/AndroidManifest.xml:16:13-37
+532
+533        <service
+533-->[com.transistorsoft:tsbackgroundfetch:1.0.2] /Users/harshsharma/.gradle/caches/transforms-3/b2b759b5acfaa81b619da146a66447c7/transformed/jetified-tsbackgroundfetch-1.0.2/AndroidManifest.xml:18:9-21:72
+534            android:name="com.transistorsoft.tsbackgroundfetch.FetchJobService"
+534-->[com.transistorsoft:tsbackgroundfetch:1.0.2] /Users/harshsharma/.gradle/caches/transforms-3/b2b759b5acfaa81b619da146a66447c7/transformed/jetified-tsbackgroundfetch-1.0.2/AndroidManifest.xml:19:13-80
+535            android:exported="true"
+535-->[com.transistorsoft:tsbackgroundfetch:1.0.2] /Users/harshsharma/.gradle/caches/transforms-3/b2b759b5acfaa81b619da146a66447c7/transformed/jetified-tsbackgroundfetch-1.0.2/AndroidManifest.xml:20:13-36
+536            android:permission="android.permission.BIND_JOB_SERVICE" />
+536-->[com.transistorsoft:tsbackgroundfetch:1.0.2] /Users/harshsharma/.gradle/caches/transforms-3/b2b759b5acfaa81b619da146a66447c7/transformed/jetified-tsbackgroundfetch-1.0.2/AndroidManifest.xml:21:13-69
+537
+538        <receiver
+538-->[com.transistorsoft:tsbackgroundfetch:1.0.2] /Users/harshsharma/.gradle/caches/transforms-3/b2b759b5acfaa81b619da146a66447c7/transformed/jetified-tsbackgroundfetch-1.0.2/AndroidManifest.xml:23:9-30:20
+539            android:name="com.transistorsoft.tsbackgroundfetch.BootReceiver"
+539-->[com.transistorsoft:tsbackgroundfetch:1.0.2] /Users/harshsharma/.gradle/caches/transforms-3/b2b759b5acfaa81b619da146a66447c7/transformed/jetified-tsbackgroundfetch-1.0.2/AndroidManifest.xml:24:13-77
+540            android:exported="false" >
+540-->[com.transistorsoft:tsbackgroundfetch:1.0.2] /Users/harshsharma/.gradle/caches/transforms-3/b2b759b5acfaa81b619da146a66447c7/transformed/jetified-tsbackgroundfetch-1.0.2/AndroidManifest.xml:25:13-37
+541            <intent-filter>
+541-->[com.transistorsoft:tsbackgroundfetch:1.0.2] /Users/harshsharma/.gradle/caches/transforms-3/b2b759b5acfaa81b619da146a66447c7/transformed/jetified-tsbackgroundfetch-1.0.2/AndroidManifest.xml:26:13-29:29
+542                <action android:name="android.intent.action.BOOT_COMPLETED" />
+542-->[:flutter_local_notifications] /Users/harshsharma/Downloads/PMCK-main/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:21:17-79
+542-->[:flutter_local_notifications] /Users/harshsharma/Downloads/PMCK-main/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:21:25-76
+543                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+543-->[:flutter_local_notifications] /Users/harshsharma/Downloads/PMCK-main/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:22:17-84
+543-->[:flutter_local_notifications] /Users/harshsharma/Downloads/PMCK-main/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:22:25-81
+544            </intent-filter>
+545        </receiver> <!-- TODO For disabling SharedPreferences backup on Android 12+ android:dataExtractionRules="@xml/backup_rules" -->
+546        <activity
+546-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/harshsharma/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:44:9-49:64
+547            android:name="com.transistorsoft.locationmanager.activity.TSLocationManagerActivity"
+547-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/harshsharma/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:45:13-97
+548            android:excludeFromRecents="true"
+548-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/harshsharma/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:46:13-46
+549            android:exported="true"
+549-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/harshsharma/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:47:13-36
+550            android:launchMode="singleInstance"
+550-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/harshsharma/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:48:13-48
+551            android:theme="@style/TSLocationManagerActivity" />
+551-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/harshsharma/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:49:13-61
+552
+553        <service
+553-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/harshsharma/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:57:9-59:84
+554            android:name="com.transistorsoft.locationmanager.service.ActivityRecognitionService"
+554-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/harshsharma/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:58:13-97
+555            android:foregroundServiceType="@integer/foregroundServiceTypeHealth" />
+555-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/harshsharma/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:59:13-81
+556        <service
+556-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/harshsharma/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:60:9-62:90
+557            android:name="com.transistorsoft.locationmanager.service.GeofencingService"
+557-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/harshsharma/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:61:13-88
+558            android:foregroundServiceType="@integer/foregroundServiceTypeShortService" />
+558-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/harshsharma/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:62:13-87
+559        <service
+559-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/harshsharma/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:63:9-65:56
+560            android:name="com.transistorsoft.locationmanager.service.PolygonGeofencingService"
+560-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/harshsharma/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:64:13-95
+561            android:foregroundServiceType="location" />
+561-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/harshsharma/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:65:13-53
+562        <service
+562-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/harshsharma/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:66:9-68:90
+563            android:name="com.transistorsoft.locationmanager.scheduler.ScheduleService"
+563-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/harshsharma/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:67:13-88
+564            android:foregroundServiceType="@integer/foregroundServiceTypeShortService" />
+564-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/harshsharma/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:68:13-87
+565
+566        <receiver
+566-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/harshsharma/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:70:9-72:40
+567            android:name="com.transistorsoft.locationmanager.scheduler.ScheduleAlarmReceiver"
+567-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/harshsharma/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:71:13-94
+568            android:exported="false" />
+568-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/harshsharma/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:72:13-37
+569
+570        <service
+570-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/harshsharma/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:74:9-76:72
+571            android:name="com.transistorsoft.locationmanager.scheduler.ScheduleJobService"
+571-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/harshsharma/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:75:13-91
+572            android:permission="android.permission.BIND_JOB_SERVICE" />
+572-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/harshsharma/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:76:13-69
+573
+574        <receiver
+574-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/harshsharma/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:78:9-87:20
+575            android:name="com.transistorsoft.locationmanager.BootReceiver"
+575-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/harshsharma/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:79:13-75
+576            android:enabled="true"
+576-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/harshsharma/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:80:13-35
+577            android:exported="false"
+577-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/harshsharma/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:81:13-37
+578            android:permission="android.permission.RECEIVE_BOOT_COMPLETED" >
+578-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/harshsharma/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:82:13-75
+579            <intent-filter>
+579-->[com.transistorsoft:tsbackgroundfetch:1.0.2] /Users/harshsharma/.gradle/caches/transforms-3/b2b759b5acfaa81b619da146a66447c7/transformed/jetified-tsbackgroundfetch-1.0.2/AndroidManifest.xml:26:13-29:29
+580                <action android:name="android.intent.action.BOOT_COMPLETED" />
+580-->[:flutter_local_notifications] /Users/harshsharma/Downloads/PMCK-main/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:21:17-79
+580-->[:flutter_local_notifications] /Users/harshsharma/Downloads/PMCK-main/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:21:25-76
+581                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+581-->[:flutter_local_notifications] /Users/harshsharma/Downloads/PMCK-main/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:22:17-84
+581-->[:flutter_local_notifications] /Users/harshsharma/Downloads/PMCK-main/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:22:25-81
+582            </intent-filter>
+583        </receiver>
+584
+585        <provider
+585-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/harshsharma/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:89:9-97:20
+586            android:name="com.transistorsoft.locationmanager.util.LogFileProvider"
+586-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/harshsharma/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:90:13-83
+587            android:authorities="com.myapp.pmck.tslocationmanager.fileprovider"
+587-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/harshsharma/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:91:13-82
+588            android:exported="false"
+588-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/harshsharma/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:92:13-37
+589            android:grantUriPermissions="true" >
+589-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/harshsharma/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:93:13-47
+590            <meta-data
+590-->[:share_plus] /Users/harshsharma/Downloads/PMCK-main/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-20:68
+591                android:name="android.support.FILE_PROVIDER_PATHS"
+591-->[:share_plus] /Users/harshsharma/Downloads/PMCK-main/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:19:17-67
+592                android:resource="@xml/tslocationmanager_file_provider_path" />
+592-->[:share_plus] /Users/harshsharma/Downloads/PMCK-main/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:20:17-65
+593        </provider>
+594
+595        <receiver
+595-->[com.huawei.hms:push:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:25:9-37:20
+596            android:name="com.huawei.hms.support.api.push.PushMsgReceiver"
+596-->[com.huawei.hms:push:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:26:13-75
+597            android:directBootAware="true"
+597-->[com.huawei.hms:push:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:27:13-43
+598            android:exported="true"
+598-->[com.huawei.hms:push:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:28:13-36
+599            android:permission="com.myapp.pmck.permission.PROCESS_PUSH_MSG" >
+599-->[com.huawei.hms:push:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:29:13-78
+600            <intent-filter>
+600-->[com.huawei.hms:push:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:30:13-36:29
+601
+602                <!-- Mandatory, be used to receive notification bar message click event. -->
+603                <action android:name="com.huawei.intent.action.PUSH_DELAY_NOTIFY" />
+603-->[com.huawei.hms:push:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:33:17-85
+603-->[com.huawei.hms:push:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:33:25-82
+604                <!-- Optional, compatible with old huawei phones. -->
+605                <action android:name="com.huawei.intent.action.PUSH" />
+605-->[com.huawei.hms:push:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:35:17-72
+605-->[com.huawei.hms:push:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:35:25-69
+606            </intent-filter>
+607        </receiver>
+608        <receiver
+608-->[com.huawei.hms:push:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:38:9-50:20
+609            android:name="com.huawei.hms.support.api.push.PushReceiver"
+609-->[com.huawei.hms:push:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:39:13-72
+610            android:directBootAware="true"
+610-->[com.huawei.hms:push:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:40:13-43
+611            android:exported="true"
+611-->[com.huawei.hms:push:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:41:13-36
+612            android:permission="com.myapp.pmck.permission.PROCESS_PUSH_MSG" >
+612-->[com.huawei.hms:push:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:42:13-78
+613            <intent-filter>
+613-->[com.huawei.hms:push:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:43:13-49:29
+614
+615                <!-- Mandatory, be used to receive tokens. -->
+616                <action android:name="com.huawei.android.push.intent.REGISTRATION" />
+616-->[com.huawei.hms:push:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:46:17-86
+616-->[com.huawei.hms:push:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:46:25-83
+617                <!-- Mandatory, be used to receive messages. -->
+618                <action android:name="com.huawei.android.push.intent.RECEIVE" />
+618-->[com.huawei.hms:push:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:48:17-81
+618-->[com.huawei.hms:push:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:48:25-78
+619            </intent-filter>
+620        </receiver> <!-- Definition of receiving service for notification bar and pass-through message of non-huawei mobile phone. -->
+621        <service
+621-->[com.huawei.hms:push:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:53:9-63:19
+622            android:name="com.huawei.hms.support.api.push.service.HmsMsgService"
+622-->[com.huawei.hms:push:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:54:13-81
+623            android:directBootAware="true"
+623-->[com.huawei.hms:push:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:55:13-43
+624            android:enabled="true"
+624-->[com.huawei.hms:push:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:56:13-35
+625            android:exported="true"
+625-->[com.huawei.hms:push:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:57:13-36
+626            android:process=":pushservice" >
+626-->[com.huawei.hms:push:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:58:13-43
+627            <intent-filter>
+627-->[com.huawei.hms:push:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:59:13-62:29
+628                <action android:name="com.huawei.push.msg.NOTIFY_MSG" />
+628-->[com.huawei.hms:push:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:60:17-73
+628-->[com.huawei.hms:push:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:60:25-70
+629                <action android:name="com.huawei.push.msg.PASSBY_MSG" />
+629-->[com.huawei.hms:push:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:61:17-73
+629-->[com.huawei.hms:push:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:61:25-70
+630            </intent-filter>
+631        </service>
+632
+633        <provider
+633-->[com.huawei.hms:push:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:65:9-70:89
+634            android:name="com.huawei.hms.support.api.push.PushProvider"
+634-->[com.huawei.hms:push:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:66:13-72
+635            android:authorities="com.myapp.pmck.huawei.push.provider"
+635-->[com.huawei.hms:push:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:67:13-72
+636            android:exported="true"
+636-->[com.huawei.hms:push:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:68:13-36
+637            android:readPermission="com.myapp.pmck.permission.PUSH_PROVIDER"
+637-->[com.huawei.hms:push:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:69:13-79
+638            android:writePermission="com.myapp.pmck.permission.PUSH_WRITE_PROVIDER" />
+638-->[com.huawei.hms:push:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:70:13-86
+639
+640        <meta-data
+640-->[com.huawei.hms:push:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:72:9-74:47
+641            android:name="com.huawei.hms.client.service.name:push"
+641-->[com.huawei.hms:push:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:73:13-67
+642            android:value="push:6.11.0.300" />
+642-->[com.huawei.hms:push:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:74:13-44
+643        <meta-data
+643-->[com.huawei.hms:push:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:75:9-77:33
+644            android:name="com.huawei.hms.min_api_level:push:push"
+644-->[com.huawei.hms:push:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:76:13-66
+645            android:value="1" />
+645-->[com.huawei.hms:push:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:77:13-30
+646
+647        <activity
+647-->[com.huawei.hms:push:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:79:9-81:40
+648            android:name="com.huawei.hms.support.api.push.TransActivity"
+648-->[com.huawei.hms:push:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:80:13-73
+649            android:exported="false" />
+649-->[com.huawei.hms:push:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:81:13-37
+650
+651        <provider
+651-->[com.huawei.hms:opendevice:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/bce049eeb844a9823737c5d524dc1435/transformed/jetified-opendevice-6.11.0.300/AndroidManifest.xml:10:9-14:39
+652            android:name="com.huawei.hms.aaid.InitProvider"
+652-->[com.huawei.hms:opendevice:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/bce049eeb844a9823737c5d524dc1435/transformed/jetified-opendevice-6.11.0.300/AndroidManifest.xml:11:13-60
+653            android:authorities="com.myapp.pmck.aaidinitprovider"
+653-->[com.huawei.hms:opendevice:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/bce049eeb844a9823737c5d524dc1435/transformed/jetified-opendevice-6.11.0.300/AndroidManifest.xml:12:13-68
+654            android:exported="false"
+654-->[com.huawei.hms:opendevice:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/bce049eeb844a9823737c5d524dc1435/transformed/jetified-opendevice-6.11.0.300/AndroidManifest.xml:13:13-37
+655            android:initOrder="500" />
+655-->[com.huawei.hms:opendevice:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/bce049eeb844a9823737c5d524dc1435/transformed/jetified-opendevice-6.11.0.300/AndroidManifest.xml:14:13-36
+656
+657        <meta-data
+657-->[com.huawei.hms:opendevice:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/bce049eeb844a9823737c5d524dc1435/transformed/jetified-opendevice-6.11.0.300/AndroidManifest.xml:16:9-18:53
+658            android:name="com.huawei.hms.client.service.name:opendevice"
+658-->[com.huawei.hms:opendevice:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/bce049eeb844a9823737c5d524dc1435/transformed/jetified-opendevice-6.11.0.300/AndroidManifest.xml:17:13-73
+659            android:value="opendevice:6.11.0.300" />
+659-->[com.huawei.hms:opendevice:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/bce049eeb844a9823737c5d524dc1435/transformed/jetified-opendevice-6.11.0.300/AndroidManifest.xml:18:13-50
+660        <meta-data
+660-->[com.huawei.hms:opendevice:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/bce049eeb844a9823737c5d524dc1435/transformed/jetified-opendevice-6.11.0.300/AndroidManifest.xml:19:9-21:33
+661            android:name="com.huawei.hms.min_api_level:opendevice:push"
+661-->[com.huawei.hms:opendevice:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/bce049eeb844a9823737c5d524dc1435/transformed/jetified-opendevice-6.11.0.300/AndroidManifest.xml:20:13-72
+662            android:value="1" /> <!-- 为后续统计第三方app集成了哪些Kit，因此需要Kit在自己的AndroidManifest.xml文件中定义业务标签元数据 -->
+662-->[com.huawei.hms:opendevice:6.11.0.300] /Users/harshsharma/.gradle/caches/transforms-3/bce049eeb844a9823737c5d524dc1435/transformed/jetified-opendevice-6.11.0.300/AndroidManifest.xml:21:13-30
+663        <meta-data
+663-->[com.huawei.hms:base:6.9.0.300] /Users/harshsharma/.gradle/caches/transforms-3/a30dbc4c169ed9d21b452c9b028241cd/transformed/jetified-base-6.9.0.300/AndroidManifest.xml:15:9-17:46
+664            android:name="com.huawei.hms.client.service.name:base"
+664-->[com.huawei.hms:base:6.9.0.300] /Users/harshsharma/.gradle/caches/transforms-3/a30dbc4c169ed9d21b452c9b028241cd/transformed/jetified-base-6.9.0.300/AndroidManifest.xml:16:13-67
+665            android:value="base:6.9.0.300" /> <!-- SDK依赖的HMSCore的最低api level元数据 -->
+665-->[com.huawei.hms:base:6.9.0.300] /Users/harshsharma/.gradle/caches/transforms-3/a30dbc4c169ed9d21b452c9b028241cd/transformed/jetified-base-6.9.0.300/AndroidManifest.xml:17:13-43
+666        <meta-data
+666-->[com.huawei.hms:base:6.9.0.300] /Users/harshsharma/.gradle/caches/transforms-3/a30dbc4c169ed9d21b452c9b028241cd/transformed/jetified-base-6.9.0.300/AndroidManifest.xml:20:9-22:33
+667            android:name="com.huawei.hms.min_api_level:base:hmscore"
+667-->[com.huawei.hms:base:6.9.0.300] /Users/harshsharma/.gradle/caches/transforms-3/a30dbc4c169ed9d21b452c9b028241cd/transformed/jetified-base-6.9.0.300/AndroidManifest.xml:21:13-69
+668            android:value="1" /> <!-- 用于判断是否集成了本lib -->
+668-->[com.huawei.hms:base:6.9.0.300] /Users/harshsharma/.gradle/caches/transforms-3/a30dbc4c169ed9d21b452c9b028241cd/transformed/jetified-base-6.9.0.300/AndroidManifest.xml:22:13-30
+669        <meta-data
+669-->[com.huawei.hms:availableupdate:6.9.0.300] /Users/harshsharma/.gradle/caches/transforms-3/71a607dc92a087e48914455f63c56497/transformed/jetified-availableupdate-6.9.0.300/AndroidManifest.xml:17:9-19:35
+670            android:name="availableLoaded"
+670-->[com.huawei.hms:availableupdate:6.9.0.300] /Users/harshsharma/.gradle/caches/transforms-3/71a607dc92a087e48914455f63c56497/transformed/jetified-availableupdate-6.9.0.300/AndroidManifest.xml:18:13-43
+671            android:value="yes" />
+671-->[com.huawei.hms:availableupdate:6.9.0.300] /Users/harshsharma/.gradle/caches/transforms-3/71a607dc92a087e48914455f63c56497/transformed/jetified-availableupdate-6.9.0.300/AndroidManifest.xml:19:13-32
+672
+673        <activity
+673-->[com.huawei.hms:ui:6.9.0.300] /Users/harshsharma/.gradle/caches/transforms-3/ba41e6ff47f1530f1fb79160541ce65d/transformed/jetified-ui-6.9.0.300/AndroidManifest.xml:10:9-21:20
+674            android:name="com.huawei.hms.activity.BridgeActivity"
+674-->[com.huawei.hms:ui:6.9.0.300] /Users/harshsharma/.gradle/caches/transforms-3/ba41e6ff47f1530f1fb79160541ce65d/transformed/jetified-ui-6.9.0.300/AndroidManifest.xml:11:13-66
+675            android:configChanges="orientation|locale|layoutDirection|fontScale|screenSize|smallestScreenSize|screenLayout|uiMode"
+675-->[com.huawei.hms:ui:6.9.0.300] /Users/harshsharma/.gradle/caches/transforms-3/ba41e6ff47f1530f1fb79160541ce65d/transformed/jetified-ui-6.9.0.300/AndroidManifest.xml:12:13-131
+676            android:excludeFromRecents="true"
+676-->[com.huawei.hms:ui:6.9.0.300] /Users/harshsharma/.gradle/caches/transforms-3/ba41e6ff47f1530f1fb79160541ce65d/transformed/jetified-ui-6.9.0.300/AndroidManifest.xml:13:13-46
+677            android:exported="false"
+677-->[com.huawei.hms:ui:6.9.0.300] /Users/harshsharma/.gradle/caches/transforms-3/ba41e6ff47f1530f1fb79160541ce65d/transformed/jetified-ui-6.9.0.300/AndroidManifest.xml:14:13-37
+678            android:hardwareAccelerated="true"
+678-->[com.huawei.hms:ui:6.9.0.300] /Users/harshsharma/.gradle/caches/transforms-3/ba41e6ff47f1530f1fb79160541ce65d/transformed/jetified-ui-6.9.0.300/AndroidManifest.xml:15:13-47
+679            android:screenOrientation="behind"
+679-->[com.huawei.hms:ui:6.9.0.300] /Users/harshsharma/.gradle/caches/transforms-3/ba41e6ff47f1530f1fb79160541ce65d/transformed/jetified-ui-6.9.0.300/AndroidManifest.xml:16:13-47
+680            android:theme="@style/Base_Translucent" >
+680-->[com.huawei.hms:ui:6.9.0.300] /Users/harshsharma/.gradle/caches/transforms-3/ba41e6ff47f1530f1fb79160541ce65d/transformed/jetified-ui-6.9.0.300/AndroidManifest.xml:17:13-52
+681            <meta-data
+681-->[com.huawei.hms:ui:6.9.0.300] /Users/harshsharma/.gradle/caches/transforms-3/ba41e6ff47f1530f1fb79160541ce65d/transformed/jetified-ui-6.9.0.300/AndroidManifest.xml:18:13-20:77
+682                android:name="hwc-theme"
+682-->[com.huawei.hms:ui:6.9.0.300] /Users/harshsharma/.gradle/caches/transforms-3/ba41e6ff47f1530f1fb79160541ce65d/transformed/jetified-ui-6.9.0.300/AndroidManifest.xml:19:17-41
+683                android:value="androidhwext:style/Theme.Emui.Translucent" />
+683-->[com.huawei.hms:ui:6.9.0.300] /Users/harshsharma/.gradle/caches/transforms-3/ba41e6ff47f1530f1fb79160541ce65d/transformed/jetified-ui-6.9.0.300/AndroidManifest.xml:20:17-74
+684        </activity>
+685        <activity
+685-->[com.huawei.hms:ui:6.9.0.300] /Users/harshsharma/.gradle/caches/transforms-3/ba41e6ff47f1530f1fb79160541ce65d/transformed/jetified-ui-6.9.0.300/AndroidManifest.xml:22:9-26:20
+686            android:name="com.huawei.hms.activity.EnableServiceActivity"
+686-->[com.huawei.hms:ui:6.9.0.300] /Users/harshsharma/.gradle/caches/transforms-3/ba41e6ff47f1530f1fb79160541ce65d/transformed/jetified-ui-6.9.0.300/AndroidManifest.xml:23:13-73
+687            android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize|screenLayout"
+687-->[com.huawei.hms:ui:6.9.0.300] /Users/harshsharma/.gradle/caches/transforms-3/ba41e6ff47f1530f1fb79160541ce65d/transformed/jetified-ui-6.9.0.300/AndroidManifest.xml:24:13-106
+688            android:exported="false" >
+688-->[com.huawei.hms:ui:6.9.0.300] /Users/harshsharma/.gradle/caches/transforms-3/ba41e6ff47f1530f1fb79160541ce65d/transformed/jetified-ui-6.9.0.300/AndroidManifest.xml:25:13-37
+689        </activity>
+690
+691        <provider
+691-->[com.huawei.agconnect:agconnect-core:1.7.3.302] /Users/harshsharma/.gradle/caches/transforms-3/c3c75128d094d296d42d9841521cddb5/transformed/jetified-agconnect-core-1.7.3.302/AndroidManifest.xml:11:9-14:40
+692            android:name="com.huawei.agconnect.core.provider.AGConnectInitializeProvider"
+692-->[com.huawei.agconnect:agconnect-core:1.7.3.302] /Users/harshsharma/.gradle/caches/transforms-3/c3c75128d094d296d42d9841521cddb5/transformed/jetified-agconnect-core-1.7.3.302/AndroidManifest.xml:12:13-90
+693            android:authorities="com.myapp.pmck.AGCInitializeProvider"
+693-->[com.huawei.agconnect:agconnect-core:1.7.3.302] /Users/harshsharma/.gradle/caches/transforms-3/c3c75128d094d296d42d9841521cddb5/transformed/jetified-agconnect-core-1.7.3.302/AndroidManifest.xml:13:13-73
+694            android:exported="false" />
+694-->[com.huawei.agconnect:agconnect-core:1.7.3.302] /Users/harshsharma/.gradle/caches/transforms-3/c3c75128d094d296d42d9841521cddb5/transformed/jetified-agconnect-core-1.7.3.302/AndroidManifest.xml:14:13-37
+695
+696        <service
+696-->[com.huawei.agconnect:agconnect-core:1.7.3.302] /Users/harshsharma/.gradle/caches/transforms-3/c3c75128d094d296d42d9841521cddb5/transformed/jetified-agconnect-core-1.7.3.302/AndroidManifest.xml:16:9-18:40
+697            android:name="com.huawei.agconnect.core.ServiceDiscovery"
+697-->[com.huawei.agconnect:agconnect-core:1.7.3.302] /Users/harshsharma/.gradle/caches/transforms-3/c3c75128d094d296d42d9841521cddb5/transformed/jetified-agconnect-core-1.7.3.302/AndroidManifest.xml:17:13-70
+698            android:exported="false" />
+698-->[com.huawei.agconnect:agconnect-core:1.7.3.302] /Users/harshsharma/.gradle/caches/transforms-3/c3c75128d094d296d42d9841521cddb5/transformed/jetified-agconnect-core-1.7.3.302/AndroidManifest.xml:18:13-37
+699    </application>
+700
+701</manifest>

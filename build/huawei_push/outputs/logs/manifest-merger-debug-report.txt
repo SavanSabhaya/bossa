@@ -1,0 +1,59 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/harshsharma/.pub-cache/hosted/pub.dev/huawei_push-6.11.0+300/android/src/main/AndroidManifest.xml:1:1-22:12
+INJECTED from /Users/harshsharma/.pub-cache/hosted/pub.dev/huawei_push-6.11.0+300/android/src/main/AndroidManifest.xml:1:1-22:12
+INJECTED from /Users/harshsharma/.pub-cache/hosted/pub.dev/huawei_push-6.11.0+300/android/src/main/AndroidManifest.xml:1:1-22:12
+	package
+		ADDED from /Users/harshsharma/.pub-cache/hosted/pub.dev/huawei_push-6.11.0+300/android/src/main/AndroidManifest.xml:2:5-42
+		INJECTED from /Users/harshsharma/.pub-cache/hosted/pub.dev/huawei_push-6.11.0+300/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/harshsharma/.pub-cache/hosted/pub.dev/huawei_push-6.11.0+300/android/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/harshsharma/.pub-cache/hosted/pub.dev/huawei_push-6.11.0+300/android/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/harshsharma/.pub-cache/hosted/pub.dev/huawei_push-6.11.0+300/android/src/main/AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from /Users/harshsharma/.pub-cache/hosted/pub.dev/huawei_push-6.11.0+300/android/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/harshsharma/.pub-cache/hosted/pub.dev/huawei_push-6.11.0+300/android/src/main/AndroidManifest.xml:5:5-79
+	android:name
+		ADDED from /Users/harshsharma/.pub-cache/hosted/pub.dev/huawei_push-6.11.0+300/android/src/main/AndroidManifest.xml:5:22-76
+application
+ADDED from /Users/harshsharma/.pub-cache/hosted/pub.dev/huawei_push-6.11.0+300/android/src/main/AndroidManifest.xml:7:5-21:19
+service#com.huawei.hms.flutter.push.hms.FlutterHmsMessageService
+ADDED from /Users/harshsharma/.pub-cache/hosted/pub.dev/huawei_push-6.11.0+300/android/src/main/AndroidManifest.xml:8:9-14:19
+	android:exported
+		ADDED from /Users/harshsharma/.pub-cache/hosted/pub.dev/huawei_push-6.11.0+300/android/src/main/AndroidManifest.xml:10:13-37
+	android:name
+		ADDED from /Users/harshsharma/.pub-cache/hosted/pub.dev/huawei_push-6.11.0+300/android/src/main/AndroidManifest.xml:9:13-84
+intent-filter#action:name:com.huawei.push.action.MESSAGING_EVENT
+ADDED from /Users/harshsharma/.pub-cache/hosted/pub.dev/huawei_push-6.11.0+300/android/src/main/AndroidManifest.xml:11:13-13:29
+action#com.huawei.push.action.MESSAGING_EVENT
+ADDED from /Users/harshsharma/.pub-cache/hosted/pub.dev/huawei_push-6.11.0+300/android/src/main/AndroidManifest.xml:12:17-81
+	android:name
+		ADDED from /Users/harshsharma/.pub-cache/hosted/pub.dev/huawei_push-6.11.0+300/android/src/main/AndroidManifest.xml:12:25-78
+receiver#com.huawei.hms.flutter.push.receiver.local.HmsLocalNotificationActionsReceiver
+ADDED from /Users/harshsharma/.pub-cache/hosted/pub.dev/huawei_push-6.11.0+300/android/src/main/AndroidManifest.xml:16:9-115
+	android:name
+		ADDED from /Users/harshsharma/.pub-cache/hosted/pub.dev/huawei_push-6.11.0+300/android/src/main/AndroidManifest.xml:16:19-112
+service#com.huawei.hms.flutter.push.backgroundmessaging.BackgroundMessagingService
+ADDED from /Users/harshsharma/.pub-cache/hosted/pub.dev/huawei_push-6.11.0+300/android/src/main/AndroidManifest.xml:17:9-20:72
+	android:exported
+		ADDED from /Users/harshsharma/.pub-cache/hosted/pub.dev/huawei_push-6.11.0+300/android/src/main/AndroidManifest.xml:19:13-36
+	android:permission
+		ADDED from /Users/harshsharma/.pub-cache/hosted/pub.dev/huawei_push-6.11.0+300/android/src/main/AndroidManifest.xml:20:13-69
+	android:name
+		ADDED from /Users/harshsharma/.pub-cache/hosted/pub.dev/huawei_push-6.11.0+300/android/src/main/AndroidManifest.xml:18:13-102
+uses-sdk
+INJECTED from /Users/harshsharma/.pub-cache/hosted/pub.dev/huawei_push-6.11.0+300/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/harshsharma/.pub-cache/hosted/pub.dev/huawei_push-6.11.0+300/android/src/main/AndroidManifest.xml
+INJECTED from /Users/harshsharma/.pub-cache/hosted/pub.dev/huawei_push-6.11.0+300/android/src/main/AndroidManifest.xml
+INJECTED from /Users/harshsharma/.pub-cache/hosted/pub.dev/huawei_push-6.11.0+300/android/src/main/AndroidManifest.xml
+INJECTED from /Users/harshsharma/.pub-cache/hosted/pub.dev/huawei_push-6.11.0+300/android/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/harshsharma/.pub-cache/hosted/pub.dev/huawei_push-6.11.0+300/android/src/main/AndroidManifest.xml
+		ADDED from /Users/harshsharma/.pub-cache/hosted/pub.dev/huawei_push-6.11.0+300/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/harshsharma/.pub-cache/hosted/pub.dev/huawei_push-6.11.0+300/android/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/harshsharma/.pub-cache/hosted/pub.dev/huawei_push-6.11.0+300/android/src/main/AndroidManifest.xml
+		ADDED from /Users/harshsharma/.pub-cache/hosted/pub.dev/huawei_push-6.11.0+300/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/harshsharma/.pub-cache/hosted/pub.dev/huawei_push-6.11.0+300/android/src/main/AndroidManifest.xml

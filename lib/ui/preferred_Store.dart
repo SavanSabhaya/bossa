@@ -171,7 +171,7 @@ class _PreferredStoreState extends State<PreferredStore> {
             Icons.search,
             color: Colors.black,
           ),
-          hintText: 'search',
+          hintText: 'Search',
           hintStyle: const TextStyle(
               fontSize: 18, fontWeight: FontWeight.normal, color: Colors.black),
           border: OutlineInputBorder(

@@ -297,11 +297,11 @@ class CheckOutScreen extends GetView<CheckOutController> {
                                                     width: 80.w,
                                                     height: 50.h,
                                                     decoration: BoxDecoration(
-                                                        borderRadius:
-                                                            BorderRadius
-                                                                .circular(5.r),
-                                                                 color: Color(0xffEDCC40),
-                                                       /*  gradient:
+                                                      borderRadius:
+                                                          BorderRadius.circular(
+                                                              5.r),
+                                                      color: Color(0xffEDCC40),
+                                                      /*  gradient:
                                                             const LinearGradient(
                                                           colors: [
                                                             Color(0xfffe7500),
@@ -314,7 +314,8 @@ class CheckOutScreen extends GetView<CheckOutController> {
                                                               1.00, -0.00),
                                                           // angle: 90,
                                                           // scale: undefined,
-                                                        ) */),
+                                                        ) */
+                                                    ),
                                                     alignment: Alignment.center,
                                                     child: GlobalText("Apply",
                                                         color: const Color(
@@ -502,7 +503,7 @@ class CheckOutScreen extends GetView<CheckOutController> {
                                                       "Collect"
                                                   ? "R0.00"
                                                   : "R${controller.cart.value.deliveryFee}",
-                                              color: const Color(0xffe41b00),
+                                              color: const Color(0xffEDCC40),
                                               fontWeight: FontWeight.w500,
                                               fontStyle: FontStyle.normal,
                                               fontSize: 15.sp),
@@ -535,7 +536,7 @@ class CheckOutScreen extends GetView<CheckOutController> {
                                               fontSize: 20.sp),
                                           GlobalText(
                                               "R${controller.total.toStringAsFixed(2)}",
-                                              color: const Color(0xffe41b00),
+                                              color: const Color(0xffEDCC40),
                                               fontWeight: FontWeight.w700,
                                               fontStyle: FontStyle.normal,
                                               fontSize: 20.sp),
@@ -572,7 +573,7 @@ class CheckOutScreen extends GetView<CheckOutController> {
                                                   child: Radio(
                                                       autofocus: true,
                                                       activeColor: const Color(
-                                                          0xffe41b00),
+                                                          0xffEDCC40),
                                                       value: "Delivered",
                                                       groupValue: controller
                                                           .select.value,
@@ -595,7 +596,7 @@ class CheckOutScreen extends GetView<CheckOutController> {
                                                   width: 20.w,
                                                   child: Radio(
                                                       activeColor: const Color(
-                                                          0xffe41b00),
+                                                          0xffEDCC40),
                                                       value: "Collect",
                                                       groupValue: controller
                                                           .select.value,
@@ -703,7 +704,7 @@ class CheckOutScreen extends GetView<CheckOutController> {
                                                   child: GlobalText(
                                                       "Add Address",
                                                       color: const Color(
-                                                          0xffe41b00),
+                                                          0xffEDCC40),
                                                       fontWeight:
                                                           FontWeight.w700,
                                                       fontStyle:
@@ -1649,11 +1650,11 @@ class CheckOutScreen extends GetView<CheckOutController> {
                                                         EdgeInsets.symmetric(
                                                             horizontal: 37.w),
                                                     decoration: BoxDecoration(
-                                                        borderRadius:
-                                                            BorderRadius
-                                                                .circular(5.r),
-                                                                 color: Color(0xffEDCC40),
-                                                       /*  gradient:
+                                                      borderRadius:
+                                                          BorderRadius.circular(
+                                                              5.r),
+                                                      color: Color(0xffEDCC40),
+                                                      /*  gradient:
                                                             const LinearGradient(
                                                           colors: [
                                                             Color(0xfffe7500),
@@ -1666,7 +1667,8 @@ class CheckOutScreen extends GetView<CheckOutController> {
                                                               1.00, -0.00),
                                                           // angle: 90,
                                                           // scale: undefined,
-                                                        ) */),
+                                                        ) */
+                                                    ),
                                                     alignment: Alignment.center,
                                                     child: GlobalText("Confirm",
                                                         color: const Color(
@@ -1693,7 +1695,8 @@ class CheckOutScreen extends GetView<CheckOutController> {
                               height: 59.h,
                               decoration: BoxDecoration(
                                   borderRadius: BorderRadius.circular(5.r),
-                                  gradient: const LinearGradient(
+                                  color: Color(0xffEDCC40)
+                                  /* gradient: const LinearGradient(
                                     colors: [
                                       Color(0xfffe7500),
                                       Color(0xffe41b00)
@@ -1703,7 +1706,8 @@ class CheckOutScreen extends GetView<CheckOutController> {
                                     end: Alignment(1.00, -0.00),
                                     // angle: 90,
                                     // scale: undefined,
-                                  )),
+                                  ) */
+                                  ),
                               alignment: Alignment.center,
                               child: controller.loading.value
                                   ? const CircularProgressIndicator(

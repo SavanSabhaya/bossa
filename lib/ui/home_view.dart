@@ -502,25 +502,13 @@ class HomeView extends GetView<HomeController> {
                                 return Container(
                                     decoration: BoxDecoration(
                                       borderRadius: BorderRadius.circular(14.r),
-                                      color: Color(0xffEDCC40),
-                                      /* gradient: LinearGradient(
-                                          colors: [
-                                            index == 3
-                                                ? Colors.green
-                                                : Color(0xffed2224),
-                                            index == 3
-                                                ? Colors.green
-                                                : Color(0xfff4772a),
-                                            index == 3
-                                                ? Colors.green
-                                                : Color(0xfffbb042)
-                                          ],
-                                          stops: [0, 0.509361982345581, 1],
-                                          begin: Alignment(-1.00, 0.00),
-                                          end: Alignment(1.00, -0.00),
-                                          // angle: 90,
-                                          // scale: undefined,
-                                        ) */
+                                      color: index == 0
+                                          ? Color(0xffEDCC40)
+                                          : index == 1
+                                              ? Color(0xff756F6F)
+                                              : index == 2
+                                                  ? Color(0xff000000)
+                                                  : null,
                                     ),
                                     alignment: index == 0
                                         ? Alignment.topLeft
@@ -546,7 +534,7 @@ class HomeView extends GetView<HomeController> {
         controller.gotTOProudPartners();
       },
       child: GlobalText("PROUD PARTNERS",
-          color: const Color(0xff000000),
+          color: const Color(0xffffffff),
           fontSize: 13.sp,
           textAlign: TextAlign.center,
           fontWeight: FontWeight.w500,
@@ -561,7 +549,7 @@ class HomeView extends GetView<HomeController> {
           arguments: {'navId': NavConst.homeNav, 'res': null},
           id: NavConst.homeNav),
       child: GlobalText("NEWS & PROMOTIONS",
-          color: const Color(0xff000000),
+          color: const Color(0xffffffff),
           fontSize: 13.sp,
           textAlign: TextAlign.center,
           fontWeight: FontWeight.w500,
