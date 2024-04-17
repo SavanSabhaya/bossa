@@ -1,4 +1,4 @@
-# pmck
+# bossa
 
 # apk password = android
 
@@ -38,5 +38,5 @@ self.result?("Failure")
 ```
 
 //certificate alise and passeword
-alise :: pmck
+alise :: bossa
 password : android

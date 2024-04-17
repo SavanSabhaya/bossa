@@ -43,7 +43,7 @@
 -keep class com.intentfilter.androidpermissions.PermissionsActivity { <init>(); }
 -keep class com.intivoto.flutter_geofence.GeofenceBroadcastReceiver { <init>(); }
 -keep class com.lyokone.location.FlutterLocationService { <init>(); }
--keep class com.myapp.pmck.MainActivity { <init>(); }
+-keep class com.myapp.bossa.MainActivity { <init>(); }
 -keep class com.transistorsoft.locationmanager.BootReceiver { <init>(); }
 -keep class com.transistorsoft.locationmanager.activity.TSLocationManagerActivity { <init>(); }
 -keep class com.transistorsoft.locationmanager.scheduler.ScheduleAlarmReceiver { <init>(); }

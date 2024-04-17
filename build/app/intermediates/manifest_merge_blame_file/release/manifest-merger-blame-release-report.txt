@@ -1,13 +1,13 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.myapp.pmck"
+3    package="com.myapp.bossa"
 4    android:versionCode="55"
 5    android:versionName="2.43.1" >
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
 8-->/Users/p21_0036/Desktop/saone/project/demo_project/bossa/android/app/src/main/AndroidManifest.xml
-9        android:targetSdkVersion="33" />
+9        android:targetSdkVersion="34" />
 9-->/Users/p21_0036/Desktop/saone/project/demo_project/bossa/android/app/src/main/AndroidManifest.xml
 10    <!--
 11         io.flutter.app.FlutterApplication is an android.app.Application that
@@ -147,12 +147,12 @@
 75
 76    <permission
 76-->[androidx.core:core:1.10.1] /Users/p21_0036/.gradle/caches/transforms-3/48f80bf9494c92493be9bce3c310c3f6/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
-77        android:name="com.myapp.pmck.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+77        android:name="com.myapp.bossa.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
 77-->[androidx.core:core:1.10.1] /Users/p21_0036/.gradle/caches/transforms-3/48f80bf9494c92493be9bce3c310c3f6/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
 78        android:protectionLevel="signature" />
 78-->[androidx.core:core:1.10.1] /Users/p21_0036/.gradle/caches/transforms-3/48f80bf9494c92493be9bce3c310c3f6/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
 79
-80    <uses-permission android:name="com.myapp.pmck.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+80    <uses-permission android:name="com.myapp.bossa.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 80-->[androidx.core:core:1.10.1] /Users/p21_0036/.gradle/caches/transforms-3/48f80bf9494c92493be9bce3c310c3f6/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
 80-->[androidx.core:core:1.10.1] /Users/p21_0036/.gradle/caches/transforms-3/48f80bf9494c92493be9bce3c310c3f6/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
 81    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
@@ -193,28 +193,28 @@
 99
 100    <permission
 100-->[com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:9:5-11:47
-101        android:name="com.myapp.pmck.permission.PROCESS_PUSH_MSG"
+101        android:name="com.myapp.bossa.permission.PROCESS_PUSH_MSG"
 101-->[com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:10:9-68
 102        android:protectionLevel="signature" /> <!-- PUSH_PROVIDER and PUSH_WRITE_PROVIDER are both provider registered permissions for the notification switch. -->
 102-->[com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:11:9-44
 103    <!-- The SDK's notification bar switch, EMUI 9.x becomes write to the local sp, sharing the file through the provider to the push-rom, which reads the sp file to get the status of the notification bar switch. -->
 104    <permission
 104-->[com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:14:5-16:47
-105        android:name="com.myapp.pmck.permission.PUSH_PROVIDER"
+105        android:name="com.myapp.bossa.permission.PUSH_PROVIDER"
 105-->[com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:15:9-65
 106        android:protectionLevel="signature" />
 106-->[com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:16:9-44
 107    <permission
 107-->[com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:17:5-19:47
-108        android:name="com.myapp.pmck.permission.PUSH_WRITE_PROVIDER"
+108        android:name="com.myapp.bossa.permission.PUSH_WRITE_PROVIDER"
 108-->[com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:18:9-71
 109        android:protectionLevel="signature" />
 109-->[com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:19:9-44
 110
-111    <uses-permission android:name="com.myapp.pmck.permission.PROCESS_PUSH_MSG" />
+111    <uses-permission android:name="com.myapp.bossa.permission.PROCESS_PUSH_MSG" />
 111-->[com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:21:5-84
 111-->[com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:21:22-81
-112    <uses-permission android:name="com.myapp.pmck.permission.PUSH_PROVIDER" />
+112    <uses-permission android:name="com.myapp.bossa.permission.PUSH_PROVIDER" />
 112-->[com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:22:5-81
 112-->[com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:22:22-78
 113
@@ -229,7 +229,7 @@
 118-->/Users/p21_0036/Desktop/saone/project/demo_project/bossa/android/app/src/main/AndroidManifest.xml:27:82-111
 119        <activity
 119-->/Users/p21_0036/Desktop/saone/project/demo_project/bossa/android/app/src/main/AndroidManifest.xml:29:9-41:20
-120            android:name="com.myapp.pmck.MainActivity"
+120            android:name="com.myapp.bossa.MainActivity"
 120-->/Users/p21_0036/Desktop/saone/project/demo_project/bossa/android/app/src/main/AndroidManifest.xml:30:43-71
 121            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
 121-->/Users/p21_0036/Desktop/saone/project/demo_project/bossa/android/app/src/main/AndroidManifest.xml:30:192-342
@@ -470,7 +470,7 @@
 250-->[:firebase_messaging] /Users/p21_0036/Desktop/saone/project/demo_project/bossa/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:41:9-45:38
 251            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
 251-->[:firebase_messaging] /Users/p21_0036/Desktop/saone/project/demo_project/bossa/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:42:13-102
-252            android:authorities="com.myapp.pmck.flutterfirebasemessaginginitprovider"
+252            android:authorities="com.myapp.bossa.flutterfirebasemessaginginitprovider"
 252-->[:firebase_messaging] /Users/p21_0036/Desktop/saone/project/demo_project/bossa/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:43:13-88
 253            android:exported="false"
 253-->[:firebase_messaging] /Users/p21_0036/Desktop/saone/project/demo_project/bossa/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:44:13-37
@@ -504,7 +504,7 @@
 270-->[:share_plus] /Users/p21_0036/Desktop/saone/project/demo_project/bossa/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:13:9-21:20
 271            android:name="dev.fluttercommunity.plus.share.ShareFileProvider"
 271-->[:share_plus] /Users/p21_0036/Desktop/saone/project/demo_project/bossa/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-77
-272            android:authorities="com.myapp.pmck.flutter.share_provider"
+272            android:authorities="com.myapp.bossa.flutter.share_provider"
 272-->[:share_plus] /Users/p21_0036/Desktop/saone/project/demo_project/bossa/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-74
 273            android:exported="false"
 273-->[:share_plus] /Users/p21_0036/Desktop/saone/project/demo_project/bossa/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-37
@@ -624,7 +624,7 @@
 339-->[androidx.work:work-runtime:2.8.1] /Users/p21_0036/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:29:9-37:20
 340            android:name="androidx.startup.InitializationProvider"
 340-->[androidx.work:work-runtime:2.8.1] /Users/p21_0036/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:30:13-67
-341            android:authorities="com.myapp.pmck.androidx-startup"
+341            android:authorities="com.myapp.bossa.androidx-startup"
 341-->[androidx.work:work-runtime:2.8.1] /Users/p21_0036/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:31:13-68
 342            android:exported="false" >
 342-->[androidx.work:work-runtime:2.8.1] /Users/p21_0036/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:32:13-37
@@ -889,7 +889,7 @@
 477-->[com.google.firebase:firebase-common:20.4.2] /Users/p21_0036/.gradle/caches/transforms-3/cb6688f15ebbc0d4b6f3f18838dc1a28/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:23:9-28:39
 478            android:name="com.google.firebase.provider.FirebaseInitProvider"
 478-->[com.google.firebase:firebase-common:20.4.2] /Users/p21_0036/.gradle/caches/transforms-3/cb6688f15ebbc0d4b6f3f18838dc1a28/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:24:13-77
-479            android:authorities="com.myapp.pmck.firebaseinitprovider"
+479            android:authorities="com.myapp.bossa.firebaseinitprovider"
 479-->[com.google.firebase:firebase-common:20.4.2] /Users/p21_0036/.gradle/caches/transforms-3/cb6688f15ebbc0d4b6f3f18838dc1a28/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:25:13-72
 480            android:directBootAware="true"
 480-->[com.google.firebase:firebase-common:20.4.2] /Users/p21_0036/.gradle/caches/transforms-3/cb6688f15ebbc0d4b6f3f18838dc1a28/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:26:13-43
@@ -1090,7 +1090,7 @@
 586-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/p21_0036/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:89:9-97:20
 587            android:name="com.transistorsoft.locationmanager.util.LogFileProvider"
 587-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/p21_0036/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:90:13-83
-588            android:authorities="com.myapp.pmck.tslocationmanager.fileprovider"
+588            android:authorities="com.myapp.bossa.tslocationmanager.fileprovider"
 588-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/p21_0036/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:91:13-82
 589            android:exported="false"
 589-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/p21_0036/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:92:13-37
@@ -1112,7 +1112,7 @@
 598-->[com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:27:13-43
 599            android:exported="true"
 599-->[com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:28:13-36
-600            android:permission="com.myapp.pmck.permission.PROCESS_PUSH_MSG" >
+600            android:permission="com.myapp.bossa.permission.PROCESS_PUSH_MSG" >
 600-->[com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:29:13-78
 601            <intent-filter>
 601-->[com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:30:13-36:29
@@ -1135,7 +1135,7 @@
 611-->[com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:40:13-43
 612            android:exported="true"
 612-->[com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:41:13-36
-613            android:permission="com.myapp.pmck.permission.PROCESS_PUSH_MSG" >
+613            android:permission="com.myapp.bossa.permission.PROCESS_PUSH_MSG" >
 613-->[com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:42:13-78
 614            <intent-filter>
 614-->[com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:43:13-49:29
@@ -1177,13 +1177,13 @@
 634-->[com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:65:9-70:89
 635            android:name="com.huawei.hms.support.api.push.PushProvider"
 635-->[com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:66:13-72
-636            android:authorities="com.myapp.pmck.huawei.push.provider"
+636            android:authorities="com.myapp.bossa.huawei.push.provider"
 636-->[com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:67:13-72
 637            android:exported="true"
 637-->[com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:68:13-36
-638            android:readPermission="com.myapp.pmck.permission.PUSH_PROVIDER"
+638            android:readPermission="com.myapp.bossa.permission.PUSH_PROVIDER"
 638-->[com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:69:13-79
-639            android:writePermission="com.myapp.pmck.permission.PUSH_WRITE_PROVIDER" />
+639            android:writePermission="com.myapp.bossa.permission.PUSH_WRITE_PROVIDER" />
 639-->[com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:70:13-86
 640
 641        <meta-data
@@ -1210,7 +1210,7 @@
 652-->[com.huawei.hms:opendevice:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/bce049eeb844a9823737c5d524dc1435/transformed/jetified-opendevice-6.11.0.300/AndroidManifest.xml:10:9-14:39
 653            android:name="com.huawei.hms.aaid.InitProvider"
 653-->[com.huawei.hms:opendevice:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/bce049eeb844a9823737c5d524dc1435/transformed/jetified-opendevice-6.11.0.300/AndroidManifest.xml:11:13-60
-654            android:authorities="com.myapp.pmck.aaidinitprovider"
+654            android:authorities="com.myapp.bossa.aaidinitprovider"
 654-->[com.huawei.hms:opendevice:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/bce049eeb844a9823737c5d524dc1435/transformed/jetified-opendevice-6.11.0.300/AndroidManifest.xml:12:13-68
 655            android:exported="false"
 655-->[com.huawei.hms:opendevice:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/bce049eeb844a9823737c5d524dc1435/transformed/jetified-opendevice-6.11.0.300/AndroidManifest.xml:13:13-37
@@ -1285,7 +1285,7 @@
 692-->[com.huawei.agconnect:agconnect-core:1.7.3.302] /Users/p21_0036/.gradle/caches/transforms-3/c3c75128d094d296d42d9841521cddb5/transformed/jetified-agconnect-core-1.7.3.302/AndroidManifest.xml:11:9-14:40
 693            android:name="com.huawei.agconnect.core.provider.AGConnectInitializeProvider"
 693-->[com.huawei.agconnect:agconnect-core:1.7.3.302] /Users/p21_0036/.gradle/caches/transforms-3/c3c75128d094d296d42d9841521cddb5/transformed/jetified-agconnect-core-1.7.3.302/AndroidManifest.xml:12:13-90
-694            android:authorities="com.myapp.pmck.AGCInitializeProvider"
+694            android:authorities="com.myapp.bossa.AGCInitializeProvider"
 694-->[com.huawei.agconnect:agconnect-core:1.7.3.302] /Users/p21_0036/.gradle/caches/transforms-3/c3c75128d094d296d42d9841521cddb5/transformed/jetified-agconnect-core-1.7.3.302/AndroidManifest.xml:13:13-73
 695            android:exported="false" />
 695-->[com.huawei.agconnect:agconnect-core:1.7.3.302] /Users/p21_0036/.gradle/caches/transforms-3/c3c75128d094d296d42d9841521cddb5/transformed/jetified-agconnect-core-1.7.3.302/AndroidManifest.xml:14:13-37

@@ -182,8 +182,7 @@ class Api {
     print(response.body);
     return json.decode(response.body);
   }
-
-  static Future<Stores> preferredStore() async {
+static Future<Stores> preferredStore() async {
     Map<String, String> headers = {
       //'content-type': 'application/json',
       'Authorization': basicAuth

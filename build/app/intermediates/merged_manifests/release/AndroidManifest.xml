@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.myapp.pmck"
+    package="com.myapp.bossa"
     android:versionCode="55"
     android:versionName="2.43.1" >
 
     <uses-sdk
         android:minSdkVersion="21"
-        android:targetSdkVersion="33" />
+        android:targetSdkVersion="34" />
     <!--
          io.flutter.app.FlutterApplication is an android.app.Application that
                          calls FlutterMain.startInitialization(this); in its onCreate method.
@@ -74,10 +74,10 @@
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
 
     <permission
-        android:name="com.myapp.pmck.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:name="com.myapp.bossa.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.myapp.pmck.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+    <uses-permission android:name="com.myapp.bossa.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
     <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
     <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
     <uses-permission android:name="com.huawei.hms.permission.ACTIVITY_RECOGNITION" />
@@ -98,18 +98,18 @@
         android:required="false" />
 
     <permission
-        android:name="com.myapp.pmck.permission.PROCESS_PUSH_MSG"
+        android:name="com.myapp.bossa.permission.PROCESS_PUSH_MSG"
         android:protectionLevel="signature" /> <!-- PUSH_PROVIDER and PUSH_WRITE_PROVIDER are both provider registered permissions for the notification switch. -->
     <!-- The SDK's notification bar switch, EMUI 9.x becomes write to the local sp, sharing the file through the provider to the push-rom, which reads the sp file to get the status of the notification bar switch. -->
     <permission
-        android:name="com.myapp.pmck.permission.PUSH_PROVIDER"
+        android:name="com.myapp.bossa.permission.PUSH_PROVIDER"
         android:protectionLevel="signature" />
     <permission
-        android:name="com.myapp.pmck.permission.PUSH_WRITE_PROVIDER"
+        android:name="com.myapp.bossa.permission.PUSH_WRITE_PROVIDER"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.myapp.pmck.permission.PROCESS_PUSH_MSG" />
-    <uses-permission android:name="com.myapp.pmck.permission.PUSH_PROVIDER" />
+    <uses-permission android:name="com.myapp.bossa.permission.PROCESS_PUSH_MSG" />
+    <uses-permission android:name="com.myapp.bossa.permission.PUSH_PROVIDER" />
 
     <application
         android:name="android.app.Application"
@@ -117,7 +117,7 @@
         android:icon="@mipmap/ic_notification"
         android:label="BOSSA REWARDS" >
         <activity
-            android:name="com.myapp.pmck.MainActivity"
+            android:name="com.myapp.bossa.MainActivity"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
             android:exported="true"
             android:hardwareAccelerated="true"
@@ -249,7 +249,7 @@
 
         <provider
             android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
-            android:authorities="com.myapp.pmck.flutterfirebasemessaginginitprovider"
+            android:authorities="com.myapp.bossa.flutterfirebasemessaginginitprovider"
             android:exported="false"
             android:initOrder="99" />
 
@@ -269,7 +269,7 @@
         -->
         <provider
             android:name="dev.fluttercommunity.plus.share.ShareFileProvider"
-            android:authorities="com.myapp.pmck.flutter.share_provider"
+            android:authorities="com.myapp.bossa.flutter.share_provider"
             android:exported="false"
             android:grantUriPermissions="true" >
             <meta-data
@@ -338,7 +338,7 @@
 
         <provider
             android:name="androidx.startup.InitializationProvider"
-            android:authorities="com.myapp.pmck.androidx-startup"
+            android:authorities="com.myapp.bossa.androidx-startup"
             android:exported="false" >
             <meta-data
                 android:name="androidx.work.WorkManagerInitializer"
@@ -476,7 +476,7 @@
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="com.myapp.pmck.firebaseinitprovider"
+            android:authorities="com.myapp.bossa.firebaseinitprovider"
             android:directBootAware="true"
             android:exported="false"
             android:initOrder="100" />
@@ -585,7 +585,7 @@
 
         <provider
             android:name="com.transistorsoft.locationmanager.util.LogFileProvider"
-            android:authorities="com.myapp.pmck.tslocationmanager.fileprovider"
+            android:authorities="com.myapp.bossa.tslocationmanager.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true" >
             <meta-data
@@ -597,7 +597,7 @@
             android:name="com.huawei.hms.support.api.push.PushMsgReceiver"
             android:directBootAware="true"
             android:exported="true"
-            android:permission="com.myapp.pmck.permission.PROCESS_PUSH_MSG" >
+            android:permission="com.myapp.bossa.permission.PROCESS_PUSH_MSG" >
             <intent-filter>
 
                 <!-- Mandatory, be used to receive notification bar message click event. -->
@@ -610,7 +610,7 @@
             android:name="com.huawei.hms.support.api.push.PushReceiver"
             android:directBootAware="true"
             android:exported="true"
-            android:permission="com.myapp.pmck.permission.PROCESS_PUSH_MSG" >
+            android:permission="com.myapp.bossa.permission.PROCESS_PUSH_MSG" >
             <intent-filter>
 
                 <!-- Mandatory, be used to receive tokens. -->
@@ -633,10 +633,10 @@
 
         <provider
             android:name="com.huawei.hms.support.api.push.PushProvider"
-            android:authorities="com.myapp.pmck.huawei.push.provider"
+            android:authorities="com.myapp.bossa.huawei.push.provider"
             android:exported="true"
-            android:readPermission="com.myapp.pmck.permission.PUSH_PROVIDER"
-            android:writePermission="com.myapp.pmck.permission.PUSH_WRITE_PROVIDER" />
+            android:readPermission="com.myapp.bossa.permission.PUSH_PROVIDER"
+            android:writePermission="com.myapp.bossa.permission.PUSH_WRITE_PROVIDER" />
 
         <meta-data
             android:name="com.huawei.hms.client.service.name:push"
@@ -651,7 +651,7 @@
 
         <provider
             android:name="com.huawei.hms.aaid.InitProvider"
-            android:authorities="com.myapp.pmck.aaidinitprovider"
+            android:authorities="com.myapp.bossa.aaidinitprovider"
             android:exported="false"
             android:initOrder="500" />
 
@@ -691,7 +691,7 @@
 
         <provider
             android:name="com.huawei.agconnect.core.provider.AGConnectInitializeProvider"
-            android:authorities="com.myapp.pmck.AGCInitializeProvider"
+            android:authorities="com.myapp.bossa.AGCInitializeProvider"
             android:exported="false" />
 
         <service

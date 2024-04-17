@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.myapp.pmck.app-mergeReleaseResources-43:/values-xlarge-v4/values-xlarge-v4.xml",
+            "outputFile": "com.myapp.bossa.app-mergeReleaseResources-43:/values-xlarge-v4/values-xlarge-v4.xml",
             "map": [
                 {
                     "source": "/Users/p21_0036/.gradle/caches/transforms-3/e84d2b231d813ef43bf3fb2892ea4a8e/transformed/appcompat-1.4.1/res/values-xlarge-v4/values-xlarge-v4.xml",

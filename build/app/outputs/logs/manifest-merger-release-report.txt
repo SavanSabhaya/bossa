@@ -265,7 +265,7 @@ INJECTED from /Users/p21_0036/Desktop/saone/project/demo_project/bossa/android/a
 INJECTED from /Users/p21_0036/Desktop/saone/project/demo_project/bossa/android/app/src/main/AndroidManifest.xml:1:1-85:12
 INJECTED from /Users/p21_0036/Desktop/saone/project/demo_project/bossa/android/app/src/main/AndroidManifest.xml:1:1-85:12
 	package
-		ADDED from /Users/p21_0036/Desktop/saone/project/demo_project/bossa/android/app/src/main/AndroidManifest.xml:2:111-135
+		ADDED from /Users/p21_0036/Desktop/saone/project/demo_project/bossa/android/app/src/main/AndroidManifest.xml:2:111-136
 		INJECTED from /Users/p21_0036/Desktop/saone/project/demo_project/bossa/android/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/p21_0036/Desktop/saone/project/demo_project/bossa/android/app/src/main/AndroidManifest.xml
 	android:versionName
@@ -762,7 +762,7 @@ INJECTED from /Users/p21_0036/Desktop/saone/project/demo_project/bossa/android/a
 		INJECTED from /Users/p21_0036/Desktop/saone/project/demo_project/bossa/android/app/src/main/AndroidManifest.xml
 		ADDED from /Users/p21_0036/Desktop/saone/project/demo_project/bossa/android/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/p21_0036/Desktop/saone/project/demo_project/bossa/android/app/src/main/AndroidManifest.xml
-activity#com.myapp.pmck.MainActivity
+activity#com.myapp.bossa.MainActivity
 ADDED from /Users/p21_0036/Desktop/saone/project/demo_project/bossa/android/app/src/main/AndroidManifest.xml:29:9-41:20
 	android:label
 		ADDED from /Users/p21_0036/Desktop/saone/project/demo_project/bossa/android/app/src/main/AndroidManifest.xml:30:96-125
@@ -1579,7 +1579,7 @@ ADDED from [androidx.core:core:1.10.1] /Users/p21_0036/.gradle/caches/transforms
 		ADDED from [androidx.core:core:1.10.1] /Users/p21_0036/.gradle/caches/transforms-3/48f80bf9494c92493be9bce3c310c3f6/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
 	android:name
 		ADDED from [androidx.core:core:1.10.1] /Users/p21_0036/.gradle/caches/transforms-3/48f80bf9494c92493be9bce3c310c3f6/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
-permission#com.myapp.pmck.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+permission#com.myapp.bossa.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.10.1] /Users/p21_0036/.gradle/caches/transforms-3/48f80bf9494c92493be9bce3c310c3f6/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
 		ADDED from [androidx.core:core:1.10.1] /Users/p21_0036/.gradle/caches/transforms-3/48f80bf9494c92493be9bce3c310c3f6/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
@@ -1589,7 +1589,7 @@ uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.10.1] /Users/p21_0036/.gradle/caches/transforms-3/48f80bf9494c92493be9bce3c310c3f6/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.10.1] /Users/p21_0036/.gradle/caches/transforms-3/48f80bf9494c92493be9bce3c310c3f6/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
-uses-permission#com.myapp.pmck.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+uses-permission#com.myapp.bossa.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.10.1] /Users/p21_0036/.gradle/caches/transforms-3/48f80bf9494c92493be9bce3c310c3f6/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.10.1] /Users/p21_0036/.gradle/caches/transforms-3/48f80bf9494c92493be9bce3c310c3f6/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
@@ -1763,7 +1763,7 @@ ADDED from [com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/trans
 		ADDED from [com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:11:9-44
 	android:name
 		ADDED from [com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:10:9-68
-permission#com.myapp.pmck.permission.PROCESS_PUSH_MSG
+permission#com.myapp.bossa.permission.PROCESS_PUSH_MSG
 ADDED from [com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:9:5-11:47
 	android:protectionLevel
 		ADDED from [com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:11:9-44
@@ -1775,7 +1775,7 @@ ADDED from [com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/trans
 		ADDED from [com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:16:9-44
 	android:name
 		ADDED from [com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:15:9-65
-permission#com.myapp.pmck.permission.PUSH_PROVIDER
+permission#com.myapp.bossa.permission.PUSH_PROVIDER
 ADDED from [com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:14:5-16:47
 	android:protectionLevel
 		ADDED from [com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:16:9-44
@@ -1787,7 +1787,7 @@ ADDED from [com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/trans
 		ADDED from [com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:19:9-44
 	android:name
 		ADDED from [com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:18:9-71
-permission#com.myapp.pmck.permission.PUSH_WRITE_PROVIDER
+permission#com.myapp.bossa.permission.PUSH_WRITE_PROVIDER
 ADDED from [com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:17:5-19:47
 	android:protectionLevel
 		ADDED from [com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:19:9-44
@@ -1797,7 +1797,7 @@ uses-permission#${applicationId}.permission.PROCESS_PUSH_MSG
 ADDED from [com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:21:5-84
 	android:name
 		ADDED from [com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:21:22-81
-uses-permission#com.myapp.pmck.permission.PROCESS_PUSH_MSG
+uses-permission#com.myapp.bossa.permission.PROCESS_PUSH_MSG
 ADDED from [com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:21:5-84
 	android:name
 		ADDED from [com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:21:22-81
@@ -1805,7 +1805,7 @@ uses-permission#${applicationId}.permission.PUSH_PROVIDER
 ADDED from [com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:22:5-81
 	android:name
 		ADDED from [com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:22:22-78
-uses-permission#com.myapp.pmck.permission.PUSH_PROVIDER
+uses-permission#com.myapp.bossa.permission.PUSH_PROVIDER
 ADDED from [com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:22:5-81
 	android:name
 		ADDED from [com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:22:22-78

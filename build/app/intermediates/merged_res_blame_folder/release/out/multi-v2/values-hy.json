@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.myapp.pmck.app-mergeReleaseResources-43:/values-hy/values-hy.xml",
+            "outputFile": "com.myapp.bossa.app-mergeReleaseResources-43:/values-hy/values-hy.xml",
             "map": [
                 {
                     "source": "/Users/p21_0036/.gradle/caches/transforms-3/b8b7ba7f89a2de63ea7a563f8ed8b1ad/transformed/jetified-play-services-basement-18.1.0/res/values-hy/values.xml",

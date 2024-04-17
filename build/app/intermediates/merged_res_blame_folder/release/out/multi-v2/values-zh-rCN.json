@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.myapp.pmck.app-mergeReleaseResources-43:/values-zh-rCN/values-zh-rCN.xml",
+            "outputFile": "com.myapp.bossa.app-mergeReleaseResources-43:/values-zh-rCN/values-zh-rCN.xml",
             "map": [
                 {
                     "source": "/Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/res/values-zh-rCN/values-zh-rCN.xml",
