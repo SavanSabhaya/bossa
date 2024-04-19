@@ -726,7 +726,7 @@
 			<key>entitlements</key>
 			<dict>
 				<key>application-identifier</key>
-				<string>ED8YR8L286.com.myapp.pmck</string>
+				<string>ED8YR8L286.com.myapp.bossa</string>
 				<key>aps-environment</key>
 				<string>development</string>
 				<key>com.apple.developer.team-identifier</key>
@@ -743,7 +743,7 @@
 				<key>dateExpires</key>
 				<string>22/08/23</string>
 				<key>name</key>
-				<string>iOS Team Provisioning Profile: com.myapp.pmck</string>
+				<string>iOS Team Provisioning Profile: com.myapp.bossa</string>
 			</dict>
 			<key>team</key>
 			<dict>

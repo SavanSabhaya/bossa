@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="gcm_defaultSenderId" translatable="false">928760683611</string>
-    <string name="google_api_key" translatable="false">AIzaSyATuvOejKfmcud922kJF1jq_HaR3pjVF7g</string>
-    <string name="google_app_id" translatable="false">1:928760683611:android:d0107af69e674670c1737e</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyATuvOejKfmcud922kJF1jq_HaR3pjVF7g</string>
-    <string name="google_storage_bucket" translatable="false">bossa-4625b.appspot.com</string>
-    <string name="project_id" translatable="false">bossa-4625b</string>
-</resources>
