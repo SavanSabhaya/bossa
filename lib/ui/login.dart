@@ -31,7 +31,7 @@ class _LoginState extends State<Login> {
     FirebaseService().getMessageToken().then((value) {
       if (value != null) {
         print('DeviceToken ::' + value);
-        deviceToken = value;
+        deviceToken = value??"";
       }
     });
   }
@@ -142,7 +142,7 @@ class _LoginState extends State<Login> {
               CommonTextField(
                 hintText: "Password",
                 controller: password,
-                obscureText: true,
+                obscureText: false,
                 fontSize: 2.5,
               ),
               SizedBox(

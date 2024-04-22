@@ -65,8 +65,8 @@ class DefaultFirebaseOptions {
     apiKey: 'AIzaSyBsBTWZfzYQse2IE0wWGMYByCoFb0EapDI',
     appId: '1:1050632818991:ios:3e54d3f4a8be67bfd451da',
     messagingSenderId: '1050632818991',
-    projectId: 'bossa-4625b',
-    storageBucket: 'bossa-4625b.appspot.com',
+    projectId: 'pmck-1d886',
+    storageBucket: 'pmck-1d886.appspot.com',
     iosClientId: '1050632818991-6iclnv0ohnrms2ja1ktk2775cf5jd57u.apps.googleusercontent.com',
     iosBundleId: 'com.myapp.pmck',
   );

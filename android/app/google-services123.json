@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "928760683611",
+    "project_id": "bossa-4625b",
+    "storage_bucket": "bossa-4625b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:928760683611:android:d0107af69e674670c1737e",
+        "android_client_info": {
+          "package_name": "com.myapp.bossa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATuvOejKfmcud922kJF1jq_HaR3pjVF7g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
