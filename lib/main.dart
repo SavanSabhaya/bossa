@@ -43,10 +43,12 @@ Future<void> main() async {
     await Hive.openBox("userData");
     SharedPreferences preferences = await SharedPreferences.getInstance();
     var p = preferences.getString("pop");
+    await Get.putAsync<FirebaseService>(() => FirebaseService().init());
     if (p.toString().contains("true")) {
       await AppServices.init();
-      bg.BackgroundGeolocation.registerHeadlessTask(
-          backgroundGeolocationHeadlessTask);
+
+      // bg.BackgroundGeolocation.registerHeadlessTask(
+      //     backgroundGeolocationHeadlessTask);
     }
     //   //Get.off(MyBagScreen());
     // runApp(
@@ -64,11 +66,11 @@ void backgroundGeolocationHeadlessTask(bg.HeadlessEvent headlessEvent) async {
   print('📬 --> $headlessEvent');
 
   switch (headlessEvent.name) {
-    case bg.Event.MOTIONCHANGE:
+    /*  case bg.Event.MOTIONCHANGE:
       bg.Location location = headlessEvent.event;
       print(location);
-      break;
-    case bg.Event.GEOFENCE:
+      break; */
+    /*   case bg.Event.GEOFENCE:
       bg.GeofenceEvent geofenceEvent = headlessEvent.event;
       print(geofenceEvent);
       break;
@@ -79,11 +81,11 @@ void backgroundGeolocationHeadlessTask(bg.HeadlessEvent headlessEvent) async {
     case bg.Event.SCHEDULE:
       bg.State state = headlessEvent.event;
       print('SCHEDULE' + state.toString());
-      break;
-    case bg.Event.ACTIVITYCHANGE:
+      break; */
+    /*  case bg.Event.ACTIVITYCHANGE:
       bg.ActivityChangeEvent event = headlessEvent.event;
       print(event);
-      break;
+      break; */
   }
 }
 
@@ -192,9 +194,7 @@ class _LoginCheckState extends State<LoginCheck> {
         await showCustomTrackingDialog(context);
         final TrackingStatus status =
             await AppTrackingTransparency.requestTrackingAuthorization();
-        setState(() {
-          auths = status.toString();
-        });
+      
       } else {
         a();
       }
@@ -216,8 +216,6 @@ class _LoginCheckState extends State<LoginCheck> {
       }
     } on PlatformException {}
 
-    final uuid = await AppTrackingTransparency.getAdvertisingIdentifier();
-    print("UUID: $uuid");
     // final uuid = await AppTrackingTransparency.getAdvertisingIdentifier();
     // print("UUID: $uuid");
   }
@@ -242,13 +240,13 @@ class _LoginCheckState extends State<LoginCheck> {
               },
               child: const Text('Ok'),
             ),
-            TextButton(
+            /*  TextButton(
               onPressed: () async {
                 exit(0);
                 //
               },
               child: const Text('Cancel'),
-            ),
+            ), */
           ],
         ),
       );

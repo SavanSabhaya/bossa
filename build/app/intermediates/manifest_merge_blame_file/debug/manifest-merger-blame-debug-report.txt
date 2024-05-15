@@ -1,6 +1,6 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.myapp.bossa"
+3    package="com.myapp.bossarewards"
 4    android:versionCode="1"
 5    android:versionName="1.0.0" >
 6
@@ -117,7 +117,7 @@
 64        android:name="android.permission.SCHEDULE_EXACT_ALARM"
 64-->[:flutter_local_notifications] /Users/p21_0036/Desktop/saone/project/demo_project/bossa/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-76
 65        android:maxSdkVersion="33" /> <!-- Required by older versions of Google Play services to create IID tokens -->
-65-->[com.transistorsoft:tsbackgroundfetch:1.0.2] /Users/p21_0036/.gradle/caches/transforms-3/b2b759b5acfaa81b619da146a66447c7/transformed/jetified-tsbackgroundfetch-1.0.2/AndroidManifest.xml:11:9-35
+65-->[com.transistorsoft:tsbackgroundfetch:1.0.2] /Users/p21_0036/.gradle/caches/transforms-3/6aff91f14141e220367f903e8e1b4174/transformed/jetified-tsbackgroundfetch-1.0.2/AndroidManifest.xml:11:9-35
 66    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 66-->[com.google.firebase:firebase-messaging:23.3.1] /Users/p21_0036/.gradle/caches/transforms-3/ee9d478aadcd1478ad4ff68660c29edb/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:26:5-82
 66-->[com.google.firebase:firebase-messaging:23.3.1] /Users/p21_0036/.gradle/caches/transforms-3/ee9d478aadcd1478ad4ff68660c29edb/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:26:22-79
@@ -142,29 +142,29 @@
 73
 74    <permission
 74-->[androidx.core:core:1.10.1] /Users/p21_0036/.gradle/caches/transforms-3/48f80bf9494c92493be9bce3c310c3f6/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
-75        android:name="com.myapp.bossa.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+75        android:name="com.myapp.bossarewards.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
 75-->[androidx.core:core:1.10.1] /Users/p21_0036/.gradle/caches/transforms-3/48f80bf9494c92493be9bce3c310c3f6/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
 76        android:protectionLevel="signature" />
 76-->[androidx.core:core:1.10.1] /Users/p21_0036/.gradle/caches/transforms-3/48f80bf9494c92493be9bce3c310c3f6/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
 77
-78    <uses-permission android:name="com.myapp.bossa.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+78    <uses-permission android:name="com.myapp.bossarewards.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 78-->[androidx.core:core:1.10.1] /Users/p21_0036/.gradle/caches/transforms-3/48f80bf9494c92493be9bce3c310c3f6/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
 78-->[androidx.core:core:1.10.1] /Users/p21_0036/.gradle/caches/transforms-3/48f80bf9494c92493be9bce3c310c3f6/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
 79    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
-79-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/p21_0036/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:12:5-79
-79-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/p21_0036/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:12:22-76
+79-->[com.transistorsoft:tslocationmanager-v21:3.5.4] /Users/p21_0036/.gradle/caches/transforms-3/21e81bdbd113c4f8c36a9a1b750b5799/transformed/jetified-tslocationmanager-v21-3.5.4/AndroidManifest.xml:12:5-79
+79-->[com.transistorsoft:tslocationmanager-v21:3.5.4] /Users/p21_0036/.gradle/caches/transforms-3/21e81bdbd113c4f8c36a9a1b750b5799/transformed/jetified-tslocationmanager-v21-3.5.4/AndroidManifest.xml:12:22-76
 80    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
-80-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/p21_0036/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:16:5-94
-80-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/p21_0036/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:16:22-91
+80-->[com.transistorsoft:tslocationmanager-v21:3.5.4] /Users/p21_0036/.gradle/caches/transforms-3/21e81bdbd113c4f8c36a9a1b750b5799/transformed/jetified-tslocationmanager-v21-3.5.4/AndroidManifest.xml:16:5-94
+80-->[com.transistorsoft:tslocationmanager-v21:3.5.4] /Users/p21_0036/.gradle/caches/transforms-3/21e81bdbd113c4f8c36a9a1b750b5799/transformed/jetified-tslocationmanager-v21-3.5.4/AndroidManifest.xml:16:22-91
 81    <uses-permission android:name="com.huawei.hms.permission.ACTIVITY_RECOGNITION" />
-81-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/p21_0036/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:17:5-86
-81-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/p21_0036/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:17:22-83
+81-->[com.transistorsoft:tslocationmanager-v21:3.5.4] /Users/p21_0036/.gradle/caches/transforms-3/21e81bdbd113c4f8c36a9a1b750b5799/transformed/jetified-tslocationmanager-v21-3.5.4/AndroidManifest.xml:17:5-86
+81-->[com.transistorsoft:tslocationmanager-v21:3.5.4] /Users/p21_0036/.gradle/caches/transforms-3/21e81bdbd113c4f8c36a9a1b750b5799/transformed/jetified-tslocationmanager-v21-3.5.4/AndroidManifest.xml:17:22-83
 82    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_HEALTH" />
-82-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/p21_0036/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:23:5-84
-82-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/p21_0036/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:23:22-81
+82-->[com.transistorsoft:tslocationmanager-v21:3.5.4] /Users/p21_0036/.gradle/caches/transforms-3/21e81bdbd113c4f8c36a9a1b750b5799/transformed/jetified-tslocationmanager-v21-3.5.4/AndroidManifest.xml:21:5-84
+82-->[com.transistorsoft:tslocationmanager-v21:3.5.4] /Users/p21_0036/.gradle/caches/transforms-3/21e81bdbd113c4f8c36a9a1b750b5799/transformed/jetified-tslocationmanager-v21-3.5.4/AndroidManifest.xml:21:22-81
 83    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION" />
-83-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/p21_0036/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:24:5-86
-83-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/p21_0036/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:24:22-83
+83-->[com.transistorsoft:tslocationmanager-v21:3.5.4] /Users/p21_0036/.gradle/caches/transforms-3/21e81bdbd113c4f8c36a9a1b750b5799/transformed/jetified-tslocationmanager-v21-3.5.4/AndroidManifest.xml:22:5-86
+83-->[com.transistorsoft:tslocationmanager-v21:3.5.4] /Users/p21_0036/.gradle/caches/transforms-3/21e81bdbd113c4f8c36a9a1b750b5799/transformed/jetified-tslocationmanager-v21-3.5.4/AndroidManifest.xml:22:22-83
 84    <!--
 85    This permission overrids Android 12 restriction on starting foreground-serivces in background
 86    but the permission is available only to "priveliged" apps (EMERGENCY apps)
@@ -173,43 +173,43 @@
 89    -->
 90    <!-- device-specific permissions for DeviceSettings methods -->
 91    <uses-permission android:name="oppo.permission.OPPO_COMPONENT_SAFE" />
-91-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/p21_0036/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:34:5-75
-91-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/p21_0036/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:34:22-72
+91-->[com.transistorsoft:tslocationmanager-v21:3.5.4] /Users/p21_0036/.gradle/caches/transforms-3/21e81bdbd113c4f8c36a9a1b750b5799/transformed/jetified-tslocationmanager-v21-3.5.4/AndroidManifest.xml:32:5-75
+91-->[com.transistorsoft:tslocationmanager-v21:3.5.4] /Users/p21_0036/.gradle/caches/transforms-3/21e81bdbd113c4f8c36a9a1b750b5799/transformed/jetified-tslocationmanager-v21-3.5.4/AndroidManifest.xml:32:22-72
 92    <uses-permission android:name="com.huawei.permission.external_app_settings.USE_COMPONENT" />
-92-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/p21_0036/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:35:5-97
-92-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/p21_0036/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:35:22-94
+92-->[com.transistorsoft:tslocationmanager-v21:3.5.4] /Users/p21_0036/.gradle/caches/transforms-3/21e81bdbd113c4f8c36a9a1b750b5799/transformed/jetified-tslocationmanager-v21-3.5.4/AndroidManifest.xml:33:5-97
+92-->[com.transistorsoft:tslocationmanager-v21:3.5.4] /Users/p21_0036/.gradle/caches/transforms-3/21e81bdbd113c4f8c36a9a1b750b5799/transformed/jetified-tslocationmanager-v21-3.5.4/AndroidManifest.xml:33:22-94
 93
 94    <uses-feature
-94-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/p21_0036/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:37:5-39:36
+94-->[com.transistorsoft:tslocationmanager-v21:3.5.4] /Users/p21_0036/.gradle/caches/transforms-3/21e81bdbd113c4f8c36a9a1b750b5799/transformed/jetified-tslocationmanager-v21-3.5.4/AndroidManifest.xml:35:5-37:36
 95        android:name="android.hardware.location.gps"
-95-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/p21_0036/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:38:9-53
+95-->[com.transistorsoft:tslocationmanager-v21:3.5.4] /Users/p21_0036/.gradle/caches/transforms-3/21e81bdbd113c4f8c36a9a1b750b5799/transformed/jetified-tslocationmanager-v21-3.5.4/AndroidManifest.xml:36:9-53
 96        android:required="false" />
-96-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/p21_0036/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:39:9-33
+96-->[com.transistorsoft:tslocationmanager-v21:3.5.4] /Users/p21_0036/.gradle/caches/transforms-3/21e81bdbd113c4f8c36a9a1b750b5799/transformed/jetified-tslocationmanager-v21-3.5.4/AndroidManifest.xml:37:9-33
 97
 98    <permission
 98-->[com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:9:5-11:47
-99        android:name="com.myapp.bossa.permission.PROCESS_PUSH_MSG"
+99        android:name="com.myapp.bossarewards.permission.PROCESS_PUSH_MSG"
 99-->[com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:10:9-68
 100        android:protectionLevel="signature" /> <!-- PUSH_PROVIDER and PUSH_WRITE_PROVIDER are both provider registered permissions for the notification switch. -->
 100-->[com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:11:9-44
 101    <!-- The SDK's notification bar switch, EMUI 9.x becomes write to the local sp, sharing the file through the provider to the push-rom, which reads the sp file to get the status of the notification bar switch. -->
 102    <permission
 102-->[com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:14:5-16:47
-103        android:name="com.myapp.bossa.permission.PUSH_PROVIDER"
+103        android:name="com.myapp.bossarewards.permission.PUSH_PROVIDER"
 103-->[com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:15:9-65
 104        android:protectionLevel="signature" />
 104-->[com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:16:9-44
 105    <permission
 105-->[com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:17:5-19:47
-106        android:name="com.myapp.bossa.permission.PUSH_WRITE_PROVIDER"
+106        android:name="com.myapp.bossarewards.permission.PUSH_WRITE_PROVIDER"
 106-->[com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:18:9-71
 107        android:protectionLevel="signature" />
 107-->[com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:19:9-44
 108
-109    <uses-permission android:name="com.myapp.bossa.permission.PROCESS_PUSH_MSG" />
+109    <uses-permission android:name="com.myapp.bossarewards.permission.PROCESS_PUSH_MSG" />
 109-->[com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:21:5-84
 109-->[com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:21:22-81
-110    <uses-permission android:name="com.myapp.bossa.permission.PUSH_PROVIDER" />
+110    <uses-permission android:name="com.myapp.bossarewards.permission.PUSH_PROVIDER" />
 110-->[com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:22:5-81
 110-->[com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:22:22-78
 111
@@ -219,13 +219,13 @@
 114-->[androidx.core:core:1.10.1] /Users/p21_0036/.gradle/caches/transforms-3/48f80bf9494c92493be9bce3c310c3f6/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
 115        android:debuggable="true"
 116        android:icon="@mipmap/ic_notification"
-117        android:label="BOSSA REWARDS" >
+117        android:label="HowZaT" >
 118        <activity
-119            android:name="com.myapp.bossa.MainActivity"
+119            android:name="com.myapp.bossarewards.MainActivity"
 120            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
 121            android:exported="true"
 122            android:hardwareAccelerated="true"
-123            android:label="BOSSA REWARDS"
+123            android:label="HowZaT"
 124            android:launchMode="singleTop"
 125            android:theme="@style/LaunchTheme"
 126            android:windowSoftInputMode="adjustResize" >
@@ -422,7 +422,7 @@
 249-->[:firebase_messaging] /Users/p21_0036/Desktop/saone/project/demo_project/bossa/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:41:9-45:38
 250            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
 250-->[:firebase_messaging] /Users/p21_0036/Desktop/saone/project/demo_project/bossa/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:42:13-102
-251            android:authorities="com.myapp.bossa.flutterfirebasemessaginginitprovider"
+251            android:authorities="com.myapp.bossarewards.flutterfirebasemessaginginitprovider"
 251-->[:firebase_messaging] /Users/p21_0036/Desktop/saone/project/demo_project/bossa/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:43:13-88
 252            android:exported="false"
 252-->[:firebase_messaging] /Users/p21_0036/Desktop/saone/project/demo_project/bossa/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:44:13-37
@@ -456,7 +456,7 @@
 269-->[:share_plus] /Users/p21_0036/Desktop/saone/project/demo_project/bossa/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-21:20
 270            android:name="dev.fluttercommunity.plus.share.ShareFileProvider"
 270-->[:share_plus] /Users/p21_0036/Desktop/saone/project/demo_project/bossa/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-77
-271            android:authorities="com.myapp.bossa.flutter.share_provider"
+271            android:authorities="com.myapp.bossarewards.flutter.share_provider"
 271-->[:share_plus] /Users/p21_0036/Desktop/saone/project/demo_project/bossa/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-74
 272            android:exported="false"
 272-->[:share_plus] /Users/p21_0036/Desktop/saone/project/demo_project/bossa/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-37
@@ -576,7 +576,7 @@
 338-->[androidx.work:work-runtime:2.8.1] /Users/p21_0036/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:29:9-37:20
 339            android:name="androidx.startup.InitializationProvider"
 339-->[androidx.work:work-runtime:2.8.1] /Users/p21_0036/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:30:13-67
-340            android:authorities="com.myapp.bossa.androidx-startup"
+340            android:authorities="com.myapp.bossarewards.androidx-startup"
 340-->[androidx.work:work-runtime:2.8.1] /Users/p21_0036/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:31:13-68
 341            android:exported="false" >
 341-->[androidx.work:work-runtime:2.8.1] /Users/p21_0036/.gradle/caches/transforms-3/b597b0a15efef68d87442308664bfa7d/transformed/work-runtime-2.8.1/AndroidManifest.xml:32:13-37
@@ -841,7 +841,7 @@
 476-->[com.google.firebase:firebase-common:20.4.2] /Users/p21_0036/.gradle/caches/transforms-3/cb6688f15ebbc0d4b6f3f18838dc1a28/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:23:9-28:39
 477            android:name="com.google.firebase.provider.FirebaseInitProvider"
 477-->[com.google.firebase:firebase-common:20.4.2] /Users/p21_0036/.gradle/caches/transforms-3/cb6688f15ebbc0d4b6f3f18838dc1a28/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:24:13-77
-478            android:authorities="com.myapp.bossa.firebaseinitprovider"
+478            android:authorities="com.myapp.bossarewards.firebaseinitprovider"
 478-->[com.google.firebase:firebase-common:20.4.2] /Users/p21_0036/.gradle/caches/transforms-3/cb6688f15ebbc0d4b6f3f18838dc1a28/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:25:13-72
 479            android:directBootAware="true"
 479-->[com.google.firebase:firebase-common:20.4.2] /Users/p21_0036/.gradle/caches/transforms-3/cb6688f15ebbc0d4b6f3f18838dc1a28/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:26:13-43
@@ -934,29 +934,29 @@
 528            android:exported="false" />
 528-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/p21_0036/.gradle/caches/transforms-3/1a9a3a322f26ffdede6ba9f8f688f1fd/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
 529        <receiver
-529-->[com.transistorsoft:tsbackgroundfetch:1.0.2] /Users/p21_0036/.gradle/caches/transforms-3/b2b759b5acfaa81b619da146a66447c7/transformed/jetified-tsbackgroundfetch-1.0.2/AndroidManifest.xml:14:9-16:40
+529-->[com.transistorsoft:tsbackgroundfetch:1.0.2] /Users/p21_0036/.gradle/caches/transforms-3/6aff91f14141e220367f903e8e1b4174/transformed/jetified-tsbackgroundfetch-1.0.2/AndroidManifest.xml:14:9-16:40
 530            android:name="com.transistorsoft.tsbackgroundfetch.FetchAlarmReceiver"
-530-->[com.transistorsoft:tsbackgroundfetch:1.0.2] /Users/p21_0036/.gradle/caches/transforms-3/b2b759b5acfaa81b619da146a66447c7/transformed/jetified-tsbackgroundfetch-1.0.2/AndroidManifest.xml:15:13-83
+530-->[com.transistorsoft:tsbackgroundfetch:1.0.2] /Users/p21_0036/.gradle/caches/transforms-3/6aff91f14141e220367f903e8e1b4174/transformed/jetified-tsbackgroundfetch-1.0.2/AndroidManifest.xml:15:13-83
 531            android:exported="false" />
-531-->[com.transistorsoft:tsbackgroundfetch:1.0.2] /Users/p21_0036/.gradle/caches/transforms-3/b2b759b5acfaa81b619da146a66447c7/transformed/jetified-tsbackgroundfetch-1.0.2/AndroidManifest.xml:16:13-37
+531-->[com.transistorsoft:tsbackgroundfetch:1.0.2] /Users/p21_0036/.gradle/caches/transforms-3/6aff91f14141e220367f903e8e1b4174/transformed/jetified-tsbackgroundfetch-1.0.2/AndroidManifest.xml:16:13-37
 532
 533        <service
-533-->[com.transistorsoft:tsbackgroundfetch:1.0.2] /Users/p21_0036/.gradle/caches/transforms-3/b2b759b5acfaa81b619da146a66447c7/transformed/jetified-tsbackgroundfetch-1.0.2/AndroidManifest.xml:18:9-21:72
+533-->[com.transistorsoft:tsbackgroundfetch:1.0.2] /Users/p21_0036/.gradle/caches/transforms-3/6aff91f14141e220367f903e8e1b4174/transformed/jetified-tsbackgroundfetch-1.0.2/AndroidManifest.xml:18:9-21:72
 534            android:name="com.transistorsoft.tsbackgroundfetch.FetchJobService"
-534-->[com.transistorsoft:tsbackgroundfetch:1.0.2] /Users/p21_0036/.gradle/caches/transforms-3/b2b759b5acfaa81b619da146a66447c7/transformed/jetified-tsbackgroundfetch-1.0.2/AndroidManifest.xml:19:13-80
+534-->[com.transistorsoft:tsbackgroundfetch:1.0.2] /Users/p21_0036/.gradle/caches/transforms-3/6aff91f14141e220367f903e8e1b4174/transformed/jetified-tsbackgroundfetch-1.0.2/AndroidManifest.xml:19:13-80
 535            android:exported="true"
-535-->[com.transistorsoft:tsbackgroundfetch:1.0.2] /Users/p21_0036/.gradle/caches/transforms-3/b2b759b5acfaa81b619da146a66447c7/transformed/jetified-tsbackgroundfetch-1.0.2/AndroidManifest.xml:20:13-36
+535-->[com.transistorsoft:tsbackgroundfetch:1.0.2] /Users/p21_0036/.gradle/caches/transforms-3/6aff91f14141e220367f903e8e1b4174/transformed/jetified-tsbackgroundfetch-1.0.2/AndroidManifest.xml:20:13-36
 536            android:permission="android.permission.BIND_JOB_SERVICE" />
-536-->[com.transistorsoft:tsbackgroundfetch:1.0.2] /Users/p21_0036/.gradle/caches/transforms-3/b2b759b5acfaa81b619da146a66447c7/transformed/jetified-tsbackgroundfetch-1.0.2/AndroidManifest.xml:21:13-69
+536-->[com.transistorsoft:tsbackgroundfetch:1.0.2] /Users/p21_0036/.gradle/caches/transforms-3/6aff91f14141e220367f903e8e1b4174/transformed/jetified-tsbackgroundfetch-1.0.2/AndroidManifest.xml:21:13-69
 537
 538        <receiver
-538-->[com.transistorsoft:tsbackgroundfetch:1.0.2] /Users/p21_0036/.gradle/caches/transforms-3/b2b759b5acfaa81b619da146a66447c7/transformed/jetified-tsbackgroundfetch-1.0.2/AndroidManifest.xml:23:9-30:20
+538-->[com.transistorsoft:tsbackgroundfetch:1.0.2] /Users/p21_0036/.gradle/caches/transforms-3/6aff91f14141e220367f903e8e1b4174/transformed/jetified-tsbackgroundfetch-1.0.2/AndroidManifest.xml:23:9-30:20
 539            android:name="com.transistorsoft.tsbackgroundfetch.BootReceiver"
-539-->[com.transistorsoft:tsbackgroundfetch:1.0.2] /Users/p21_0036/.gradle/caches/transforms-3/b2b759b5acfaa81b619da146a66447c7/transformed/jetified-tsbackgroundfetch-1.0.2/AndroidManifest.xml:24:13-77
+539-->[com.transistorsoft:tsbackgroundfetch:1.0.2] /Users/p21_0036/.gradle/caches/transforms-3/6aff91f14141e220367f903e8e1b4174/transformed/jetified-tsbackgroundfetch-1.0.2/AndroidManifest.xml:24:13-77
 540            android:exported="false" >
-540-->[com.transistorsoft:tsbackgroundfetch:1.0.2] /Users/p21_0036/.gradle/caches/transforms-3/b2b759b5acfaa81b619da146a66447c7/transformed/jetified-tsbackgroundfetch-1.0.2/AndroidManifest.xml:25:13-37
+540-->[com.transistorsoft:tsbackgroundfetch:1.0.2] /Users/p21_0036/.gradle/caches/transforms-3/6aff91f14141e220367f903e8e1b4174/transformed/jetified-tsbackgroundfetch-1.0.2/AndroidManifest.xml:25:13-37
 541            <intent-filter>
-541-->[com.transistorsoft:tsbackgroundfetch:1.0.2] /Users/p21_0036/.gradle/caches/transforms-3/b2b759b5acfaa81b619da146a66447c7/transformed/jetified-tsbackgroundfetch-1.0.2/AndroidManifest.xml:26:13-29:29
+541-->[com.transistorsoft:tsbackgroundfetch:1.0.2] /Users/p21_0036/.gradle/caches/transforms-3/6aff91f14141e220367f903e8e1b4174/transformed/jetified-tsbackgroundfetch-1.0.2/AndroidManifest.xml:26:13-29:29
 542                <action android:name="android.intent.action.BOOT_COMPLETED" />
 542-->[:flutter_local_notifications] /Users/p21_0036/Desktop/saone/project/demo_project/bossa/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:21:17-79
 542-->[:flutter_local_notifications] /Users/p21_0036/Desktop/saone/project/demo_project/bossa/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:21:25-76
@@ -966,69 +966,69 @@
 544            </intent-filter>
 545        </receiver> <!-- TODO For disabling SharedPreferences backup on Android 12+ android:dataExtractionRules="@xml/backup_rules" -->
 546        <activity
-546-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/p21_0036/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:44:9-49:64
+546-->[com.transistorsoft:tslocationmanager-v21:3.5.4] /Users/p21_0036/.gradle/caches/transforms-3/21e81bdbd113c4f8c36a9a1b750b5799/transformed/jetified-tslocationmanager-v21-3.5.4/AndroidManifest.xml:42:9-47:64
 547            android:name="com.transistorsoft.locationmanager.activity.TSLocationManagerActivity"
-547-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/p21_0036/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:45:13-97
+547-->[com.transistorsoft:tslocationmanager-v21:3.5.4] /Users/p21_0036/.gradle/caches/transforms-3/21e81bdbd113c4f8c36a9a1b750b5799/transformed/jetified-tslocationmanager-v21-3.5.4/AndroidManifest.xml:43:13-97
 548            android:excludeFromRecents="true"
-548-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/p21_0036/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:46:13-46
+548-->[com.transistorsoft:tslocationmanager-v21:3.5.4] /Users/p21_0036/.gradle/caches/transforms-3/21e81bdbd113c4f8c36a9a1b750b5799/transformed/jetified-tslocationmanager-v21-3.5.4/AndroidManifest.xml:44:13-46
 549            android:exported="true"
-549-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/p21_0036/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:47:13-36
+549-->[com.transistorsoft:tslocationmanager-v21:3.5.4] /Users/p21_0036/.gradle/caches/transforms-3/21e81bdbd113c4f8c36a9a1b750b5799/transformed/jetified-tslocationmanager-v21-3.5.4/AndroidManifest.xml:45:13-36
 550            android:launchMode="singleInstance"
-550-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/p21_0036/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:48:13-48
+550-->[com.transistorsoft:tslocationmanager-v21:3.5.4] /Users/p21_0036/.gradle/caches/transforms-3/21e81bdbd113c4f8c36a9a1b750b5799/transformed/jetified-tslocationmanager-v21-3.5.4/AndroidManifest.xml:46:13-48
 551            android:theme="@style/TSLocationManagerActivity" />
-551-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/p21_0036/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:49:13-61
+551-->[com.transistorsoft:tslocationmanager-v21:3.5.4] /Users/p21_0036/.gradle/caches/transforms-3/21e81bdbd113c4f8c36a9a1b750b5799/transformed/jetified-tslocationmanager-v21-3.5.4/AndroidManifest.xml:47:13-61
 552
 553        <service
-553-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/p21_0036/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:57:9-59:84
+553-->[com.transistorsoft:tslocationmanager-v21:3.5.4] /Users/p21_0036/.gradle/caches/transforms-3/21e81bdbd113c4f8c36a9a1b750b5799/transformed/jetified-tslocationmanager-v21-3.5.4/AndroidManifest.xml:55:9-57:84
 554            android:name="com.transistorsoft.locationmanager.service.ActivityRecognitionService"
-554-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/p21_0036/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:58:13-97
+554-->[com.transistorsoft:tslocationmanager-v21:3.5.4] /Users/p21_0036/.gradle/caches/transforms-3/21e81bdbd113c4f8c36a9a1b750b5799/transformed/jetified-tslocationmanager-v21-3.5.4/AndroidManifest.xml:56:13-97
 555            android:foregroundServiceType="@integer/foregroundServiceTypeHealth" />
-555-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/p21_0036/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:59:13-81
+555-->[com.transistorsoft:tslocationmanager-v21:3.5.4] /Users/p21_0036/.gradle/caches/transforms-3/21e81bdbd113c4f8c36a9a1b750b5799/transformed/jetified-tslocationmanager-v21-3.5.4/AndroidManifest.xml:57:13-81
 556        <service
-556-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/p21_0036/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:60:9-62:90
+556-->[com.transistorsoft:tslocationmanager-v21:3.5.4] /Users/p21_0036/.gradle/caches/transforms-3/21e81bdbd113c4f8c36a9a1b750b5799/transformed/jetified-tslocationmanager-v21-3.5.4/AndroidManifest.xml:58:9-60:90
 557            android:name="com.transistorsoft.locationmanager.service.GeofencingService"
-557-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/p21_0036/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:61:13-88
+557-->[com.transistorsoft:tslocationmanager-v21:3.5.4] /Users/p21_0036/.gradle/caches/transforms-3/21e81bdbd113c4f8c36a9a1b750b5799/transformed/jetified-tslocationmanager-v21-3.5.4/AndroidManifest.xml:59:13-88
 558            android:foregroundServiceType="@integer/foregroundServiceTypeShortService" />
-558-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/p21_0036/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:62:13-87
+558-->[com.transistorsoft:tslocationmanager-v21:3.5.4] /Users/p21_0036/.gradle/caches/transforms-3/21e81bdbd113c4f8c36a9a1b750b5799/transformed/jetified-tslocationmanager-v21-3.5.4/AndroidManifest.xml:60:13-87
 559        <service
-559-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/p21_0036/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:63:9-65:56
+559-->[com.transistorsoft:tslocationmanager-v21:3.5.4] /Users/p21_0036/.gradle/caches/transforms-3/21e81bdbd113c4f8c36a9a1b750b5799/transformed/jetified-tslocationmanager-v21-3.5.4/AndroidManifest.xml:61:9-63:56
 560            android:name="com.transistorsoft.locationmanager.service.PolygonGeofencingService"
-560-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/p21_0036/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:64:13-95
+560-->[com.transistorsoft:tslocationmanager-v21:3.5.4] /Users/p21_0036/.gradle/caches/transforms-3/21e81bdbd113c4f8c36a9a1b750b5799/transformed/jetified-tslocationmanager-v21-3.5.4/AndroidManifest.xml:62:13-95
 561            android:foregroundServiceType="location" />
-561-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/p21_0036/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:65:13-53
+561-->[com.transistorsoft:tslocationmanager-v21:3.5.4] /Users/p21_0036/.gradle/caches/transforms-3/21e81bdbd113c4f8c36a9a1b750b5799/transformed/jetified-tslocationmanager-v21-3.5.4/AndroidManifest.xml:63:13-53
 562        <service
-562-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/p21_0036/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:66:9-68:90
+562-->[com.transistorsoft:tslocationmanager-v21:3.5.4] /Users/p21_0036/.gradle/caches/transforms-3/21e81bdbd113c4f8c36a9a1b750b5799/transformed/jetified-tslocationmanager-v21-3.5.4/AndroidManifest.xml:64:9-66:90
 563            android:name="com.transistorsoft.locationmanager.scheduler.ScheduleService"
-563-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/p21_0036/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:67:13-88
+563-->[com.transistorsoft:tslocationmanager-v21:3.5.4] /Users/p21_0036/.gradle/caches/transforms-3/21e81bdbd113c4f8c36a9a1b750b5799/transformed/jetified-tslocationmanager-v21-3.5.4/AndroidManifest.xml:65:13-88
 564            android:foregroundServiceType="@integer/foregroundServiceTypeShortService" />
-564-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/p21_0036/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:68:13-87
+564-->[com.transistorsoft:tslocationmanager-v21:3.5.4] /Users/p21_0036/.gradle/caches/transforms-3/21e81bdbd113c4f8c36a9a1b750b5799/transformed/jetified-tslocationmanager-v21-3.5.4/AndroidManifest.xml:66:13-87
 565
 566        <receiver
-566-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/p21_0036/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:70:9-72:40
+566-->[com.transistorsoft:tslocationmanager-v21:3.5.4] /Users/p21_0036/.gradle/caches/transforms-3/21e81bdbd113c4f8c36a9a1b750b5799/transformed/jetified-tslocationmanager-v21-3.5.4/AndroidManifest.xml:68:9-70:40
 567            android:name="com.transistorsoft.locationmanager.scheduler.ScheduleAlarmReceiver"
-567-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/p21_0036/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:71:13-94
+567-->[com.transistorsoft:tslocationmanager-v21:3.5.4] /Users/p21_0036/.gradle/caches/transforms-3/21e81bdbd113c4f8c36a9a1b750b5799/transformed/jetified-tslocationmanager-v21-3.5.4/AndroidManifest.xml:69:13-94
 568            android:exported="false" />
-568-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/p21_0036/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:72:13-37
+568-->[com.transistorsoft:tslocationmanager-v21:3.5.4] /Users/p21_0036/.gradle/caches/transforms-3/21e81bdbd113c4f8c36a9a1b750b5799/transformed/jetified-tslocationmanager-v21-3.5.4/AndroidManifest.xml:70:13-37
 569
 570        <service
-570-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/p21_0036/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:74:9-76:72
+570-->[com.transistorsoft:tslocationmanager-v21:3.5.4] /Users/p21_0036/.gradle/caches/transforms-3/21e81bdbd113c4f8c36a9a1b750b5799/transformed/jetified-tslocationmanager-v21-3.5.4/AndroidManifest.xml:72:9-74:72
 571            android:name="com.transistorsoft.locationmanager.scheduler.ScheduleJobService"
-571-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/p21_0036/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:75:13-91
+571-->[com.transistorsoft:tslocationmanager-v21:3.5.4] /Users/p21_0036/.gradle/caches/transforms-3/21e81bdbd113c4f8c36a9a1b750b5799/transformed/jetified-tslocationmanager-v21-3.5.4/AndroidManifest.xml:73:13-91
 572            android:permission="android.permission.BIND_JOB_SERVICE" />
-572-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/p21_0036/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:76:13-69
+572-->[com.transistorsoft:tslocationmanager-v21:3.5.4] /Users/p21_0036/.gradle/caches/transforms-3/21e81bdbd113c4f8c36a9a1b750b5799/transformed/jetified-tslocationmanager-v21-3.5.4/AndroidManifest.xml:74:13-69
 573
 574        <receiver
-574-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/p21_0036/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:78:9-87:20
+574-->[com.transistorsoft:tslocationmanager-v21:3.5.4] /Users/p21_0036/.gradle/caches/transforms-3/21e81bdbd113c4f8c36a9a1b750b5799/transformed/jetified-tslocationmanager-v21-3.5.4/AndroidManifest.xml:76:9-85:20
 575            android:name="com.transistorsoft.locationmanager.BootReceiver"
-575-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/p21_0036/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:79:13-75
+575-->[com.transistorsoft:tslocationmanager-v21:3.5.4] /Users/p21_0036/.gradle/caches/transforms-3/21e81bdbd113c4f8c36a9a1b750b5799/transformed/jetified-tslocationmanager-v21-3.5.4/AndroidManifest.xml:77:13-75
 576            android:enabled="true"
-576-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/p21_0036/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:80:13-35
+576-->[com.transistorsoft:tslocationmanager-v21:3.5.4] /Users/p21_0036/.gradle/caches/transforms-3/21e81bdbd113c4f8c36a9a1b750b5799/transformed/jetified-tslocationmanager-v21-3.5.4/AndroidManifest.xml:78:13-35
 577            android:exported="false"
-577-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/p21_0036/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:81:13-37
+577-->[com.transistorsoft:tslocationmanager-v21:3.5.4] /Users/p21_0036/.gradle/caches/transforms-3/21e81bdbd113c4f8c36a9a1b750b5799/transformed/jetified-tslocationmanager-v21-3.5.4/AndroidManifest.xml:79:13-37
 578            android:permission="android.permission.RECEIVE_BOOT_COMPLETED" >
-578-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/p21_0036/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:82:13-75
+578-->[com.transistorsoft:tslocationmanager-v21:3.5.4] /Users/p21_0036/.gradle/caches/transforms-3/21e81bdbd113c4f8c36a9a1b750b5799/transformed/jetified-tslocationmanager-v21-3.5.4/AndroidManifest.xml:80:13-75
 579            <intent-filter>
-579-->[com.transistorsoft:tsbackgroundfetch:1.0.2] /Users/p21_0036/.gradle/caches/transforms-3/b2b759b5acfaa81b619da146a66447c7/transformed/jetified-tsbackgroundfetch-1.0.2/AndroidManifest.xml:26:13-29:29
+579-->[com.transistorsoft:tsbackgroundfetch:1.0.2] /Users/p21_0036/.gradle/caches/transforms-3/6aff91f14141e220367f903e8e1b4174/transformed/jetified-tsbackgroundfetch-1.0.2/AndroidManifest.xml:26:13-29:29
 580                <action android:name="android.intent.action.BOOT_COMPLETED" />
 580-->[:flutter_local_notifications] /Users/p21_0036/Desktop/saone/project/demo_project/bossa/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:21:17-79
 580-->[:flutter_local_notifications] /Users/p21_0036/Desktop/saone/project/demo_project/bossa/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:21:25-76
@@ -1039,15 +1039,15 @@
 583        </receiver>
 584
 585        <provider
-585-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/p21_0036/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:89:9-97:20
+585-->[com.transistorsoft:tslocationmanager-v21:3.5.4] /Users/p21_0036/.gradle/caches/transforms-3/21e81bdbd113c4f8c36a9a1b750b5799/transformed/jetified-tslocationmanager-v21-3.5.4/AndroidManifest.xml:87:9-95:20
 586            android:name="com.transistorsoft.locationmanager.util.LogFileProvider"
-586-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/p21_0036/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:90:13-83
-587            android:authorities="com.myapp.bossa.tslocationmanager.fileprovider"
-587-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/p21_0036/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:91:13-82
+586-->[com.transistorsoft:tslocationmanager-v21:3.5.4] /Users/p21_0036/.gradle/caches/transforms-3/21e81bdbd113c4f8c36a9a1b750b5799/transformed/jetified-tslocationmanager-v21-3.5.4/AndroidManifest.xml:88:13-83
+587            android:authorities="com.myapp.bossarewards.tslocationmanager.fileprovider"
+587-->[com.transistorsoft:tslocationmanager-v21:3.5.4] /Users/p21_0036/.gradle/caches/transforms-3/21e81bdbd113c4f8c36a9a1b750b5799/transformed/jetified-tslocationmanager-v21-3.5.4/AndroidManifest.xml:89:13-82
 588            android:exported="false"
-588-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/p21_0036/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:92:13-37
+588-->[com.transistorsoft:tslocationmanager-v21:3.5.4] /Users/p21_0036/.gradle/caches/transforms-3/21e81bdbd113c4f8c36a9a1b750b5799/transformed/jetified-tslocationmanager-v21-3.5.4/AndroidManifest.xml:90:13-37
 589            android:grantUriPermissions="true" >
-589-->[com.transistorsoft:tslocationmanager-v21:3.5.2] /Users/p21_0036/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/AndroidManifest.xml:93:13-47
+589-->[com.transistorsoft:tslocationmanager-v21:3.5.4] /Users/p21_0036/.gradle/caches/transforms-3/21e81bdbd113c4f8c36a9a1b750b5799/transformed/jetified-tslocationmanager-v21-3.5.4/AndroidManifest.xml:91:13-47
 590            <meta-data
 590-->[:share_plus] /Users/p21_0036/Desktop/saone/project/demo_project/bossa/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-20:68
 591                android:name="android.support.FILE_PROVIDER_PATHS"
@@ -1064,7 +1064,7 @@
 597-->[com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:27:13-43
 598            android:exported="true"
 598-->[com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:28:13-36
-599            android:permission="com.myapp.bossa.permission.PROCESS_PUSH_MSG" >
+599            android:permission="com.myapp.bossarewards.permission.PROCESS_PUSH_MSG" >
 599-->[com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:29:13-78
 600            <intent-filter>
 600-->[com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:30:13-36:29
@@ -1087,7 +1087,7 @@
 610-->[com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:40:13-43
 611            android:exported="true"
 611-->[com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:41:13-36
-612            android:permission="com.myapp.bossa.permission.PROCESS_PUSH_MSG" >
+612            android:permission="com.myapp.bossarewards.permission.PROCESS_PUSH_MSG" >
 612-->[com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:42:13-78
 613            <intent-filter>
 613-->[com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:43:13-49:29
@@ -1129,13 +1129,13 @@
 633-->[com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:65:9-70:89
 634            android:name="com.huawei.hms.support.api.push.PushProvider"
 634-->[com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:66:13-72
-635            android:authorities="com.myapp.bossa.huawei.push.provider"
+635            android:authorities="com.myapp.bossarewards.huawei.push.provider"
 635-->[com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:67:13-72
 636            android:exported="true"
 636-->[com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:68:13-36
-637            android:readPermission="com.myapp.bossa.permission.PUSH_PROVIDER"
+637            android:readPermission="com.myapp.bossarewards.permission.PUSH_PROVIDER"
 637-->[com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:69:13-79
-638            android:writePermission="com.myapp.bossa.permission.PUSH_WRITE_PROVIDER" />
+638            android:writePermission="com.myapp.bossarewards.permission.PUSH_WRITE_PROVIDER" />
 638-->[com.huawei.hms:push:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/AndroidManifest.xml:70:13-86
 639
 640        <meta-data
@@ -1162,7 +1162,7 @@
 651-->[com.huawei.hms:opendevice:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/bce049eeb844a9823737c5d524dc1435/transformed/jetified-opendevice-6.11.0.300/AndroidManifest.xml:10:9-14:39
 652            android:name="com.huawei.hms.aaid.InitProvider"
 652-->[com.huawei.hms:opendevice:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/bce049eeb844a9823737c5d524dc1435/transformed/jetified-opendevice-6.11.0.300/AndroidManifest.xml:11:13-60
-653            android:authorities="com.myapp.bossa.aaidinitprovider"
+653            android:authorities="com.myapp.bossarewards.aaidinitprovider"
 653-->[com.huawei.hms:opendevice:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/bce049eeb844a9823737c5d524dc1435/transformed/jetified-opendevice-6.11.0.300/AndroidManifest.xml:12:13-68
 654            android:exported="false"
 654-->[com.huawei.hms:opendevice:6.11.0.300] /Users/p21_0036/.gradle/caches/transforms-3/bce049eeb844a9823737c5d524dc1435/transformed/jetified-opendevice-6.11.0.300/AndroidManifest.xml:13:13-37
@@ -1237,7 +1237,7 @@
 691-->[com.huawei.agconnect:agconnect-core:1.7.3.302] /Users/p21_0036/.gradle/caches/transforms-3/c3c75128d094d296d42d9841521cddb5/transformed/jetified-agconnect-core-1.7.3.302/AndroidManifest.xml:11:9-14:40
 692            android:name="com.huawei.agconnect.core.provider.AGConnectInitializeProvider"
 692-->[com.huawei.agconnect:agconnect-core:1.7.3.302] /Users/p21_0036/.gradle/caches/transforms-3/c3c75128d094d296d42d9841521cddb5/transformed/jetified-agconnect-core-1.7.3.302/AndroidManifest.xml:12:13-90
-693            android:authorities="com.myapp.bossa.AGCInitializeProvider"
+693            android:authorities="com.myapp.bossarewards.AGCInitializeProvider"
 693-->[com.huawei.agconnect:agconnect-core:1.7.3.302] /Users/p21_0036/.gradle/caches/transforms-3/c3c75128d094d296d42d9841521cddb5/transformed/jetified-agconnect-core-1.7.3.302/AndroidManifest.xml:13:13-73
 694            android:exported="false" />
 694-->[com.huawei.agconnect:agconnect-core:1.7.3.302] /Users/p21_0036/.gradle/caches/transforms-3/c3c75128d094d296d42d9841521cddb5/transformed/jetified-agconnect-core-1.7.3.302/AndroidManifest.xml:14:13-37

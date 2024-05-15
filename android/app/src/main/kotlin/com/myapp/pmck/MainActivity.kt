@@ -1,4 +1,4 @@
-package com.myapp.bossa
+package com.myapp.bossarewards
 
 import io.flutter.embedding.android.FlutterActivity
 

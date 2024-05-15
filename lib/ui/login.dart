@@ -142,7 +142,7 @@ class _LoginState extends State<Login> {
               CommonTextField(
                 hintText: "Password",
                 controller: password,
-                obscureText: false,
+                obscureText: true,
                 fontSize: 2.5,
               ),
               SizedBox(

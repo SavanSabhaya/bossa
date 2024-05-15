@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.myapp.bossa.app-mergeDebugResources-43:/values/values.xml",
+            "outputFile": "com.myapp.bossarewards.app-mergeDebugResources-43:/values/values.xml",
             "map": [
                 {
                     "source": "/Users/p21_0036/Desktop/saone/project/demo_project/bossa/android/app/src/main/res/values/strings.xml",
@@ -73,6 +73,25 @@
                         "startOffsets": "24753",
                         "endColumns": "81",
                         "endOffsets": "24830"
+                    }
+                },
+                {
+                    "source": "/Users/p21_0036/.gradle/caches/transforms-3/21e81bdbd113c4f8c36a9a1b750b5799/transformed/jetified-tslocationmanager-v21-3.5.4/res/values/values.xml",
+                    "from": {
+                        "startLines": "2,3,5,6,7,8,9,10,15",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,115,236,338,512,637,679,802,1138",
+                        "endLines": "2,3,5,6,7,8,9,14,17",
+                        "endColumns": "59,65,101,173,124,41,122,12,12",
+                        "endOffsets": "110,176,333,507,632,674,797,1133,1284"
+                    },
+                    "to": {
+                        "startLines": "295,296,328,329,330,338,360,1488,1708",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "18982,19042,21260,21362,21536,22172,24835,97505,113013",
+                        "endLines": "295,296,328,329,330,338,360,1492,1710",
+                        "endColumns": "59,65,101,173,124,41,122,12,12",
+                        "endOffsets": "19037,19103,21357,21531,21656,22209,24953,97836,113159"
                     }
                 },
                 {
@@ -378,25 +397,6 @@
                         "endLines": "45,46,47,48,49,50,51,52,339,340,341,342,343,344,345,346,348,349,350,351,352,353,354,355,356,2957,3192",
                         "endColumns": "89,79,89,89,79,80,79,79,104,180,124,106,179,122,115,102,187,104,180,124,174,147,62,61,78,20,20",
                         "endOffsets": "2951,3031,3121,3211,3291,3372,3452,3532,22314,22495,22620,22727,22907,23030,23146,23249,23604,23709,23890,24015,24190,24338,24401,24463,24542,165664,173022"
-                    }
-                },
-                {
-                    "source": "/Users/p21_0036/.gradle/caches/transforms-3/c017b852e971961e4dc231b4649cfa44/transformed/jetified-tslocationmanager-v21-3.5.2/res/values/values.xml",
-                    "from": {
-                        "startLines": "2,3,5,6,7,8,9,10,15",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,115,236,338,512,637,679,802,1138",
-                        "endLines": "2,3,5,6,7,8,9,14,17",
-                        "endColumns": "59,65,101,173,124,41,122,12,12",
-                        "endOffsets": "110,176,333,507,632,674,797,1133,1284"
-                    },
-                    "to": {
-                        "startLines": "295,296,328,329,330,338,360,1488,1708",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "18982,19042,21260,21362,21536,22172,24835,97505,113013",
-                        "endLines": "295,296,328,329,330,338,360,1492,1710",
-                        "endColumns": "59,65,101,173,124,41,122,12,12",
-                        "endOffsets": "19037,19103,21357,21531,21656,22209,24953,97836,113159"
                     }
                 }
             ]

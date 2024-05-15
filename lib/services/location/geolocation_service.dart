@@ -35,9 +35,9 @@ class GeoLocationService extends GetxService {
 
   void _configure() async {
     //bg.BackgroundGeolocation.onGeofence(_onGeofence);
-    bg.BackgroundGeolocation.onMotionChange(_onMotionChange);
+    // bg.BackgroundGeolocation.onMotionChange(_onMotionChange);
 
-    bg.BackgroundGeolocation.ready(bg.Config(
+   /*  bg.BackgroundGeolocation.ready(bg.Config(
             debug: false,
             logLevel: bg.Config.LOG_LEVEL_VERBOSE,
             desiredAccuracy: bg.Config.DESIRED_ACCURACY_HIGH,
@@ -69,7 +69,7 @@ class GeoLocationService extends GetxService {
       }
 
       await getInitLocation();
-    });
+    }); */
   }
 
   Future<void> getInitLocation() async {

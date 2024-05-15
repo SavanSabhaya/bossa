@@ -1,5 +1,5 @@
 <manifest
-    xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" package="com.myapp.bossa">
+    xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" package="com.myapp.pmck">
     <!-- io.flutter.app.FlutterApplication is an android.app.Application that
                          calls FlutterMain.startInitialization(this); in its onCreate method.
                          In most cases you can leave this as-is, but you if you want to provide
@@ -24,10 +24,10 @@
 
     <uses-permission android:name="android.permission.WAKE_LOCK"/>
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
-    <application tools:replace="android:label" android:name="${applicationName}" android:label="BOSSA REWARDS" android:icon="@mipmap/ic_notification">
+    <application tools:replace="android:label" android:name="${applicationName}" android:label="HowZaT" android:icon="@mipmap/ic_notification">
 
         <activity
-            tools:replace="android:label" android:name=".MainActivity" android:exported="true" android:label="BOSSA REWARDS" android:launchMode="singleTop" android:theme="@style/LaunchTheme" android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode" android:hardwareAccelerated="true" android:windowSoftInputMode="adjustResize">
+            tools:replace="android:label" android:name=".MainActivity" android:exported="true" android:label="HowZaT" android:launchMode="singleTop" android:theme="@style/LaunchTheme" android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode" android:hardwareAccelerated="true" android:windowSoftInputMode="adjustResize">
             <!-- Specifies an Android theme to apply to this Activity as soon as
                                                                  the Android process has started. This theme is visible to the user
                                                                  while the Flutter UI initializes. After that, this theme continues

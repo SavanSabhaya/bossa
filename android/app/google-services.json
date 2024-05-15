@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:1050632818991:android:90122e0b0b75fcb3d451da",
         "android_client_info": {
-          "package_name": "com.myapp.bossa"
+          "package_name": "com.myapp.bossarewards"
         }
       },
       "oauth_client": [
@@ -45,7 +45,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:1050632818991:android:5fe384ce3e1d7642d451da",
         "android_client_info": {
-          "package_name": "com.myapp.bossa"
+          "package_name": "com.myapp.bossarewards"
         }
       },
       "oauth_client": [

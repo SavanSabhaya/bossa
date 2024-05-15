@@ -8,10 +8,10 @@
         <option name="gradleJvm" value="#GRADLE_LOCAL_JAVA_HOME" />
         <option name="modules">
           <set>
-            <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/background_fetch-1.2.1/android" />
+            <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/background_fetch-1.2.2/android" />
             <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/firebase_core-2.22.0/android" />
             <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/firebase_messaging-14.7.4/android" />
-            <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/flutter_background_geolocation-4.13.4/android" />
+            <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/flutter_background_geolocation-4.14.0/android" />
             <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/flutter_local_notifications-9.9.1/android" />
             <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/fluttertoast-8.2.4/android" />
             <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/geocoding_android-2.1.2/android" />

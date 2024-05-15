@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.myapp.bossa.app-mergeDebugResources-43:/values-lv/values-lv.xml",
+            "outputFile": "com.myapp.bossarewards.app-mergeDebugResources-43:/values-lv/values-lv.xml",
             "map": [
                 {
                     "source": "/Users/p21_0036/.gradle/caches/transforms-3/56741c29764f251811e87aa14a9b592d/transformed/jetified-play-services-base-18.1.0/res/values-lv/values.xml",
