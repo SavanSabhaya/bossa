@@ -129,8 +129,12 @@ class OrderMainScreen extends GetView<OrderMainController> {
                                   child: Swiper(
                                     itemBuilder:
                                         (BuildContext context, int index) {
-                                      return swiperItem(
-                                          context, controller.res.res[index]);
+                                      return controller
+                                                  .res.res[index].resName ==
+                                              ''
+                                          ? defaultSwiperItem(115.h)
+                                          : swiperItem(context,
+                                              controller.res.res[index]);
                                     },
                                     viewportFraction: 0.58,
                                     itemCount: controller.res.res.length,
@@ -189,12 +193,12 @@ class OrderMainScreen extends GetView<OrderMainController> {
                                                       width: 100.w,
                                                       height: 45.h,
                                                       decoration: BoxDecoration(
-                                                          borderRadius:
-                                                              BorderRadius
-                                                                  .circular(5
-                                                                      .r),
-                                                                       color: Color(0xffEDCC40),
-                                                          /* gradient:
+                                                        borderRadius:
+                                                            BorderRadius
+                                                                .circular(5.r),
+                                                        color:
+                                                            Color(0xffEDCC40),
+                                                        /* gradient:
                                                               const LinearGradient(
                                                             colors: [
                                                               Color(0xfffe7500),
@@ -207,14 +211,14 @@ class OrderMainScreen extends GetView<OrderMainController> {
                                                                 1.00, -0.00),
                                                             // angle: 90,
                                                             // scale: undefined,
-                                                          ) */),
-                                                      alignment: Alignment
-                                                          .center,
+                                                          ) */
+                                                      ),
+                                                      alignment:
+                                                          Alignment.center,
                                                       child: GlobalText(
                                                           "CANCEL",
-                                                          color:
-                                                              const Color(
-                                                                  0xffffffff),
+                                                          color: const Color(
+                                                              0xffffffff),
                                                           fontWeight:
                                                               FontWeight.w700,
                                                           fontStyle:
@@ -250,12 +254,12 @@ class OrderMainScreen extends GetView<OrderMainController> {
                                                       height: 45.h,
                                                       width: 100.w,
                                                       decoration: BoxDecoration(
-                                                          borderRadius:
-                                                              BorderRadius
-                                                                  .circular(
-                                                                      5.r),
-                                                                       color: Color(0xffEDCC40),
-                                                         /*  gradient:
+                                                        borderRadius:
+                                                            BorderRadius
+                                                                .circular(5.r),
+                                                        color:
+                                                            Color(0xffEDCC40),
+                                                        /*  gradient:
                                                               const LinearGradient(
                                                             colors: [
                                                               Color(0xfffe7500),
@@ -268,7 +272,8 @@ class OrderMainScreen extends GetView<OrderMainController> {
                                                                 1.00, -0.00),
                                                             // angle: 90,
                                                             // scale: undefined,
-                                                          ) */),
+                                                          ) */
+                                                      ),
                                                       alignment:
                                                           Alignment.center,
                                                       child: GlobalText("OK",
@@ -449,8 +454,8 @@ class OrderMainScreen extends GetView<OrderMainController> {
                     width: 100.w,
                     height: 45.h,
                     decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(5.r),
-                         color: Color(0xffEDCC40),
+                      borderRadius: BorderRadius.circular(5.r),
+                      color: Color(0xffEDCC40),
                       /*   gradient: const LinearGradient(
                           colors: [Color(0xfffe7500), Color(0xffe41b00)],
                           stops: [0, 1],
@@ -458,7 +463,8 @@ class OrderMainScreen extends GetView<OrderMainController> {
                           end: Alignment(1.00, -0.00),
                           // angle: 90,
                           // scale: undefined,
-                        ) */),
+                        ) */
+                    ),
                     alignment: Alignment.center,
                     child: GlobalText("CANCEL",
                         color: const Color(0xffffffff),
@@ -485,16 +491,17 @@ class OrderMainScreen extends GetView<OrderMainController> {
                     height: 45.h,
                     width: 100.w,
                     decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(5.r),
-                         color: Color(0xffEDCC40),
-                        /* gradient: const LinearGradient(
+                      borderRadius: BorderRadius.circular(5.r),
+                      color: Color(0xffEDCC40),
+                      /* gradient: const LinearGradient(
                           colors: [Color(0xfffe7500), Color(0xffe41b00)],
                           stops: [0, 1],
                           begin: Alignment(-1.00, 0.00),
                           end: Alignment(1.00, -0.00),
                           // angle: 90,
                           // scale: undefined,
-                        ) */),
+                        ) */
+                    ),
                     alignment: Alignment.center,
                     child: GlobalText("OK",
                         color: const Color(0xffffffff),
@@ -593,16 +600,17 @@ class OrderMainScreen extends GetView<OrderMainController> {
                     width: 100.w,
                     height: 45.h,
                     decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(5.r),
-                         color: Color(0xffEDCC40),
-                       /*  gradient: const LinearGradient(
+                      borderRadius: BorderRadius.circular(5.r),
+                      color: Color(0xffEDCC40),
+                      /*  gradient: const LinearGradient(
                           colors: [Color(0xfffe7500), Color(0xffe41b00)],
                           stops: [0, 1],
                           begin: Alignment(-1.00, 0.00),
                           end: Alignment(1.00, -0.00),
                           // angle: 90,
                           // scale: undefined,
-                        ) */),
+                        ) */
+                    ),
                     alignment: Alignment.center,
                     child: GlobalText("CANCEL",
                         color: const Color(0xffffffff),
@@ -629,16 +637,17 @@ class OrderMainScreen extends GetView<OrderMainController> {
                     height: 45.h,
                     width: 100.w,
                     decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(5.r),
-                         color: Color(0xffEDCC40),
-                        /* gradient: const LinearGradient(
+                      borderRadius: BorderRadius.circular(5.r),
+                      color: Color(0xffEDCC40),
+                      /* gradient: const LinearGradient(
                           colors: [Color(0xfffe7500), Color(0xffe41b00)],
                           stops: [0, 1],
                           begin: Alignment(-1.00, 0.00),
                           end: Alignment(1.00, -0.00),
                           // angle: 90,
                           // scale: undefined,
-                        ) */),
+                        ) */
+                    ),
                     alignment: Alignment.center,
                     child: GlobalText("OK",
                         color: const Color(0xffffffff),
@@ -692,15 +701,16 @@ class OrderMainScreen extends GetView<OrderMainController> {
                   height: 69.h,
                   // width: 10,
                   decoration: BoxDecoration(
-                      borderRadius: BorderRadius.only(
-                          bottomLeft: Radius.circular(9.r),
-                          bottomRight: Radius.circular(9.r)),
-                           color: Color(0xffEDCC40),
-                      /* gradient: const LinearGradient(
+                    borderRadius: BorderRadius.only(
+                        bottomLeft: Radius.circular(9.r),
+                        bottomRight: Radius.circular(9.r)),
+                    color: Color(0xffEDCC40),
+                    /* gradient: const LinearGradient(
                           colors: [Color(0xfff32934), Color(0xfffcc43e)],
                           stops: [0, 1],
                           begin: Alignment(-1.00, -0.02),
-                          end: Alignment(1.00, 0.02)) */),
+                          end: Alignment(1.00, 0.02)) */
+                  ),
                   padding:
                       EdgeInsets.symmetric(horizontal: 10.w, vertical: 4.h),
                   child: Row(
@@ -967,16 +977,17 @@ class OrderMainScreen extends GetView<OrderMainController> {
             height: 59.h,
             margin: EdgeInsets.symmetric(horizontal: 37.w),
             decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(5.r),
-                 color: Color(0xffEDCC40),
-                /* gradient: const LinearGradient(
+              borderRadius: BorderRadius.circular(5.r),
+              color: Color(0xffEDCC40),
+              /* gradient: const LinearGradient(
                   colors: [Color(0xfffe7500), Color(0xffe41b00)],
                   stops: [0, 1],
                   begin: Alignment(-1.00, 0.00),
                   end: Alignment(1.00, -0.00),
                   // angle: 90,
                   // scale: undefined,
-                ) */),
+                ) */
+            ),
             alignment: Alignment.center,
             child: GlobalText("Back to Shopping",
                 color: const Color(0xffffffff),

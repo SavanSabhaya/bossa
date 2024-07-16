@@ -39,113 +39,143 @@ class _NotificationScreenState extends State<NotificationScreen> {
                       notificationData = snapshot.data!.notifications;
                       return SafeArea(
                         bottom: false,
-                        child: Container(
-                          width: SizeConfig.screenWidth * 1.2,
-                          alignment: Alignment.center,
-                          child: SingleChildScrollView(
-                            child: Column(
-                              children: [
-                                Padding(
-                                  padding: const EdgeInsets.only(
-                                      left: 5.0, right: 5.0, top: 10),
-                                  child: Container(
-                                    height: SizeConfig.screenHeight * 1.49,
-                                    width: SizeConfig.screenWidth,
-                                    decoration: BoxDecoration(
-                                      color: const Color(0xfff1f2f4),
-                                      borderRadius: BorderRadius.circular(20.0),
-                                    ),
-                                    child: ListView.builder(
-                                      itemCount: notificationData.length,
-                                      physics: const BouncingScrollPhysics(),
-                                      itemBuilder:
-                                          (BuildContext context, int index) {
-                                        return Padding(
-                                          padding: const EdgeInsets.only(
-                                              bottom: 10.0),
-                                          child: Container(
-                                            alignment: Alignment.center,
-                                            height: 60,
-                                            width: SizeConfig.screenWidth * 0.8,
+                        child: notificationData.length == 0
+                            ? Center(
+                                child: Text(
+                                'No notifications found',
+                                style: TextStyle(fontSize: 17),
+                              ))
+                            : Container(
+                                width: SizeConfig.screenWidth * 1.2,
+                                alignment: Alignment.center,
+                                child: SingleChildScrollView(
+                                  child: Column(
+                                    children: [
+                                      Padding(
+                                        padding: const EdgeInsets.only(
+                                            left: 5.0, right: 5.0, top: 10),
+                                        child: Container(
+                                            height:
+                                                SizeConfig.screenHeight * 1.49,
+                                            width: SizeConfig.screenWidth,
                                             decoration: BoxDecoration(
+                                              color: const Color(0xfff1f2f4),
                                               borderRadius:
-                                                  BorderRadius.circular(15.0),
-                                              color: Colors.white,
+                                                  BorderRadius.circular(20.0),
                                             ),
-                                            child: ListTile(
-                                              leading: Container(
-                                                height: 25,
-                                                width: 25,
-                                                decoration: notificationData[
-                                                                index]
-                                                            .read ==
-                                                        "0"
-                                                    ? const BoxDecoration(
-                                                        shape: BoxShape.circle,
-                                                        color:
-                                                            Color(0xfffb6e37),
-                                                      )
-                                                    : BoxDecoration(
-                                                        shape: BoxShape.circle,
-                                                        border: Border.all(
-                                                          width: 2,
-                                                          color: const Color(
-                                                              0xfffb6e37),
-                                                        )),
-                                              ),
-                                              title: Text(
-                                                notificationData[index].title,
-                                                style: const TextStyle(
-                                                    fontSize: 18.0,
-                                                    fontFamily: 'Muli-Bold',
-                                                    fontWeight:
-                                                        FontWeight.bold),
-                                              ),
-                                              onTap: () async {
-                                                if (notificationData[index]
-                                                        .read ==
-                                                    "0") {
-                                                  setState(() {
-                                                    notificationData[index]
-                                                        .read = "1";
-                                                  });
-                                                  // ignore: unused_local_variable
-                                                  var res =
-                                                      Api.viewNotification(
-                                                          notificationData[
-                                                                  index]
-                                                              .id);
-                                                }
+                                            child: ListView.builder(
+                                              itemCount:
+                                                  notificationData.length,
+                                              physics:
+                                                  const BouncingScrollPhysics(),
+                                              itemBuilder:
+                                                  (BuildContext context,
+                                                      int index) {
+                                                return Padding(
+                                                  padding:
+                                                      const EdgeInsets.only(
+                                                          bottom: 10.0),
+                                                  child: Container(
+                                                    alignment: Alignment.center,
+                                                    height: 60,
+                                                    width:
+                                                        SizeConfig.screenWidth *
+                                                            0.8,
+                                                    decoration: BoxDecoration(
+                                                      borderRadius:
+                                                          BorderRadius.circular(
+                                                              15.0),
+                                                      color: Colors.white,
+                                                    ),
+                                                    child: ListTile(
+                                                      leading: Container(
+                                                        height: 25,
+                                                        width: 25,
+                                                        decoration: notificationData[
+                                                                        index]
+                                                                    .read ==
+                                                                "0"
+                                                            ? const BoxDecoration(
+                                                                shape: BoxShape
+                                                                    .circle,
+                                                                color: Color(
+                                                                    0xfffb6e37),
+                                                              )
+                                                            : BoxDecoration(
+                                                                shape: BoxShape
+                                                                    .circle,
+                                                                border:
+                                                                    Border.all(
+                                                                  width: 2,
+                                                                  color: const Color(
+                                                                      0xfffb6e37),
+                                                                )),
+                                                      ),
+                                                      title: Text(
+                                                        notificationData[index]
+                                                            .title,
+                                                        style: const TextStyle(
+                                                            fontSize: 18.0,
+                                                            fontFamily:
+                                                                'Muli-Bold',
+                                                            fontWeight:
+                                                                FontWeight
+                                                                    .bold),
+                                                      ),
+                                                      onTap: () async {
+                                                        if (notificationData[
+                                                                    index]
+                                                                .read ==
+                                                            "0") {
+                                                          setState(() {
+                                                            notificationData[
+                                                                    index]
+                                                                .read = "1";
+                                                          });
+                                                          // ignore: unused_local_variable
+                                                          var res = Api
+                                                              .viewNotification(
+                                                                  notificationData[
+                                                                          index]
+                                                                      .id);
+                                                        }
 
-                                                Get.toNamed(
-                                                    Routes.DISPLAYNOTIFCATION,
-                                                    arguments: [
-                                                      notificationData[index]
-                                                          .title,
-                                                      notificationData[index]
-                                                          .date,
-                                                      notificationData[index]
-                                                          .message,
-                                                      notificationData[index]
-                                                          .link,
-                                                    ],
-                                                    id: NavConst.notifyNav);
+                                                        Get.toNamed(
+                                                            Routes
+                                                                .DISPLAYNOTIFCATION,
+                                                            arguments: [
+                                                              notificationData[
+                                                                      index]
+                                                                  .title,
+                                                              notificationData[
+                                                                      index]
+                                                                  .date,
+                                                              notificationData[
+                                                                      index]
+                                                                  .message,
+                                                              notificationData[
+                                                                      index]
+                                                                  .link,
+                                                            ],
+                                                            id: NavConst
+                                                                .notifyNav);
+                                                      },
+                                                    ),
+                                                  ),
+                                                );
                                               },
-                                            ),
-                                          ),
-                                        );
-                                      },
-                                    ),
+                                            )),
+                                      ),
+                                    ],
                                   ),
                                 ),
-                              ],
-                            ),
-                          ),
-                        ),
+                              ),
                       );
                     }
                     if (snapshot.hasError) {
-                      return Container();
+                      return Container(
+                        child: Text('data'),
+                      );
                     }
                     return const Center(
                       child: CircularProgressIndicator(

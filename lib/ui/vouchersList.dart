@@ -151,21 +151,28 @@ class _VoucherListState extends State<VoucherList> {
                                               // height: SizeConfig.blockSizeVertical*35,
                                               width:
                                                   SizeConfig.screenWidth * 0.90,
-                                              child: ListView.builder(
-                                                shrinkWrap: true,
-                                                physics:
-                                                    const BouncingScrollPhysics(),
-                                                itemCount: cont
-                                                    .offers.value.offers.length,
-                                                itemBuilder: (context, index) {
-                                                  return ListTileOffers(
-                                                    allData: cont
-                                                        .offers.value.offers,
-                                                    index: index,
-                                                    uuid: widget.uuid,
-                                                  );
-                                                },
-                                              ),
+                                              child: cont.offers.value.offers
+                                                          .length ==
+                                                      0
+                                                  ? Center(
+                                                      child: Text(
+                                                          'No Vouchers Available',style: TextStyle(fontSize:18),))
+                                                  : ListView.builder(
+                                                      shrinkWrap: true,
+                                                      physics:
+                                                          const BouncingScrollPhysics(),
+                                                      itemCount: cont.offers
+                                                          .value.offers.length,
+                                                      itemBuilder:
+                                                          (context, index) {
+                                                        return ListTileOffers(
+                                                          allData: cont.offers
+                                                              .value.offers,
+                                                          index: index,
+                                                          uuid: widget.uuid,
+                                                        );
+                                                      },
+                                                    ),
                                             )
                                     ],
                                   ),

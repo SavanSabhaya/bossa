@@ -419,7 +419,11 @@ class _RestaurantDetailsState extends State<RestaurantDetails> {
                 );
               }
               if (snapshot.hasError) {
-                return Center(child: Text("${snapshot.hasError}"));
+                return Center(
+                    child: Text(
+                  "No Detail Found",
+                  style: TextStyle(fontSize: 18),
+                ));
               }
 
               return Container();

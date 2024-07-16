@@ -141,8 +141,10 @@ class _TransactionHistoryState extends State<TransactionHistory> {
                           ),
                         )
                       : const Center(
-                          child: CircularProgressIndicator(),
-                        )
+                          child: Text(
+                          'No Transaction found',
+                          style: TextStyle(fontSize: 17),
+                        ))
                 ],
               ),
             ),

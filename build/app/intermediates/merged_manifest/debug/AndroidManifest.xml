@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.myapp.bossarewards"
-    android:versionCode="1"
+    package="com.myapp.rewardsbossa"
+    android:versionCode="3"
     android:versionName="1.0.0" >
 
     <uses-sdk
@@ -72,10 +72,10 @@
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
 
     <permission
-        android:name="com.myapp.bossarewards.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:name="com.myapp.rewardsbossa.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.myapp.bossarewards.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+    <uses-permission android:name="com.myapp.rewardsbossa.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
     <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
     <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
     <uses-permission android:name="com.huawei.hms.permission.ACTIVITY_RECOGNITION" />
@@ -96,31 +96,31 @@
         android:required="false" />
 
     <permission
-        android:name="com.myapp.bossarewards.permission.PROCESS_PUSH_MSG"
+        android:name="com.myapp.rewardsbossa.permission.PROCESS_PUSH_MSG"
         android:protectionLevel="signature" /> <!-- PUSH_PROVIDER and PUSH_WRITE_PROVIDER are both provider registered permissions for the notification switch. -->
     <!-- The SDK's notification bar switch, EMUI 9.x becomes write to the local sp, sharing the file through the provider to the push-rom, which reads the sp file to get the status of the notification bar switch. -->
     <permission
-        android:name="com.myapp.bossarewards.permission.PUSH_PROVIDER"
+        android:name="com.myapp.rewardsbossa.permission.PUSH_PROVIDER"
         android:protectionLevel="signature" />
     <permission
-        android:name="com.myapp.bossarewards.permission.PUSH_WRITE_PROVIDER"
+        android:name="com.myapp.rewardsbossa.permission.PUSH_WRITE_PROVIDER"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.myapp.bossarewards.permission.PROCESS_PUSH_MSG" />
-    <uses-permission android:name="com.myapp.bossarewards.permission.PUSH_PROVIDER" />
+    <uses-permission android:name="com.myapp.rewardsbossa.permission.PROCESS_PUSH_MSG" />
+    <uses-permission android:name="com.myapp.rewardsbossa.permission.PUSH_PROVIDER" />
 
     <application
         android:name="io.flutter.app.FlutterMultiDexApplication"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
         android:icon="@mipmap/ic_notification"
-        android:label="HowZaT" >
+        android:label="BOSSA REWARDS" >
         <activity
-            android:name="com.myapp.bossarewards.MainActivity"
+            android:name="com.myapp.rewardsbossa.MainActivity"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
             android:exported="true"
             android:hardwareAccelerated="true"
-            android:label="HowZaT"
+            android:label="BOSSA REWARDS"
             android:launchMode="singleTop"
             android:theme="@style/LaunchTheme"
             android:windowSoftInputMode="adjustResize" >
@@ -150,15 +150,12 @@
             android:value="2" />
         <meta-data
             android:name="com.transistorsoft.locationmanager.license"
-            android:value="837a759e64fc26fcc085002f5b9e22ea54ada8eddbb64be474554663b1964bdf" />
+            android:value="af7eeeb9cec2780ac0620cc50797db23306fd7538b7756e7e5e486db6c76038c" />
         <meta-data
             android:name="com.google.firebase.messaging.default_notification_icon"
             android:resource="@drawable/ic_notification" />
         <!-- <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/> -->
-
-
         <!-- <provider android:name="com.facebook.FacebookContentProvider" android:authorities="com.facebook.app.FacebookContentProvider[facebook_app_id]" android:exported="false"/> -->
-
         <receiver
             android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
             android:exported="false" >
@@ -248,7 +245,7 @@
 
         <provider
             android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
-            android:authorities="com.myapp.bossarewards.flutterfirebasemessaginginitprovider"
+            android:authorities="com.myapp.rewardsbossa.flutterfirebasemessaginginitprovider"
             android:exported="false"
             android:initOrder="99" />
 
@@ -268,7 +265,7 @@
         -->
         <provider
             android:name="dev.fluttercommunity.plus.share.ShareFileProvider"
-            android:authorities="com.myapp.bossarewards.flutter.share_provider"
+            android:authorities="com.myapp.rewardsbossa.flutter.share_provider"
             android:exported="false"
             android:grantUriPermissions="true" >
             <meta-data
@@ -337,7 +334,7 @@
 
         <provider
             android:name="androidx.startup.InitializationProvider"
-            android:authorities="com.myapp.bossarewards.androidx-startup"
+            android:authorities="com.myapp.rewardsbossa.androidx-startup"
             android:exported="false" >
             <meta-data
                 android:name="androidx.work.WorkManagerInitializer"
@@ -475,7 +472,7 @@
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="com.myapp.bossarewards.firebaseinitprovider"
+            android:authorities="com.myapp.rewardsbossa.firebaseinitprovider"
             android:directBootAware="true"
             android:exported="false"
             android:initOrder="100" />
@@ -584,7 +581,7 @@
 
         <provider
             android:name="com.transistorsoft.locationmanager.util.LogFileProvider"
-            android:authorities="com.myapp.bossarewards.tslocationmanager.fileprovider"
+            android:authorities="com.myapp.rewardsbossa.tslocationmanager.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true" >
             <meta-data
@@ -596,7 +593,7 @@
             android:name="com.huawei.hms.support.api.push.PushMsgReceiver"
             android:directBootAware="true"
             android:exported="true"
-            android:permission="com.myapp.bossarewards.permission.PROCESS_PUSH_MSG" >
+            android:permission="com.myapp.rewardsbossa.permission.PROCESS_PUSH_MSG" >
             <intent-filter>
 
                 <!-- Mandatory, be used to receive notification bar message click event. -->
@@ -609,7 +606,7 @@
             android:name="com.huawei.hms.support.api.push.PushReceiver"
             android:directBootAware="true"
             android:exported="true"
-            android:permission="com.myapp.bossarewards.permission.PROCESS_PUSH_MSG" >
+            android:permission="com.myapp.rewardsbossa.permission.PROCESS_PUSH_MSG" >
             <intent-filter>
 
                 <!-- Mandatory, be used to receive tokens. -->
@@ -632,10 +629,10 @@
 
         <provider
             android:name="com.huawei.hms.support.api.push.PushProvider"
-            android:authorities="com.myapp.bossarewards.huawei.push.provider"
+            android:authorities="com.myapp.rewardsbossa.huawei.push.provider"
             android:exported="true"
-            android:readPermission="com.myapp.bossarewards.permission.PUSH_PROVIDER"
-            android:writePermission="com.myapp.bossarewards.permission.PUSH_WRITE_PROVIDER" />
+            android:readPermission="com.myapp.rewardsbossa.permission.PUSH_PROVIDER"
+            android:writePermission="com.myapp.rewardsbossa.permission.PUSH_WRITE_PROVIDER" />
 
         <meta-data
             android:name="com.huawei.hms.client.service.name:push"
@@ -650,7 +647,7 @@
 
         <provider
             android:name="com.huawei.hms.aaid.InitProvider"
-            android:authorities="com.myapp.bossarewards.aaidinitprovider"
+            android:authorities="com.myapp.rewardsbossa.aaidinitprovider"
             android:exported="false"
             android:initOrder="500" />
 
@@ -690,7 +687,7 @@
 
         <provider
             android:name="com.huawei.agconnect.core.provider.AGConnectInitializeProvider"
-            android:authorities="com.myapp.bossarewards.AGCInitializeProvider"
+            android:authorities="com.myapp.rewardsbossa.AGCInitializeProvider"
             android:exported="false" />
 
         <service

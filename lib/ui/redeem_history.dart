@@ -43,18 +43,24 @@ class _RedeemHistoryState extends State<RedeemHistory> {
             margin: const EdgeInsets.symmetric(horizontal: 10),
             height: SizeConfig.screenHeight * 0.52,
             width: double.infinity,
-            child: ListView.builder(
-              // shrinkWrap: true,
-              physics: const BouncingScrollPhysics(),
-              itemCount: allData.length,
+            child: allData.length == 0
+                ? Center(
+                    child: Text(
+                    'No Voucher History found',
+                    style: TextStyle(fontSize: 17),
+                  ))
+                : ListView.builder(
+                    // shrinkWrap: true,
+                    physics: const BouncingScrollPhysics(),
+                    itemCount: allData.length,
 
-              itemBuilder: (context, index) {
-                return ListTileHistory(
-                  allData: allData,
-                  index: index,
-                );
-              },
-            ),
+                    itemBuilder: (context, index) {
+                      return ListTileHistory(
+                        allData: allData,
+                        index: index,
+                      );
+                    },
+                  ),
           );
         }
         if (snapshot.hasError) {

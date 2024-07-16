@@ -16,8 +16,8 @@ class VoucherController extends GetxController {
   }
 
   Future<void> _loadOffers() async {
-    offers.value = await Api.getRewardsList();
     isLoading.value = false;
+    offers.value = await Api.getRewardsList();
     update();
   }
 }

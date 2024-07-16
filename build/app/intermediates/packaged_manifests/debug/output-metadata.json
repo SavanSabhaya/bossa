@@ -4,14 +4,14 @@
     "type": "PACKAGED_MANIFESTS",
     "kind": "Directory"
   },
-  "applicationId": "com.myapp.bossarewards",
+  "applicationId": "com.myapp.rewardsbossa",
   "variantName": "debug",
   "elements": [
     {
       "type": "SINGLE",
       "filters": [],
       "attributes": [],
-      "versionCode": 1,
+      "versionCode": 3,
       "versionName": "1.0.0",
       "outputFile": "AndroidManifest.xml"
     }

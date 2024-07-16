@@ -127,7 +127,13 @@ class _MyProfileState extends State<MyProfile> {
                           }),
                       GestureDetector(
                         onTap: () {
-                          // widget.onTap();
+                          Get.toNamed(Routes.MEMBERCARD,
+                              arguments: {
+                                "firstName": firstName,
+                                "lastName": lastName,
+                                "navId": widget.navId
+                              },
+                              id: widget.navId);
                         },
                         child: Container(
                           height: SizeConfig.blockSizeVertical *

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.myapp.bossarewards.app-mergeDebugResources-43:/values/values.xml",
+            "outputFile": "com.myapp.rewardsbossa.app-mergeDebugResources-43:/values/values.xml",
             "map": [
                 {
                     "source": "/Users/p21_0036/Desktop/saone/project/demo_project/bossa/android/app/src/main/res/values/strings.xml",
