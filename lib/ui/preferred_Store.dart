@@ -58,6 +58,8 @@ class _PreferredStoreState extends State<PreferredStore> {
               locationList = tempName;
               locationListId = tempId;
             }
+            locationList = tempName;
+            locationListId = tempId;
           }
 
           return SizedBox(
@@ -272,7 +274,20 @@ class _ListTileStoreState extends State<ListTileStore> {
   @override
   void initState() {
     index = widget.index;
+    firstTrue();
     super.initState();
+  }
+
+  void firstTrue() {
+    List selected = [];
+    List selectedId = [];
+    for (var item in allVData) {
+      if (item.isSelect == true) {
+        selected.add(item.name);
+        selectedId.add(item.id);
+      }
+    }
+    widget.onSwitch(selected, selectedId);
   }
 
   @override

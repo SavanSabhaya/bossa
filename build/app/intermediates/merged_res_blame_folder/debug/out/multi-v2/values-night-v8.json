@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.myapp.rewardsbossa.app-mergeDebugResources-43:/values-night-v8/values-night-v8.xml",
+            "outputFile": "com.myapp.rewardsbossa.app-mergeDebugResources-44:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
                     "source": "/Users/p21_0036/.gradle/caches/transforms-3/e84d2b231d813ef43bf3fb2892ea4a8e/transformed/appcompat-1.4.1/res/values-night-v8/values-night-v8.xml",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/p21_0036/Desktop/saone/project/demo_project/bossa/android/app/src/main/res/values-night/styles.xml",
+                    "source": "/Users/p21_0036/Desktop/saone/project/swift Ui/bossa/android/app/src/main/res/values-night/styles.xml",
                     "from": {
                         "startLines": "3,13",
                         "startColumns": "4,4",

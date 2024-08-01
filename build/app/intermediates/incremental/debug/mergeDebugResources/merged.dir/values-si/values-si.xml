@@ -52,6 +52,10 @@
     <string name="common_open_on_phone">දුරකථනය තුළ විවෘත කරන්න</string>
     <string name="common_signin_button_text">පුරන්න</string>
     <string name="common_signin_button_text_long">Google සමගින් පුරන්න</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"සබැඳිය පසුරු පුවරුවට පිටපත් කෙරිණි"</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"සබැඳිය පිටපත් කරන්න"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"බ්‍රව්සරයේ විවෘත කරන්න"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"සබැඳිය බෙදා ගන්න"</string>
     <string name="hms_apk_not_installed_hints" priority="LT">"ඔබගේ උපාංගයේ ස්ථාපනය කර නොමැති HMS Core නොමැතිව %1$s තුළ ඇති සමහර විශේෂාංග නිසි පරිදි ක්‍රියා නොකිරීමට ඉඩ ඇත."</string>
     <string name="hms_bindfaildlg_message" priority="translator">"%1$s ට HMS Core භාවිතා කළ නොහැකිය. %2$s සඳහා වූ සියලු අවසරයන් සක්‍රීය කිරීමට ප්‍රශස්තකාරකය (දුරකථන කලමණාකරු) දියත් කරන්න නැතහොත් සැකසුම් වෙත ගොස් (ස්වයං-දියත්කිරීම සහ ද්විතීය දියත් කිරීම ඇතුළුව) නැවත උත්සාහ කරන්න."</string>
     <string name="hms_confirm" priority="translator">"හරි"</string>

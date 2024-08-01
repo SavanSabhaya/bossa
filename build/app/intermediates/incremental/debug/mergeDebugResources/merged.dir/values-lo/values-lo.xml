@@ -52,6 +52,10 @@
     <string name="common_open_on_phone">​ເປີດ​ໃນ​ໂທ​ລະ​ສັບ</string>
     <string name="common_signin_button_text">ລົງຊື່ເຂົ້າໃຊ້</string>
     <string name="common_signin_button_text_long">ລົງຊື່ເຂົ້າໃຊ້ດ້ວຍ Google</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"ສຳເນົາລິ້ງໃສ່ຄລິບບອດແລ້ວ"</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"ສຳເນົາລິ້ງ"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"ເປີດໃນໂປຣແກຣມທ່ອງເວັບ"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"ແບ່ງປັນລິ້ງ"</string>
     <string name="hms_apk_not_installed_hints" priority="LT">"ບາງ​ຄຸນ​ສົມ​ບັດ​ຢູ່​ໃນ %1$s ​ອາດ​ຈະ​ບໍ່​ເຮັດ​ວຽກ​ໄດ້​ຢ່າງ​ຖືກ​ຕ້ອງ​ຫາກ​ບໍ່​ມີ HMS Core, ​ເຊິ່ງ​ບໍ່​ໄດ້​ຮັບ​ການ​ຕິດ​ຕັ້ງ​ໃນ​ອຸ​ປະ​ກອນ​ຂອງ​ທ່ານ."</string>
     <string name="hms_bindfaildlg_message" priority="translator">"%1$s ບໍ່​ສາ​ມາດ​ໃຊ້ HMS Core ໄດ້. ເປີດໃຊ້​ຕົວ​ປັບ​ໃຫ້​ເໝາະ​ສົມ (ຕົວ​ຈັດ​ການ​ໂທ​ລະ​ສັບ) ຫຼື ໄປ​ທີ່​ການ​ຕັ້ງ​ຄ່າ, ເປີດ​ໃຊ້​ງານ​ການ​ອະ​ນຸ​ຍາດ​ທັງ​ໝົດ​ສຳ​ລັບ %2$s (ລວມ​ທັງ​ການ​ເປີດ​ໃຊ້​ອັດ​ຕະ​ໂນ​ມັດ ແລະ ການ​ເປີດ​ໃຊ້​ສຳ​ຮອງ) ແລະ ລອງ​ໃໝ່​ອີກ."</string>
     <string name="hms_confirm" priority="translator">"ຕົກ​ລົງ"</string>

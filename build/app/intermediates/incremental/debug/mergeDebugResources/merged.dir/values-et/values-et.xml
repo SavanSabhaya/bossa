@@ -52,6 +52,10 @@
     <string name="common_open_on_phone">Ava telefonis</string>
     <string name="common_signin_button_text">Logi sisse</string>
     <string name="common_signin_button_text_long">Logi sisse Google\'i kontoga</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Link kopeeriti lõikelauale"</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Kopeeri link"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Ava brauseris"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Jaga linki"</string>
     <string name="hms_apk_not_installed_hints" priority="LT">"Mõned rakenduse %1$s funktsioonid ei pruugi korralikult toimida ilma HMS Core’ita, mis on teie seadmesse installimata."</string>
     <string name="hms_bindfaildlg_message" priority="translator">"%1$s ei saa HMS Core\'i kasutada. Käivitage Optimeerija (Telefonihaldur) või minge menüüsse Sätted, lubage teenuse %2$s kõik õigused (sh automaatkäivitus ja teisene käivitus) ja proovige uuesti."</string>
     <string name="hms_confirm" priority="translator">"OK"</string>

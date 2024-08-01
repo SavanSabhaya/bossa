@@ -1,5 +1,6 @@
 import 'dart:convert';
 
+import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -15,12 +16,42 @@ import '../routes.dart';
 
 class CodeVerificationScreen extends StatefulWidget {
   @override
-  CodeVerificationScreen({Key? key, required this.eotp, required this.uid});
+  CodeVerificationScreen(
+      {Key? key, required this.eotp, required this.uid, });
   final String eotp, uid;
   State<CodeVerificationScreen> createState() => _CodeVerificationScreenState();
 }
 
 class _CodeVerificationScreenState extends State<CodeVerificationScreen> {
+  resendOtpApi() async {
+    Map<String, dynamic> body = {
+      "action": "RESEND_OTP",
+      "user_id": widget.uid
+    };
+
+    print(widget.uid);
+    var res = await Api.resendOtp(body);
+
+    Map valueMap = jsonDecode(res);
+
+    if (valueMap['status'] == "success") {
+      setState(() {
+        // loading = false;
+      });
+      // Navigator.push(
+      //     context,
+      //     MaterialPageRoute(
+      //         builder: (context) => CodeVerificationScreen(
+      //             eotp: valueMap["code"].toString(),
+      //             uid: valueMap["user_id"].toString())));
+    } else if (valueMap['status'] == "failed") {
+      setState(() {
+        // loading = false;
+      });
+      CommonMethods().showFlushBar(valueMap['message'][0], context);
+    }
+  }
+
   @override
   String? otp;
   bool loader = false;
@@ -139,6 +170,29 @@ class _CodeVerificationScreenState extends State<CodeVerificationScreen> {
                             //     AppRoutes.resetPasswordScreen);
                           },
                         ),
+                  RichText(
+                    text: TextSpan(
+                      style: TextStyle(
+                          fontSize: SizeConfig.blockSizeVertical * 2.7,
+                          color: const Color(0xff0E0B20),
+                          height: SizeConfig.blockSizeVertical * 0.18,
+                          fontFamily: 'Muli-Bold'),
+                      children: <TextSpan>[
+                        TextSpan(text: 'Didn\'t receive code? '),
+                        TextSpan(
+                          text: 'SEND AGAIN',
+                          style: TextStyle(
+                            color: Color(0xffEDCC40),
+                            decoration: TextDecoration.underline,
+                          ),
+                          recognizer: TapGestureRecognizer()
+                            ..onTap = () async {
+                              resendOtpApi();
+                            },
+                        ),
+                      ],
+                    ),
+                  )
                 ]))));
   }
 

@@ -52,6 +52,10 @@
     <string name="common_open_on_phone">فتح على الهاتف</string>
     <string name="common_signin_button_text">تسجل الدخول</string>
     <string name="common_signin_button_text_long">‏تسجيل الدخول عبر Google</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"تم نسخ الرابط إلى الحافظة."</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"نسخ الرابط"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"فتح في المتصفح"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"مشاركة الرابط"</string>
     <string name="hms_apk_not_installed_hints" priority="LT">"قد لا تعمل بعض الميزات في تطبيق %1$s على النحو المنشود بدون خدمات HMS Core، والتي لم يتم تثبيتها على جهازك."</string>
     <string name="hms_bindfaildlg_message" priority="translator">"\"%1$s\" غير قادر على استخدام خدمات HMS Core. يُرجى تشغيل مدير الهاتف أو الانتقال إلى الإعدادات، وتشغيل جميع أذونات %2$s (بما في ذلك التشغيل التلقائي، والتشغيل الثانوي)، وإعادة المحاولة."</string>
     <string name="hms_confirm" priority="translator">"حسنًا"</string>

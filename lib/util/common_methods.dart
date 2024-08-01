@@ -340,7 +340,7 @@ class CommonMethods {
                                 ),
                                 onPressed: () {
                                   Share.share(
-                                    "BOSSA REWARDS! Your friend has shared the BOSSA REWARDS locals app with you, click https://onelink.to/mvn9h2 to download now and enter referral code $value on registration!",
+                                    "BOSSA REWARDS! Your friend has shared the BOSSA REWARDS locals app with you, click https://onelink.to/rpxc37 to download now and enter referral code $value on registration!",
                                   );
                                 },
                               ),

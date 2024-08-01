@@ -52,6 +52,10 @@
     <string name="common_open_on_phone">Obre al telèfon</string>
     <string name="common_signin_button_text">Inicia sessió</string>
     <string name="common_signin_button_text_long">Inicia la sessió amb Google</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"S\'ha copiat l\'enllaç al porta-retalls"</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Copia l\'enllaç"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Obre al navegador"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Comparteix l\'enllaç"</string>
     <string name="hms_apk_not_installed_hints" priority="LT">"És possible que algunes funcions de %1$s no funcionin correctament sense l\'HMS Core, que no està instal·lat al sistema."</string>
     <string name="hms_bindfaildlg_message" priority="translator">"%1$s no pot utilitzar HMS Core. Inicieu l\'Optimitzador (Administrador del telèfon) o aneu a Paràmetres, habiliteu tots els permisos per a %2$s (incloent-hi l\'inici automàtic i l\'inici secundari) i torneu a provar-ho."</string>
     <string name="hms_confirm" priority="translator">"D\'acord"</string>

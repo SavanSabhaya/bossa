@@ -52,6 +52,10 @@
     <string name="common_open_on_phone">فون پر کھولیں</string>
     <string name="common_signin_button_text">سائن ان کریں</string>
     <string name="common_signin_button_text_long">‏Google کے ساتھ سائن ان کریں</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"لنک کلپ بورڈ پر کاپی ہو گیا"</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"لنک کاپی کریں"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"براؤزر میں کھولیں"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"لنک کا اشتراک کریں"</string>
     <string name="hms_apk_not_installed_hints" priority="LT">"ہو سکتا ہے کہ %1$s میں کچھ خصوصیات HMS Core کے بغیر مناسب طور پر کام نہ کریں، جو کہ آپ کی ڈیوائس پر انسٹال شدہ نہیں ہے۔"</string>
     <string name="hms_bindfaildlg_message" priority="translator">"‎%1$s HMS Core استعمال کرنے سے قاصر ہے۔ احسن کار (فون مینیجر) شروع کریں یا سیٹنگز پر جائیں، ‎%2$s‎ (بشمول آٹو لانچ اور ثانوی لانچ) کیلئے تمام اجازتیں فعال کریں اور دوبارہ کوشش کریں۔"</string>
     <string name="hms_confirm" priority="translator">"اوکے"</string>

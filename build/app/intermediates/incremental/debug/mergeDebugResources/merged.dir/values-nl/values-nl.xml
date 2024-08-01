@@ -52,6 +52,10 @@
     <string name="common_open_on_phone">Openen op telefoon</string>
     <string name="common_signin_button_text">Inloggen</string>
     <string name="common_signin_button_text_long">Inloggen met Google</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Link naar klembord gekopieerd"</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Link kopiëren"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Openen in browser"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Link delen"</string>
     <string name="hms_apk_not_installed_hints" priority="LT">"Sommige functies in %1$s werken mogelijk niet goed zonder HMS Core, dat niet op uw apparaat is geïnstalleerd."</string>
     <string name="hms_bindfaildlg_message" priority="translator">"%1$s kan HMS Core niet gebruiken. Start Optimalisatie (Telefoonbeheer) of ga naar Instellingen, schakel alle toestemmingen voor %2$s in (waaronder auto-start en secundaire start) en probeer het opnieuw."</string>
     <string name="hms_confirm" priority="translator">"OK"</string>

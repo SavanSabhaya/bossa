@@ -52,6 +52,10 @@
     <string name="common_open_on_phone">மொபைலில் திற</string>
     <string name="common_signin_button_text">உள்நுழைக</string>
     <string name="common_signin_button_text_long">Google மூலம் உள்நுழைக</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"கிளிப்-போர்டுக்கு இணைப்பு நகலெடுக்கப்பட்டது"</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"இணைப்பை நகலெடு"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"உலாவியில் திற"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"இணைப்பைப் பகிர்"</string>
     <string name="hms_apk_not_installed_hints" priority="LT">"உங்கள் சாதனத்தில் HMS Core நிறுவப்படாததால் அது இல்லாமல் %1$s-இன் சில அம்சங்கள் சரியாக வேலை செய்யாமல் போகலாம்."</string>
     <string name="hms_bindfaildlg_message" priority="translator">"%1$s-ஆல் HMS Core-ஐப் பயன்படுத்த இயலவில்லை. உகந்ததாக்கியைத் (ஃபோன் நிர்வாகி) தொடங்கி அல்லது அமைப்புகளுக்குச் சென்று, %2$s-க்கான (தன்னியக்கத் தொடக்கம் மற்றும் இரண்டாம் நிலைத் தொடக்கம் உள்ளிட்ட) அனைத்து அனுமதிகளையும் செயல்படுத்திவிட்டு, மீண்டும் முயலவும்."</string>
     <string name="hms_confirm" priority="translator">"சரி"</string>

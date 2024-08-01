@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.myapp.rewardsbossa.app-mergeDebugResources-43:/values-night-v29/values-night-v29.xml",
+            "outputFile": "com.myapp.rewardsbossa.app-mergeDebugResources-44:/values-night-v29/values-night-v29.xml",
             "map": [
                 {
-                    "source": "/Users/p21_0036/.gradle/caches/transforms-3/ba41e6ff47f1530f1fb79160541ce65d/transformed/jetified-ui-6.9.0.300/res/values-night-v29/values-night-v29.xml",
+                    "source": "/Users/p21_0036/.gradle/caches/transforms-3/f3012488501fcf9e8a27d8dbdb26c918/transformed/jetified-ui-6.11.0.302/res/values-night-v29/values-night-v29.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",

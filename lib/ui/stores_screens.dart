@@ -53,44 +53,46 @@ class StoresScreen extends StatelessWidget {
   }
 
   Widget builderStores(Partners stores) {
-    return GridView.builder(
-      itemCount: stores.partners.length,
-      padding: EdgeInsets.symmetric(vertical: 26.h, horizontal: 17.w),
-      shrinkWrap: true,
-      physics: const BouncingScrollPhysics(),
-      gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-          crossAxisCount: 2,
-          crossAxisSpacing: 10.h,
-          mainAxisSpacing: 20.w,
-          childAspectRatio: 1.28),
-      itemBuilder: (context, index) {
-        return GestureDetector(
-          onTap: () {
-            Get.to(
-                () => PartnerswebView(newUrl: stores.partners[index].website));
-          },
-          child: Container(
-              width: 181.w,
-              height: 80.h,
-              decoration: BoxDecoration(
-                  borderRadius: BorderRadius.all(Radius.circular(10.r)),
-                  boxShadow: const [
-                    BoxShadow(
-                        color: Color(0x29000000),
-                        offset: Offset(5, 5),
-                        blurRadius: 3,
-                        spreadRadius: 0)
-                  ],
-                  color: const Color(0xffffffff)),
-              child: Center(
-                child: Image.network(
-                  stores.partners[index].logo!,
-                  fit: BoxFit.fill,
-                  height: 80.h,
-                ),
-              )),
-        );
-      },
+    return Expanded(
+      child: GridView.builder(
+        itemCount: stores.partners.length,
+        padding: EdgeInsets.symmetric(vertical: 26.h, horizontal: 17.w),
+        shrinkWrap: true,
+        physics: const BouncingScrollPhysics(),
+        gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+            crossAxisCount: 2,
+            crossAxisSpacing: 10.h,
+            mainAxisSpacing: 20.w,
+            childAspectRatio: 1.28),
+        itemBuilder: (context, index) {
+          return GestureDetector(
+            onTap: () {
+              Get.to(
+                  () => PartnerswebView(newUrl: stores.partners[index].website));
+            },
+            child: Container(
+                width: 181.w,
+                height: 80.h,
+                decoration: BoxDecoration(
+                    borderRadius: BorderRadius.all(Radius.circular(10.r)),
+                    boxShadow: const [
+                      BoxShadow(
+                          color: Color(0x29000000),
+                          offset: Offset(5, 5),
+                          blurRadius: 3,
+                          spreadRadius: 0)
+                    ],
+                    color: const Color(0xffffffff)),
+                child: Center(
+                  child: Image.network(
+                    stores.partners[index].logo!,
+                    fit: BoxFit.fill,
+                    height: 80.h,
+                  ),
+                )),
+          );
+        },
+      ),
     );
   }
 

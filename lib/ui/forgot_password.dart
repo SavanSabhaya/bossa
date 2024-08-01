@@ -153,10 +153,11 @@ class _ForgotPasswordState extends State<ForgotPassword> {
                                           loading = false;
                                         });
                                         Get.to(() => EnterCode(
-                                            code: valueMap['code'],
-                                            uuid: valueMap['uuid'],
-                                            isForgot: widget.isForgot));
-
+                                              code: valueMap['code'],
+                                              uuid: valueMap['uuid'],
+                                              isForgot: widget.isForgot,
+                                              email: emailPhone.text,
+                                            ));
                                         break;
                                       case "failed":
                                         setState(() {

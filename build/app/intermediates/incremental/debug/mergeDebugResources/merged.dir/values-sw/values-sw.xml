@@ -52,6 +52,10 @@
     <string name="common_open_on_phone">Fungua kwenye simu</string>
     <string name="common_signin_button_text">Ingia katika akaunti</string>
     <string name="common_signin_button_text_long">Ingia katika akaunti ukitumia Google</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Imenakili kiungo kwenye ubao wa kunakili"</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Nakili kiungo"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Fungua katika kivinjari"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Shiriki kiungo"</string>
     <string name="hms_apk_not_installed_hints" priority="LT">"Baadhi ya vipengele kwenye %1$s huenda visifanye kazi vizuri bila HMS Core, ambayo haijasakinishwa kwenye kifaa chako."</string>
     <string name="hms_bindfaildlg_message" priority="translator">"%1$s imeshindwa kutumia HMS Core. Zindua Kiboreshaji (Kidhibiti Simu) au nenda kwenye Mipangilio, wezesha vibali vyote vya %2$s (vikiwemo uzinduzi otomatiki na uzinduzi mbadala), kisha jaribu tena."</string>
     <string name="hms_confirm" priority="translator">"Sawa"</string>

@@ -52,6 +52,10 @@
     <string name="common_open_on_phone">ফোনে খুলুন</string>
     <string name="common_signin_button_text">সাইন-ইন করুন</string>
     <string name="common_signin_button_text_long">Google এর মাধ্যমে সাইন-ইন করুন</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"লিঙ্ক ক্লিপবোর্ডে কপি করা হয়েছে"</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"লিঙ্ক কপি করুন"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"ব্রাউজারে খুলুন"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"লিঙ্ক শেয়ার করুন"</string>
     <string name="hms_apk_not_installed_hints" priority="LT">"%1$s এর কিছু বৈশিষ্ট্য HMS Core ছাড়া সঠিকভাবে কাজ নাও করতে পারে, যা আপনার ডিভাইসে ইনস্টল করা নেই।"</string>
     <string name="hms_bindfaildlg_message" priority="translator">"%1$s HMS Core ব্যবহার করতে অক্ষম। অপটিমাইজার (ফোন পরিচালক) লঞ্চ করুন বা সেটিংসে যান, %2$s এর জন্য সকল অনুমতি সক্ষম করুন (স্বতঃলঞ্চ এবং সেকেন্ডারি লঞ্চসহ) এবং আবার চেষ্টা করুন।"</string>
     <string name="hms_confirm" priority="translator">"ঠিক আছে"</string>

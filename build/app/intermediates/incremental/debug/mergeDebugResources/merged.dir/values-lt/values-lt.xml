@@ -52,6 +52,10 @@
     <string name="common_open_on_phone">Atidaryti telefone</string>
     <string name="common_signin_button_text">Prisijungti</string>
     <string name="common_signin_button_text_long">Prisijungti naudojant „Google“</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Nuoroda nukopijuota į iškarpinę"</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Kopijuoti nuorodą"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Atidaryti naršyklėje"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Bendrinti nuorodą"</string>
     <string name="hms_apk_not_installed_hints" priority="LT">"Kai kurios „%1$s“ funkcijos gali tinkamai neveikti be „HMS Core“. kuri neįdiegta jūsų įrenginyje."</string>
     <string name="hms_bindfaildlg_message" priority="translator">"„%1$s“ negali naudoti „HMS Core“. Paleiskite Optimizatorių (Telefono tvarkytuvę) arba eikite į Nuostatas, įjunkite visus „%2$s“ leidimus (įskaitant automatinio paleidimo ir antrinio paleidimo), tada bandykite dar kartą."</string>
     <string name="hms_confirm" priority="translator">"Gerai"</string>

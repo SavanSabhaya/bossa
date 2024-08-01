@@ -1,3 +1,7 @@
+import 'dart:convert';
+
+import 'package:Bossa/network/api.dart';
+import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:Bossa/commonWidgets/button.dart';
@@ -13,7 +17,9 @@ class EnterCode extends StatefulWidget {
   bool? isForgot;
   var code;
   var uuid;
-  EnterCode({Key? key, this.code, this.uuid, this.isForgot}) : super(key: key);
+  String? email;
+  EnterCode({Key? key, this.code, this.uuid, this.isForgot, this.email})
+      : super(key: key);
 
   @override
   _EnterCodeState createState() => _EnterCodeState();
@@ -98,6 +104,61 @@ class _EnterCodeState extends State<EnterCode> {
                             }
                           },
                         )),
+                        SizedBox(height: 15),
+                        RichText(
+                          text: TextSpan(
+                            style: TextStyle(
+                                fontSize: SizeConfig.blockSizeVertical * 2.7,
+                                color: const Color(0xff0E0B20),
+                                height: SizeConfig.blockSizeVertical * 0.18,
+                                fontFamily: 'Muli-Bold'),
+                            children: <TextSpan>[
+                              TextSpan(text: 'Didn\'t receive code? '),
+                              TextSpan(
+                                text: 'SEND AGAIN',
+                                style: TextStyle(
+                                  color: Color(0xffEDCC40),
+                                  decoration: TextDecoration.underline,
+                                ),
+                                recognizer: TapGestureRecognizer()
+                                  ..onTap = () async {
+                                    try {
+                                      var res = await Api.forgotPassword(
+                                          widget.email.toString());
+
+                                      print(res);
+                                      print(res.runtimeType);
+                                      Map valueMap = jsonDecode(res);
+
+                                      switch (valueMap['status']) {
+                                        case "success":
+                                          setState(() {
+                                            // loading = false;
+                                          });
+                                          Get.to(() => EnterCode(
+                                              code: valueMap['code'],
+                                              uuid: valueMap['uuid'],
+                                              isForgot: widget.isForgot));
+                                          break;
+                                        case "failed":
+                                          setState(() {
+                                            // loading = false;
+                                          });
+                                          CommonMethods().showFlushBar(
+                                              "Your email doesn't exist",
+                                              context);
+                                          break;
+                                        default:
+                                          print("Something went wrong");
+                                      }
+                                    } catch (e) {
+                                      print("error: $e");
+                                    }
+                                  },
+                              ),
+                            ],
+                          ),
+                        )
                       ],
                     ),
                   ],

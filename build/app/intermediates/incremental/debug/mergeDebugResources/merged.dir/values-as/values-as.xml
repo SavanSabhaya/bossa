@@ -52,6 +52,10 @@
     <string name="common_open_on_phone">ফ\'নত খোলক</string>
     <string name="common_signin_button_text">ছাইন ইন কৰক</string>
     <string name="common_signin_button_text_long">Googleৰ জৰিয়তে ছাইন ইন কৰক</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"লিংক ক্লিপব’ৰ্ডত প্ৰতিলিপি কৰা হ’ল"</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"লিংক প্ৰতিলিপি কৰক"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"ব্ৰাউজাৰত খোলক"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"লিংক শ্বেয়াৰ কৰক"</string>
     <string name="hms_apk_not_installed_hints" priority="LT">"%1$s-ত থকা কিছুমান ফিচাৰে HMS Core অবিহনে সঠিকভাৱে কাম নকৰিব পাৰে, যিটো আপোনাৰ ডিভাইচত ইনষ্টল নাই।"</string>
     <string name="hms_bindfaildlg_message" priority="translator">"%1$s-এ HMS Core ব্যৱহাৰ কৰাত অক্ষম। অনুকূলক (ফোন মেনেজাৰ) প্ৰাৰম্ভ কৰক বা ছেটিংচলৈ যাওক, %2$s-ৰ বাবে সকলো অনুমতি সক্ষম কৰক (স্বয়ং-প্ৰাৰম্ভ আৰু প্ৰাথমিক প্ৰাৰম্ভক অন্তৰ্ভুক্ত কৰি) আৰু পুনঃচেষ্টা কৰক।"</string>
     <string name="hms_confirm" priority="translator">"ঠিক"</string>

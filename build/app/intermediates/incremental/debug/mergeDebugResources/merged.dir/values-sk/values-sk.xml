@@ -52,6 +52,10 @@
     <string name="common_open_on_phone">Otvoriť v telefóne</string>
     <string name="common_signin_button_text">Prihlásiť sa</string>
     <string name="common_signin_button_text_long">Prihlásiť sa do účtu Google</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Odkaz bol skopírovaný do schránky"</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Kopírovať odkaz"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Otvoriť v prehliadači"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Zdieľať odkaz"</string>
     <string name="hms_apk_not_installed_hints" priority="LT">"Niektoré funkcie aplikácie %1$s nemusia fungovať správne bez služieb HMS Core, ktoré nie sú nainštalované vo vašom zariadení."</string>
     <string name="hms_bindfaildlg_message" priority="translator">"%1$s nemôže používať služby HMS Core. Spustite aplikáciu Optimalizátor (Správca telefónu) alebo prejdite do časti Nastavenia, udeľte všetky povolenia pre %2$s (vrátane automatického spustenia a sekundárneho spustenia) a skúste to znova."</string>
     <string name="hms_confirm" priority="translator">"OK"</string>

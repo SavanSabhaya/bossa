@@ -52,6 +52,10 @@
     <string name="common_open_on_phone">Buka pada telefon</string>
     <string name="common_signin_button_text">Log masuk</string>
     <string name="common_signin_button_text_long">Log masuk dengan Google</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Pautan disalin ke papan keratan"</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Salin pautan"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Buka dalam penyemak imbas"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Kongsi pautan"</string>
     <string name="hms_apk_not_installed_hints" priority="LT">"Sesetengah ciri dalam %1$s mungkin tidak berfungsi dengan normal tanpa HMS Core, yang tidak dipasang pada peranti anda."</string>
     <string name="hms_bindfaildlg_message" priority="translator">"%1$s tidak dapat menggunakan HMS Core. Sila lancarkan Pengoptimum (Pengurus Telefon) atau pergi ke Tetapan, dayakan semua kebenaran untuk %2$s (termasuk auto-lancar dan pelancaran sekunder), dan cuba lagi."</string>
     <string name="hms_confirm" priority="translator">"OK"</string>

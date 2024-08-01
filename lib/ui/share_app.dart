@@ -33,7 +33,7 @@ class _ShareAppState extends State<ShareApp> {
   // String message =
   //     "Get rewarded when visiting participating restaurants, receive 10 points on registration.\n\nClick to the given link.\n\nhttps://luna9.co.za/";
   String message =
-      "Get rewarded when visiting participating restaurants, receive a R20 Voucher when registering. Download now, click here. http://onelink.to/hhybr7";
+      "Get rewarded when visiting participating restaurants, receive a R20 Voucher when registering. Download now, click here. https://onelink.to/rpxc37";
 
   shareSMS() async {
     // SocialShare.shareSms(message)

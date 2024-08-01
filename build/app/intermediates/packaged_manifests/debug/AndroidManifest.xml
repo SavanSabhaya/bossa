@@ -48,12 +48,17 @@
 
             <data android:mimeType="*/*" />
         </intent>
+
+        <package android:name="com.huawei.android.pushagent" />
+
         <intent>
             <action android:name="com.huawei.hms.core.aidlservice" />
         </intent>
         <intent>
             <action android:name="com.huawei.hms.core" />
         </intent>
+
+        <package android:name="com.huawei.works" />
     </queries>
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Permissions options for the `notification` group -->
@@ -636,7 +641,7 @@
 
         <meta-data
             android:name="com.huawei.hms.client.service.name:push"
-            android:value="push:6.11.0.300" />
+            android:value="push:6.12.0.300" />
         <meta-data
             android:name="com.huawei.hms.min_api_level:push:push"
             android:value="1" />
@@ -653,16 +658,19 @@
 
         <meta-data
             android:name="com.huawei.hms.client.service.name:opendevice"
-            android:value="opendevice:6.11.0.300" />
+            android:value="opendevice:6.12.0.300" />
         <meta-data
             android:name="com.huawei.hms.min_api_level:opendevice:push"
             android:value="1" /> <!-- 为后续统计第三方app集成了哪些Kit，因此需要Kit在自己的AndroidManifest.xml文件中定义业务标签元数据 -->
         <meta-data
             android:name="com.huawei.hms.client.service.name:base"
-            android:value="base:6.9.0.300" /> <!-- SDK依赖的HMSCore的最低api level元数据 -->
+            android:value="base:6.11.0.302" /> <!-- SDK依赖的HMSCore的最低api level元数据 -->
         <meta-data
             android:name="com.huawei.hms.min_api_level:base:hmscore"
-            android:value="1" /> <!-- 用于判断是否集成了本lib -->
+            android:value="1" />
+        <meta-data
+            android:name="com.facebook.soloader.enabled"
+            android:value="false" /> <!-- 用于判断是否集成了本lib -->
         <meta-data
             android:name="availableLoaded"
             android:value="yes" />

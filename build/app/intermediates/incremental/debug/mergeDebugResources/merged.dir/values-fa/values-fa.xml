@@ -52,6 +52,10 @@
     <string name="common_open_on_phone">باز کردن در تلفن</string>
     <string name="common_signin_button_text">ورود به سیستم</string>
     <string name="common_signin_button_text_long">‏ورود به سیستم با Google‎</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"پیوند در بریده‌دان کپی شد"</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"کپی پیوند"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"بازکردن در مرورگر"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"هم‌رسانی پیوند"</string>
     <string name="hms_apk_not_installed_hints" priority="LT">"بدون HMS Core، که در دستگاه شما نصب نشده است، برخی از قابلیت‌های %1$s ممکن است به‌درستی کار نکنند."</string>
     <string name="hms_bindfaildlg_message" priority="translator">"%1$s قادر به استفاده از HMS Core نیست. «بهینه‌ساز» (مدیر تلفن) را راه‌اندازی کنید یا به «تنظیمات» بروید، همۀ مجوزها (از جمله راه‌اندازی خودکار و راه‌اندازی ثانویه) را برای %2$s فعال کنید، و دوباره امتحان کنید."</string>
     <string name="hms_confirm" priority="translator">"تأييد"</string>

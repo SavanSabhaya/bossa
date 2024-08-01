@@ -52,6 +52,10 @@
     <string name="common_open_on_phone">Otvori na telefonu</string>
     <string name="common_signin_button_text">Prijava</string>
     <string name="common_signin_button_text_long">Prijava putem Googlea</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Veza je kopirana u međuspremnik"</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Kopiraj vezu"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Otvori u pregledniku"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Podijeli vezu"</string>
     <string name="hms_apk_not_installed_hints" priority="LT">"Neke značajke u aplikaciji %1$s možda neće ispravno funkcionirati bez značajke HMS Core koja nije instalirana na vašem uređaju."</string>
     <string name="hms_bindfaildlg_message" priority="translator">"%1$s ne može upotrebljavati aplikaciju HMS Core. Pokrenite aplikaciju Optimizacija (Upravitelj telefona) ili idite na Postavke, omogućite sve dozvole za %2$s (uključujući Automatsko pokretanje i Sekundarno pokretanje) i pokušajte ponovno."</string>
     <string name="hms_confirm" priority="translator">"U redu"</string>

@@ -52,6 +52,10 @@
     <string name="common_open_on_phone">Apri sul telefono</string>
     <string name="common_signin_button_text">Accedi</string>
     <string name="common_signin_button_text_long">Accedi con Google</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Link copiato negli appunti"</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Copia link"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Apri nel browser"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Condividi link"</string>
     <string name="hms_apk_not_installed_hints" priority="LT">"Alcune funzioni in %1$s potrebbero non funzionare correttamente senza HMS Core, che non è installato sul tuo dispositivo."</string>
     <string name="hms_bindfaildlg_message" priority="translator">"%1$s non può utilizzare HMS Core. Avvia Optimizer o accedi a Impostazioni, attiva tutte le autorizzazioni per %2$s (incluso l\'avvio automatico e l\'avvio secondario) e riprova."</string>
     <string name="hms_confirm" priority="translator">"OK"</string>

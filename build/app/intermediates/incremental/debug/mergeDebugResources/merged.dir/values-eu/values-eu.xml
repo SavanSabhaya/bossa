@@ -52,6 +52,10 @@
     <string name="common_open_on_phone">Ireki telefonoan</string>
     <string name="common_signin_button_text">Hasi saioa</string>
     <string name="common_signin_button_text_long">Hasi saioa Google-ko kontuarekin</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Arbelean kopiatu da esteka"</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Kopiatu esteka"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Ireki arakatzailean"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Partekatu esteka"</string>
     <string name="hms_apk_not_installed_hints" priority="LT">"Baliteke %1$s zerbitzuko zenbait eginbidek ongi ez funtzionatzea HMS Core-rik gabe, eta programa hori instalatu gabe dago zure gailuan."</string>
     <string name="hms_bindfaildlg_message" priority="translator">"%1$s gailuak ezin izan du erabili HMS Core. Abiarazi Optimizatzailea (Telefono-kudeatzailea) edo joan ezarpenetara, gaitu %2$s gailuen baimen guztiak (abiarazte automatikoa eta bigarren mailako abiaraztea barne) eta saiatu berriro."</string>
     <string name="hms_confirm" priority="translator">"Ados"</string>

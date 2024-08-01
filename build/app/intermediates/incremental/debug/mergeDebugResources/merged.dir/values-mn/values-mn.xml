@@ -52,6 +52,10 @@
     <string name="common_open_on_phone">Утсаар нээх</string>
     <string name="common_signin_button_text">Нэвтрэх</string>
     <string name="common_signin_button_text_long">Google-р нэвтрэх:</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Холбоосыг түр санах ойд хуулсан"</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Холбоосыг хуулах"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Хөтчид нээх"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Холбоосыг хуваалцах"</string>
     <string name="hms_apk_not_installed_hints" priority="LT">"%1$s-н зарим онцлог HMS Core-гүйгээр хэвийн ажиллахгүй бөгөөд үүнийг таны төхөөрөмж дээр суулгаагүй байна."</string>
     <string name="hms_bindfaildlg_message" priority="translator">"%1$s нь HMS Core-г ашиглах боломжгүй байна. Оновчлогч (Утасны менежер)-г нээх эсвэл Тохиргоо руу орж, %2$s-н (автоматаар ажиллуулах болон нэмэлтээр ажиллуулах гэх мэт) бүх зөвшөөрлийг идэвхжүүлээд, дахин оролдоно уу."</string>
     <string name="hms_confirm" priority="translator">"OK"</string>

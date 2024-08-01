@@ -127,6 +127,25 @@ class Api {
     return response.body;
   }
 
+  static Future resendOtp(Map body) async {
+    Map<String, String> headers = {
+      'content-type': 'application/json',
+      'Authorization': basicAuth
+    };
+
+    print("body=====${json.encode(body)}");
+    Response response = await post(
+      url, headers: headers,
+      //headers: <String, String>{'Authorization': basicAuth},
+      body: json.encode(body),
+    );
+    print("registration data");
+
+    print(response.body);
+    print(response.statusCode);
+    return response.body;
+  }
+
   static Future forgotPassword(String email) async {
     Map<String, String> headers = {
       //'content-type': 'application/json',
@@ -182,7 +201,8 @@ class Api {
     print(response.body);
     return json.decode(response.body);
   }
-static Future<Stores> preferredStore() async {
+
+  static Future<Stores> preferredStore() async {
     Map<String, String> headers = {
       //'content-type': 'application/json',
       'Authorization': basicAuth

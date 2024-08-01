@@ -52,6 +52,10 @@
     <string name="common_open_on_phone">Telefonda açın</string>
     <string name="common_signin_button_text">Daxil olun</string>
     <string name="common_signin_button_text_long">Google ilə daxil olun</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Link buferə kopyalandı"</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Linki kopyalayın"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Brauzerdə açın"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Linki paylaşın"</string>
     <string name="hms_apk_not_installed_hints" priority="LT">"%1$s proqramındakı bəzi xüsusiyyətlər cihazınızda quraşdırılmayan HMS Core olmadan müvafiq qaydada işləməyə bilər."</string>
     <string name="hms_bindfaildlg_message" priority="translator">"%1$s HMS Core-dan istifadə edə bilmir. Optimallaşdırıcını (Telefon Menecerini) işə salın və ya Parametrlərə keçin, %2$s (avtomatik işəsalma və ikinci başlatma daxil olmaqla) üçün bütün icazələri aktivləşdirin."</string>
     <string name="hms_confirm" priority="translator">"OK"</string>

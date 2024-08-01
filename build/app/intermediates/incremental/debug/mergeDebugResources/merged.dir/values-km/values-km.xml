@@ -52,6 +52,10 @@
     <string name="common_open_on_phone">បើកតាមទូរស័ព្ទ</string>
     <string name="common_signin_button_text">ចូល</string>
     <string name="common_signin_button_text_long">ចូលដោយប្រើ Google</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"បាន​ចម្លង​តំណ​ទៅឃ្លីបបត"</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"ចម្លង​តំណ"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"បើក​នៅក្នុង​កម្មវិធី​រុករកតាម​អ៊ីនធឺណិត"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"តំណចែករំលែក"</string>
     <string name="hms_apk_not_installed_hints" priority="LT">"មុខងារមួយចំនួន​នៅក្នុង %1$s ប្រហែលជា​មិនដំណើរការ​ត្រឹមត្រូវ​ដោយគ្មាន HMS Core ដែល​មិនបាន​ដំឡើង​នៅលើ​ឧបករណ៍​របស់អ្នក​នោះទេ។"</string>
     <string name="hms_bindfaildlg_message" priority="translator">"%1$s មិនអាច​ប្រើ HMS Core បានទេ។ បើកដំណើរការ​កម្មវិធីធ្វើឱ្យប្រសើរឡើង (កម្មវិធីគ្រប់គ្រងទូរស័ព្ទ) ឬទៅកាន់​ការកំណត់ និង​បើក​ការអនុញ្ញាតិ​ទាំងអស់​សម្រាប់ %2$s (រួម​ទាំង​ការបើកដំណើរការ​កម្មវិធីស្វ័យ​ប្រវត្តិ និង​ការបើកដំណើរការ​កម្មវិធីបន្ទាប់បន្សំ) រួចព្យាយាមម្ដងទៀត។"</string>
     <string name="hms_confirm" priority="translator">"យល់ព្រម"</string>

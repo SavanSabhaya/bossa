@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.myapp.rewardsbossa.app-mergeDebugResources-43:/values-my-rMM/values-my-rMM.xml",
+            "outputFile": "com.myapp.rewardsbossa.app-mergeDebugResources-44:/values-my-rMM/values-my-rMM.xml",
             "map": [
                 {
-                    "source": "/Users/p21_0036/.gradle/caches/transforms-3/4da3df462283d0480873149faf710dd3/transformed/jetified-push-6.11.0.300/res/values-my-rMM/values-my-rMM.xml",
+                    "source": "/Users/p21_0036/.gradle/caches/transforms-3/071a1512c6a3a8633c5525d070a7bbef/transformed/jetified-push-6.12.0.300/res/values-my-rMM/values-my-rMM.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

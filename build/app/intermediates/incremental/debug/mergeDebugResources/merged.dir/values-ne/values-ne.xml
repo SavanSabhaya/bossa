@@ -52,6 +52,10 @@
     <string name="common_open_on_phone">फोनमा खोल्नुहोस्</string>
     <string name="common_signin_button_text">साइन इन गर्नुहोस्</string>
     <string name="common_signin_button_text_long">Google मार्फत साइन‍ इन गर्नुहोस्</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"क्लिपबोर्डमा लिंक प्रतिलिपि गरियो"</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"लिंक प्रतिलिपि गर्नुहोस्"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"ब्राउजरमा खोल्नुहोस्"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"लिंक सेयर गर्नुहोस्"</string>
     <string name="hms_apk_not_installed_hints" priority="LT">"%1$s का केही सुविधाहरूले तपाईंको यन्त्रमा स्थापना नगरिएको HMS Core विना राम्रोसँग काम नगर्न सक्छन् ।"</string>
     <string name="hms_bindfaildlg_message" priority="translator">"%1$s HMS Core प्रयोग गर्न असमर्थ छ । अप्टिमाइजर (फोन व्यवस्थापक) लन्च गर्नुहोस् वा सेटिङहरूमा जानुहोस्, %2$s को लागि (स्वत: लन्च र सेकेण्डरी लन्च सहित) सबै अनुमतिहरूलाई सक्षम गर्नुहोस् र फेरि प्रयास गर्नुहोस् ।"</string>
     <string name="hms_confirm" priority="translator">"ठीक छ"</string>

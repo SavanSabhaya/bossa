@@ -52,6 +52,10 @@
     <string name="common_open_on_phone">ఫోన్‌లో తెరువు</string>
     <string name="common_signin_button_text">సైన్ ఇన్ చేయండి</string>
     <string name="common_signin_button_text_long">Googleతో సైన్ ఇన్ చేయండి</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"క్లిప్‌బోర్డ్‌కు లింక్ కాపీ చేయబడింది"</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"లింక్‌ను కాపీ చేయి"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"బ్రౌజర్‌లో తెరువు"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"లింక్‌ను షేర్ చేయి"</string>
     <string name="hms_apk_not_installed_hints" priority="LT">"%1$sలోని కొన్ని ఫీచర్‌లు HMS Core లేకుండా సరిగ్గా పని చేయకపోవచ్చు, ఇది మీ పరికరంలో ఇన్‌స్టాల్ చేయబడలేదు."</string>
     <string name="hms_bindfaildlg_message" priority="translator">"%1$s HMS Coreను ఉపయోగించడం సాధ్యం కాదు. దయచేసి ఆప్టిమైజర్ (ఫోన్ నిర్వాహికి)ని లాంచ్ చేసి లేదా సెట్టింగ్‌లకు వెళ్లి, %2$s కోసం అన్ని అనుమతులను (స్వీయ లాంచ్ మరియు ద్వితీయ లాంచ్‌లతో సహా) ప్రారంభించి, మళ్లీ ప్రయత్నించండి."</string>
     <string name="hms_confirm" priority="translator">"సరే"</string>

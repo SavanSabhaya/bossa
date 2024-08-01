@@ -52,6 +52,10 @@
     <string name="common_open_on_phone">Отваряне на телефона</string>
     <string name="common_signin_button_text">Вход</string>
     <string name="common_signin_button_text_long">Вход с Google</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Връзката е копирана в буферната памет"</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Копиране на връзката"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Отваряне в браузър"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Споделяне на връзката"</string>
     <string name="hms_apk_not_installed_hints" priority="LT">"Някои функции в %1$s може да не работят правилно без приложението HMS Core, което не е инсталирано на вашето устройство."</string>
     <string name="hms_bindfaildlg_message" priority="translator">"%1$s не може да използва \"HMS Core\". Стартирайте Оптимизатор (Мениджър на телефона) или отидете в \"Настройки\", активирайте всички разрешения за %2$s (включително авто стартиране и вторично стартиране), след което опитайте отново."</string>
     <string name="hms_confirm" priority="translator">"ОК"</string>

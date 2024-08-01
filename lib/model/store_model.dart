@@ -28,7 +28,7 @@ class StoresList {
     id = json['id'];
     name = json['name'];
     location = json['location'];
-    isSelect = false;
+    isSelect = true;
   }
 
   Map<String, dynamic> toJson() {

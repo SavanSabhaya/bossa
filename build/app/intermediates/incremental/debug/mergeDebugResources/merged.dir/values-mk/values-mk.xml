@@ -52,6 +52,10 @@
     <string name="common_open_on_phone">Отвори на телефонот</string>
     <string name="common_signin_button_text">Најави се</string>
     <string name="common_signin_button_text_long">Најави се со Google</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Линкот е копиран во привремена меморија"</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Копирај го линкот"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Отвори во прелистувач"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Сподели линк"</string>
     <string name="hms_apk_not_installed_hints" priority="LT">"Некои карактеристики во %1$s може да не работат правилно без HMS Core, којашто не е инсталирана на вашиот уред."</string>
     <string name="hms_bindfaildlg_message" priority="translator">"%1$s не може да ја користи HMS Core. Активирајте го Оптимизатор (Администратор на телефон) или одете до Нагодување, овозможете ги сите дозволи за %2$s (вклучувајќи и автоматско активирање и секундарно активирање) и обидете се повторно."</string>
     <string name="hms_confirm" priority="translator">"ОК"</string>

@@ -52,6 +52,10 @@
     <string name="common_open_on_phone">Mở trên điện thoại</string>
     <string name="common_signin_button_text">Đăng nhập</string>
     <string name="common_signin_button_text_long">Đăng nhập bằng Google</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Đã sao chép đường liên kết vào bảng nhớ tạm"</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Sao chép đường liên kết"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Mở trong trình duyệt"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Chia sẻ liên kết"</string>
     <string name="hms_apk_not_installed_hints" priority="LT">"Một số tính năng trong %1$s có thể không hoạt động bình thường nếu không có HMS Core, dịch vụ này chưa được cài đặt trên thiết bị của bạn."</string>
     <string name="hms_bindfaildlg_message" priority="translator">"%1$s không thể sử dụng HMS Core. Vui lòng khởi chạy Trình tối ưu hóa (Quản lý ĐT) hoặc chuyển tới mục Cài đặt để bật tất cả quyền cho %2$s (bao gồm tự động khởi chạy và khởi chạy thứ cấp), sau đó thử lại."</string>
     <string name="hms_confirm" priority="translator">"OK"</string>

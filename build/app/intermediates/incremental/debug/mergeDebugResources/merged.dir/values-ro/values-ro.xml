@@ -52,6 +52,10 @@
     <string name="common_open_on_phone">Deschideți pe telefon</string>
     <string name="common_signin_button_text">Conectați-vă</string>
     <string name="common_signin_button_text_long">Conectați-vă cu Google</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Linkul a fost copiat în clipboard"</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Copiază linkul"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Deschide în browser"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Trimite linkul"</string>
     <string name="hms_apk_not_installed_hints" priority="LT">"Este posibil ca unele funcții din %1$s să nu funcționeze corect fără HMS Core, care nu este instalat pe dispozitivul dvs."</string>
     <string name="hms_bindfaildlg_message" priority="translator">"%1$s nu poate utiliza HMS Core. Lansați Optimizare (Manager telefon) sau mergeți la Setări, activați toate permisiunile pentru %2$s (inclusiv cele de lansare automată și lansare secundară), și încercați din nou."</string>
     <string name="hms_confirm" priority="translator">"OK"</string>

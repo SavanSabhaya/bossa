@@ -52,6 +52,10 @@
     <string name="common_open_on_phone">Telefonda aç</string>
     <string name="common_signin_button_text">Oturum aç</string>
     <string name="common_signin_button_text_long">Google\'da oturum aç</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Bağlantı panoya kopyalandı"</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Bağlantıyı kopyala"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Tarayıcıda aç"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Bağlantıyı paylaş"</string>
     <string name="hms_apk_not_installed_hints" priority="LT">"HMS Core cihazınızda yüklü değil. %1$s uygulamasındaki bazı özellikler HMS Core olmadan düzgün çalışmayabilir."</string>
     <string name="hms_bindfaildlg_message" priority="translator">"%1$s HMS Core\'u kullanamıyor. Optimizer\'ı (Telefon Yöneticisi) başlatın veya Ayarlar\'a gidin, %2$s için tüm izinleri (otomatik başlatma ve ikincil başlatma dahil) etkinleştirin ve tekrar deneyin."</string>
     <string name="hms_confirm" priority="translator">"Tamam"</string>

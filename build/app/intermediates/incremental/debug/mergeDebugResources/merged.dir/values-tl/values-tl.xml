@@ -52,6 +52,10 @@
     <string name="common_open_on_phone">Buksan sa telepono</string>
     <string name="common_signin_button_text">Mag-sign in</string>
     <string name="common_signin_button_text_long">Mag-sign in sa Google</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Nakopya sa clipboard ang link"</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Kopyahin ang link"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Buksan sa browser"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Ibahagi ang link"</string>
     <string name="hms_apk_not_installed_hints" priority="LT">"Puwedeng hindi gumana nang maayos ang ilang feature sa %1$s kung walang HMS Core, na hindi naka-install sa iyong device."</string>
     <string name="hms_bindfaildlg_message" priority="translator">"Hindi magamit ng %1$s ang HMS Core. Ilunsad ang Optimizer (Manager ng Telepono) o pumunta sa Mga Setting, i-enable ang lahat ng pahintulot para sa %2$s (kabilang ang awtomatikong paglunsad at ikalawang paglunsad), at subukang muli."</string>
     <string name="hms_confirm" priority="translator">"OK"</string>

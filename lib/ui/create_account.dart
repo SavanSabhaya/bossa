@@ -41,6 +41,8 @@ class _CreateAccountState extends State<CreateAccount> {
   TextEditingController firstName = TextEditingController();
   TextEditingController lastName = TextEditingController();
   TextEditingController emailPhone = TextEditingController();
+  TextEditingController emailAddress = TextEditingController();
+
   TextEditingController dateOfBirth = TextEditingController();
   TextEditingController preferredStore = TextEditingController();
   TextEditingController createPassword = TextEditingController();
@@ -213,7 +215,38 @@ class _CreateAccountState extends State<CreateAccount> {
                         height: SizeConfig.blockSizeVertical * 3,
                       ),
 
-                      //Email / Phone Number*
+                      //Email
+
+                      widget.uuid != null
+                          ? const SizedBox()
+                          : commonText("Email Address(Optional)"),
+                      widget.uuid != null
+                          ? const SizedBox()
+                          : SizedBox(
+                              height: SizeConfig.blockSizeVertical * 1,
+                            ),
+                      widget.uuid != null
+                          ? const SizedBox()
+                          : CommonTextField(
+                              hintText: "Email Address",
+                              controller: emailAddress,
+                              obscureText: false,
+                              fontSize: 2.3,
+                              keyboardType: TextInputType.emailAddress,
+                              formatter: [
+                                FilteringTextInputFormatter.allow(
+                                  RegExp(r'[a-zA-Z0-9@._-]'),
+                                ),
+                                LengthLimitingTextInputFormatter(50)
+                              ],
+                            ),
+                      widget.uuid != null
+                          ? const SizedBox()
+                          : SizedBox(
+                              height: SizeConfig.blockSizeVertical * 3,
+                            ),
+
+                      // Phone Number*
                       widget.uuid != null
                           ? const SizedBox()
                           : commonText("Phone Number*"),
@@ -243,7 +276,7 @@ class _CreateAccountState extends State<CreateAccount> {
                             ),
 
                       //Date Of Birth*
-                      commonText("Date Of Birth(Optional)"),
+                      commonText("Date Of Birth"),
                       SizedBox(
                         height: SizeConfig.blockSizeVertical * 1,
                       ),
@@ -521,6 +554,7 @@ class _CreateAccountState extends State<CreateAccount> {
                                       if (firstName.text == "" ||
                                           lastName.text == "" ||
                                           stores.isEmpty ||
+                                          dateOfBirth.text == '' ||
                                           emailPhone.text == "" ||
                                           createPassword.text == "") {
                                         setState(() {
@@ -640,6 +674,7 @@ class _CreateAccountState extends State<CreateAccount> {
       "action": 'REGISTER_2FA',
       "first_name": firstName.text.trim(),
       "email": emailPhone.text.trim(),
+      "email_actual": emailAddress.text.trim(),
       "password": createPassword.text,
       "birth_date": dateOfBirth.text.isNotEmpty ? dateOfBirth.text : "",
       "preferred_store": stores,
@@ -663,6 +698,7 @@ class _CreateAccountState extends State<CreateAccount> {
       setState(() {
         loading = false;
       });
+
       Navigator.push(
           context,
           MaterialPageRoute(
