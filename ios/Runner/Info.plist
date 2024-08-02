@@ -40,7 +40,7 @@
 	<key>FacebookDisplayName</key>
 	<string>bossa_share</string>
 	<key>FirebaseAppDelegateProxyEnabled</key>
-	<string>0</string>
+	<string>NO</string>
 	<key>Item 0</key>
 	<string>com.transistorsoft.fetch</string>
 	<key>LSApplicationQueriesSchemes</key>

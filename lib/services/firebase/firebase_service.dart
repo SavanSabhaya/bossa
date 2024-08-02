@@ -25,7 +25,7 @@ class FirebaseService extends GetxService {
   late AndroidNotificationChannel channel;
 
   Future<FirebaseService> init() async {
-    await Firebase.initializeApp(
+    await Firebase.initializeApp(name: 'bossa',
         options: DefaultFirebaseOptions.currentPlatform);
     await requestPermission();
     // Set the background messaging handler early on, as a named top-level function
