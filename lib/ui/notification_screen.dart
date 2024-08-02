@@ -64,14 +64,14 @@ class _NotificationScreenState extends State<NotificationScreen> {
                                                   BorderRadius.circular(20.0),
                                             ),
                                             child: ListView.builder(
-                                              itemCount:50
-                                                  /* notificationData.length */,
+                                              itemCount:
+                                                   notificationData.length,
                                               physics:
                                                   const BouncingScrollPhysics(),
                                               itemBuilder:
                                                   (BuildContext context,
                                                       int index) {
-                                                return Text('data');/* Padding(
+                                                return Padding(
                                                   padding:
                                                       const EdgeInsets.only(
                                                           bottom: 10.0),
@@ -163,7 +163,7 @@ class _NotificationScreenState extends State<NotificationScreen> {
                                                     ),
                                                   ),
                                                 );
-                                              */ },
+                                              },
                                             )),
                                       ),
                                     ],
