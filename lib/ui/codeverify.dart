@@ -16,18 +16,20 @@ import '../routes.dart';
 
 class CodeVerificationScreen extends StatefulWidget {
   @override
-  CodeVerificationScreen(
-      {Key? key, required this.eotp, required this.uid, });
-  final String eotp, uid;
+  CodeVerificationScreen({
+    Key? key,
+    required this.eotp,
+    required this.uid,
+  });
+   String eotp, uid;
   State<CodeVerificationScreen> createState() => _CodeVerificationScreenState();
 }
 
 class _CodeVerificationScreenState extends State<CodeVerificationScreen> {
+  String newCode = '';
+
   resendOtpApi() async {
-    Map<String, dynamic> body = {
-      "action": "RESEND_OTP",
-      "user_id": widget.uid
-    };
+    Map<String, dynamic> body = {"action": "RESEND_OTP", "user_id": widget.uid};
 
     print(widget.uid);
     var res = await Api.resendOtp(body);
@@ -36,6 +38,7 @@ class _CodeVerificationScreenState extends State<CodeVerificationScreen> {
 
     if (valueMap['status'] == "success") {
       setState(() {
+        widget.eotp = valueMap['code'];
         // loading = false;
       });
       // Navigator.push(
@@ -132,6 +135,8 @@ class _CodeVerificationScreenState extends State<CodeVerificationScreen> {
                               await CommonMethods()
                                   .showFlushBar("Please 6 digit OTP.", context);
                             } else if (otp != widget.eotp) {
+                              print('widget otp===${widget.eotp}');
+
                               await CommonMethods()
                                   .showFlushBar("OTP is incorrect.", context);
                             } else {
@@ -187,6 +192,9 @@ class _CodeVerificationScreenState extends State<CodeVerificationScreen> {
                           ),
                           recognizer: TapGestureRecognizer()
                             ..onTap = () async {
+                              setState(() {
+                                otp = '';
+                              });
                               resendOtpApi();
                             },
                         ),

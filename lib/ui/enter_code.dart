@@ -28,6 +28,7 @@ class EnterCode extends StatefulWidget {
 class _EnterCodeState extends State<EnterCode> {
   TextEditingController enterCode = TextEditingController();
 
+String newCode='';
   @override
   Widget build(BuildContext context) {
     print("details of forgot password");
@@ -93,7 +94,7 @@ class _EnterCodeState extends State<EnterCode> {
                             child: CustomButton(
                           text: "NEXT",
                           onTap: () async {
-                            if (widget.code == enterCode.text) {
+                            if (widget.code == enterCode.text||newCode==enterCode.text) {
                               Get.to(() => NewPassword(
                                     uuid: widget.uuid,
                                     isForgot: widget.isForgot,
@@ -129,6 +130,7 @@ class _EnterCodeState extends State<EnterCode> {
                                       print(res);
                                       print(res.runtimeType);
                                       Map valueMap = jsonDecode(res);
+                                      newCode=valueMap['code'];
 
                                       switch (valueMap['status']) {
                                         case "success":

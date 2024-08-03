@@ -125,60 +125,76 @@ class NewsPage extends StatelessWidget {
                 appBar: bar,
                 body: cont.isLoading.value
                     ? Center(child: CommonMethods().loader())
-                    : ListView(
-                        shrinkWrap: true,
-                        children: [
-                          SafeArea(
-                            bottom: false,
-                            child: SingleChildScrollView(
-                              child: Center(
-                                child: Column(
-                                  children: [
-                                    Padding(
-                                      padding: const EdgeInsets.only(
-                                          left: 20.0, right: 20.0),
-                                      child: Container(
-                                        height: SizeConfig.screenHeight * 0.90,
-                                        width: SizeConfig.screenWidth,
-                                        decoration: BoxDecoration(
-                                          borderRadius:
-                                              BorderRadius.circular(20.0),
+                    : cont.newsList.newsData.length == 0
+                        ? Center(
+                            child: Text(
+                            'No data Found',
+                            style: TextStyle(color: Colors.black),
+                          ))
+                        : ListView(
+                            shrinkWrap: true,
+                            children: [
+                              SafeArea(
+                                bottom: false,
+                                child: SingleChildScrollView(
+                                  child: Center(
+                                    child: Column(
+                                      children: [
+                                        Padding(
+                                          padding: const EdgeInsets.only(
+                                              left: 20.0, right: 20.0),
+                                          child: Container(
+                                            height:
+                                                SizeConfig.screenHeight * 0.90,
+                                            width: SizeConfig.screenWidth,
+                                            decoration: BoxDecoration(
+                                              borderRadius:
+                                                  BorderRadius.circular(20.0),
+                                            ),
+                                            child: ListView.builder(
+                                              itemCount: cont.newsList.newsData
+                                                      .length ??
+                                                  0,
+                                              physics:
+                                                  const BouncingScrollPhysics(),
+                                              itemBuilder:
+                                                  (BuildContext context,
+                                                      int index) {
+                                                return Padding(
+                                                    padding:
+                                                        const EdgeInsets.only(
+                                                            bottom: 20.0),
+                                                    child: newsWidget(
+                                                        cont
+                                                            .newsList
+                                                            .newsData[index]
+                                                            .title,
+                                                        cont
+                                                            .newsList
+                                                            .newsData[index]
+                                                            .heading,
+                                                        cont
+                                                            .newsList
+                                                            .newsData[index]
+                                                            .image,
+                                                        cont.newsList
+                                                            .newsData[index].id,
+                                                        cont
+                                                            .newsList
+                                                            .newsData[index]
+                                                            .icon,
+                                                        _navID));
+                                              },
+                                            ),
+                                          ),
                                         ),
-                                        child: ListView.builder(
-                                          itemCount:
-                                              cont.newsList.newsData.length,
-                                          physics:
-                                              const BouncingScrollPhysics(),
-                                          itemBuilder: (BuildContext context,
-                                              int index) {
-                                            return Padding(
-                                                padding: const EdgeInsets.only(
-                                                    bottom: 20.0),
-                                                child: newsWidget(
-                                                    cont.newsList
-                                                        .newsData[index].title,
-                                                    cont
-                                                        .newsList
-                                                        .newsData[index]
-                                                        .heading,
-                                                    cont.newsList
-                                                        .newsData[index].image,
-                                                    cont.newsList
-                                                        .newsData[index].id,
-                                                    cont.newsList
-                                                        .newsData[index].icon,
-                                                    _navID));
-                                          },
-                                        ),
-                                      ),
+                                      ],
                                     ),
-                                  ],
+                                  ),
                                 ),
                               ),
-                            ),
+                            ],
                           ),
-                        ],
-                      ),
               ),
             ));
   }
