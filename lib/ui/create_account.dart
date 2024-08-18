@@ -276,7 +276,7 @@ class _CreateAccountState extends State<CreateAccount> {
                             ),
 
                       //Date Of Birth*
-                      commonText("Date Of Birth"),
+                      commonText("Date Of Birth*"),
                       SizedBox(
                         height: SizeConfig.blockSizeVertical * 1,
                       ),
